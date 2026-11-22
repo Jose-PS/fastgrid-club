@@ -1,0 +1,66 @@
+{
+  "slug": "monza-gp",
+  "name": "Monza GP",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    45.6,
+    9.27,
+    45.635,
+    9.305
+  ],
+  "direction": "clockwise",
+  "official_length_m": 5793,
+  "notes": "Circuito GP completo sin anillo de alta velocidad; ciclo cerrado dirigido (oneway) encontrado con cycles.py. Curva Grande = vía OSM Curva Biassono; Parabolica = vía OSM Curva Alboreto.",
+  "ways": [
+    19842206,
+    179968242,
+    179968264,
+    179968220,
+    179968262,
+    179968245,
+    179968263,
+    179968229,
+    179968251,
+    179968230,
+    179968252,
+    179968228,
+    1443867792,
+    1443867793,
+    179968254,
+    179968226,
+    179968249,
+    179968239,
+    179968257,
+    179968234
+  ],
+  "start": {
+    "way": 19842206,
+    "fraction": 0.3
+  },
+  "turns": [
+    {
+      "name": "Rettifilo",
+      "way": 179968242
+    },
+    {
+      "name": "Curva Grande",
+      "way": 179968220
+    },
+    {
+      "name": "Roggia",
+      "way": 179968245
+    },
+    {
+      "name": "Lesmo",
+      "way": 179968229
+    },
+    {
+      "name": "Ascari",
+      "way": 179968239
+    },
+    {
+      "name": "Parabolica",
+      "way": 179968234
+    }
+  ]
+}

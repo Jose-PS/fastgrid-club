@@ -1,0 +1,73 @@
+{
+  "slug": "paul-ricard-3c",
+  "name": "Paul Ricard 3C",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    43.235,
+    5.77,
+    43.265,
+    5.82
+  ],
+  "direction": "clockwise",
+  "official_length_m": 3841,
+  "notes": "Como 3A con las dos chicanes del Mistral. La vía del Mistral 686705519 se recorta (trim) antes y después de las chicanes para no puentear.",
+  "ways": [
+    686705499,
+    229207932,
+    158010780,
+    370529774,
+    {
+      "id": 686705519,
+      "trim": [
+        0,
+        0.1675
+      ]
+    },
+    1568166487,
+    229454180,
+    {
+      "id": 686705519,
+      "trim": [
+        0.5131,
+        1
+      ]
+    },
+    23463089,
+    1282557464,
+    1282552677,
+    686700676,
+    686700678,
+    686700682,
+    686700685,
+    686700689,
+    686700844,
+    686705495,
+    686705498
+  ],
+  "start": {
+    "way": 686705499,
+    "fraction": 0.5
+  },
+  "turns": [
+    {
+      "name": "Signes",
+      "way": 23463089
+    },
+    {
+      "name": "Beausset",
+      "way": 686700678
+    },
+    {
+      "name": "Bendor",
+      "way": 686700685
+    },
+    {
+      "name": "Lac",
+      "way": 686700844
+    },
+    {
+      "name": "Chicane",
+      "way": 1568166487
+    }
+  ]
+}

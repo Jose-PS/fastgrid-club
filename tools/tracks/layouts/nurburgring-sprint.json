@@ -1,0 +1,62 @@
+{
+  "slug": "nurburgring-sprint",
+  "name": "Nürburgring Sprint",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    50.31,
+    6.9,
+    50.41,
+    7.03
+  ],
+  "direction": "clockwise",
+  "official_length_m": 3629,
+  "notes": "Sprintstrecke: GP sin la Müllenbachschleife (enlace 1149161209). OSM solo nombra la NGK-Schikane en este tramo, por eso lleva una única curva.",
+  "ways": [
+    {
+      "id": 1149161210,
+      "reverse": false
+    },
+    {
+      "id": 1149161208,
+      "reverse": false
+    },
+    {
+      "id": 1443047846,
+      "reverse": false
+    },
+    {
+      "id": 1443047847,
+      "reverse": false
+    },
+    {
+      "id": 1149161209,
+      "reverse": false
+    },
+    {
+      "id": 1443047845,
+      "reverse": false
+    },
+    {
+      "id": 1443047844,
+      "reverse": false
+    },
+    {
+      "id": 27852990,
+      "reverse": false
+    },
+    {
+      "id": 1149161211,
+      "reverse": false
+    }
+  ],
+  "start": {
+    "way": 1149161210,
+    "fraction": 0.4
+  },
+  "turns": [
+    {
+      "name": "NGK-Schikane",
+      "way": 1149161211
+    }
+  ]
+}

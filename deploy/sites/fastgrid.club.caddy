@@ -1,0 +1,41 @@
+www.fastgrid.club {
+	tls /etc/caddy/certs/fastgrid.club/origin.pem /etc/caddy/certs/fastgrid.club/origin.key
+
+	import solo-cloudflare
+
+	redir https://fastgrid.club{uri} permanent
+}
+
+fastgrid.club {
+	tls /etc/caddy/certs/fastgrid.club/origin.pem /etc/caddy/certs/fastgrid.club/origin.key
+
+	import solo-cloudflare
+
+	encode zstd gzip
+
+	header -Server
+
+	handle /build/* {
+		reverse_proxy fastgrid-app:8000 {
+			header_up X-Forwarded-For {http.request.header.CF-Connecting-IP}
+			header_down Cache-Control "public, max-age=31536000, immutable"
+		}
+	}
+
+	handle {
+		reverse_proxy fastgrid-app:8000 {
+			header_up X-Forwarded-For {http.request.header.CF-Connecting-IP}
+		}
+	}
+
+	log {
+		output stdout
+		format filter {
+			wrap console
+			fields {
+				request>uri regexp /login/link/[^?]+ /login/link/REDACTED
+				request>uri regexp \?.* ""
+			}
+		}
+	}
+}

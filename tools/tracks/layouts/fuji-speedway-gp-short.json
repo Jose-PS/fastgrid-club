@@ -1,0 +1,56 @@
+{
+  "slug": "fuji-speedway-gp-short",
+  "name": "Fuji Speedway GP Short",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    35.35,
+    138.91,
+    35.385,
+    138.95
+  ],
+  "direction": "clockwise",
+  "official_length_m": 4526,
+  "notes": "OSM no separa el GP Short: se reutiliza el trazado GP completo (148622740); la diferencia de 23 m sobre la oficial no se puede reconstruir desde OSM.",
+  "ways": [
+    {
+      "id": 148622740,
+      "reverse": false
+    }
+  ],
+  "start": {
+    "way": 148622740,
+    "fraction": 0.9
+  },
+  "turns": [
+    {
+      "name": "TGR",
+      "way": 148622740,
+      "fraction": 0.015
+    },
+    {
+      "name": "Coca-Cola",
+      "way": 148622740,
+      "fraction": 0.136
+    },
+    {
+      "name": "100R",
+      "way": 148622740,
+      "fraction": 0.235
+    },
+    {
+      "name": "Hairpin",
+      "way": 148622740,
+      "fraction": 0.289
+    },
+    {
+      "name": "Dunlop",
+      "way": 148622740,
+      "fraction": 0.54
+    },
+    {
+      "name": "Panasonic",
+      "way": 148622740,
+      "fraction": 0.656
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "nurburgring-gp-strecke",
+  "name": "Nürburgring GP-Strecke",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    50.31,
+    6.9,
+    50.41,
+    7.03
+  ],
+  "direction": "clockwise",
+  "official_length_m": 5148,
+  "notes": "Circuito GP con la Müllenbachschleife (vías Sprintstrecke/Müllenbach de OSM) y la chicane Sprintstrecke 1149161211 antes de meta.",
+  "ways": [
+    {
+      "id": 1149161210,
+      "reverse": false
+    },
+    {
+      "id": 1149161208,
+      "reverse": false
+    },
+    {
+      "id": 1443047846,
+      "reverse": false
+    },
+    {
+      "id": 1443047847,
+      "reverse": false
+    },
+    {
+      "id": 1079809244,
+      "reverse": false
+    },
+    {
+      "id": 820679447,
+      "reverse": false
+    },
+    {
+      "id": 820679448,
+      "reverse": false
+    },
+    {
+      "id": 820679446,
+      "reverse": false
+    },
+    {
+      "id": 1113009623,
+      "reverse": false
+    },
+    {
+      "id": 820679445,
+      "reverse": false
+    },
+    {
+      "id": 820330155,
+      "reverse": false
+    },
+    {
+      "id": 820330154,
+      "reverse": false
+    },
+    {
+      "id": 1113009624,
+      "reverse": false
+    },
+    {
+      "id": 820330153,
+      "reverse": false
+    },
+    {
+      "id": 820330152,
+      "reverse": false
+    },
+    {
+      "id": 1079809245,
+      "reverse": false
+    },
+    {
+      "id": 1443047845,
+      "reverse": false
+    },
+    {
+      "id": 1443047844,
+      "reverse": false
+    },
+    {
+      "id": 27852990,
+      "reverse": false
+    },
+    {
+      "id": 1149161211,
+      "reverse": false
+    }
+  ],
+  "start": {
+    "way": 1149161210,
+    "fraction": 0.4
+  },
+  "turns": [
+    {
+      "name": "Michael-Schumacher-S",
+      "way": 820330153
+    },
+    {
+      "name": "Ford-Kurve",
+      "way": 820679446
+    },
+    {
+      "name": "Goodyear-Kehre",
+      "way": 820330155
+    }
+  ]
+}

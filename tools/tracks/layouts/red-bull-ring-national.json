@@ -1,0 +1,53 @@
+{
+  "slug": "red-bull-ring-national",
+  "name": "Red Bull Ring National",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    47.205,
+    14.745,
+    47.24,
+    14.785
+  ],
+  "direction": "clockwise",
+  "official_length_m": 2336,
+  "notes": "OSM tiene la vía Südschleife National Circuit (84416610), que enlaza la diagonal de Niki Lauda con la curva Würth; se ensambla recortando la diagonal 822592404 en el punto donde nace (trim) y omitiendo Remus, Schlossgold y Rauch.",
+  "ways": [
+    822592410,
+    822592403,
+    {
+      "id": 822592404,
+      "trim": [
+        0,
+        0.3839
+      ]
+    },
+    84416610,
+    822592405,
+    822592406,
+    822592407,
+    822592408,
+    822592409
+  ],
+  "start": {
+    "way": 822592410,
+    "fraction": 0.5
+  },
+  "turns": [
+    {
+      "name": "Niki Lauda",
+      "way": 822592403
+    },
+    {
+      "name": "Würth",
+      "way": 822592405
+    },
+    {
+      "name": "Rindt",
+      "way": 822592407
+    },
+    {
+      "name": "Red Bull Mobile",
+      "way": 822592409
+    }
+  ]
+}

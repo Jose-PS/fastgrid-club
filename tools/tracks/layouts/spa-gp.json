@@ -1,0 +1,76 @@
+{
+  "slug": "spa-gp",
+  "name": "Spa-Francorchamps GP",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    50.415,
+    5.95,
+    50.45,
+    6.02
+  ],
+  "direction": "clockwise",
+  "official_length_m": 7004,
+  "notes": "Ciclo con Speaker's Corner (no la variante Moto layout 1134119259). Pouhon = vía OSM Double Gauche.",
+  "ways": [
+    24449918,
+    126807113,
+    175195997,
+    126807111,
+    126807112,
+    1359025268,
+    126807106,
+    1359025267,
+    126807103,
+    126807101,
+    126807109,
+    126807116,
+    175371353,
+    175371365,
+    126807100,
+    176133746,
+    126807114,
+    176133745,
+    178964809,
+    126807105,
+    637268672,
+    613486590,
+    126807099,
+    175178443,
+    175178448,
+    126807110,
+    126835639,
+    126835637,
+    126835638,
+    1430527230
+  ],
+  "start": {
+    "way": 126807110,
+    "fraction": 0.15
+  },
+  "turns": [
+    {
+      "name": "La Source",
+      "way": 175178443
+    },
+    {
+      "name": "Eau Rouge",
+      "way": 126835637
+    },
+    {
+      "name": "Les Combes",
+      "way": 24449918
+    },
+    {
+      "name": "Pouhon",
+      "way": 126807103
+    },
+    {
+      "name": "Blanchimont",
+      "way": 176133745
+    },
+    {
+      "name": "Bus Stop",
+      "way": 637268672
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+acevo.<DOMINIO> {
+	tls /etc/caddy/certs/<DOMINIO>/origin.pem /etc/caddy/certs/<DOMINIO>/origin.key
+
+	reverse_proxy acevo-server:8090 {
+		header_down Cache-Control "private, no-store"
+	}
+}

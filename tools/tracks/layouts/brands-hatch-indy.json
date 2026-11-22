@@ -1,0 +1,58 @@
+{
+  "slug": "brands-hatch-indy",
+  "name": "Brands Hatch Indy",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    51.345,
+    0.245,
+    51.37,
+    0.285
+  ],
+  "direction": "clockwise",
+  "official_length_m": 1944,
+  "notes": "OSM no separa el Indy: se ensambla con la vía McLaren (4928103) que enlaza Surtees con Clearways sin pasar por Hawthorns.",
+  "ways": [
+    4928103,
+    820329315,
+    25804641,
+    171570166,
+    25805012,
+    25804653,
+    171570161,
+    25804669,
+    171570167,
+    25804846,
+    25804824,
+    25804875
+  ],
+  "start": {
+    "way": 25805012,
+    "fraction": 0.45
+  },
+  "turns": [
+    {
+      "name": "Paddock Hill",
+      "way": 25804653
+    },
+    {
+      "name": "Druids",
+      "way": 25804669
+    },
+    {
+      "name": "Graham Hill",
+      "way": 25804846
+    },
+    {
+      "name": "Surtees",
+      "way": 25804875
+    },
+    {
+      "name": "McLaren",
+      "way": 4928103
+    },
+    {
+      "name": "Clearways",
+      "way": 820329315
+    }
+  ]
+}

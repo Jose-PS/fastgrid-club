@@ -1,0 +1,8 @@
+{
+  "running": true,
+  "players": 2,
+  "drivers": [
+    {"car_id": "00000000-0000-0000-0000-000000000001", "name": "Piloto Uno", "car": "preset_r8gt2_mech_1", "number": 11, "laps": 3, "last_lap_ms": 92500, "best_lap_ms": 91800},
+    {"car_id": "00000000-0000-0000-0000-000000000002", "name": "Piloto Dos", "car": "preset_695b_mech_1", "number": null, "laps": 0, "last_lap_ms": null, "best_lap_ms": null}
+  ]
+}

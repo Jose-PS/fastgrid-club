@@ -1,0 +1,50 @@
+{
+  "slug": "watkins-glen-short",
+  "name": "Watkins Glen Short",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    42.325,
+    -76.95,
+    42.355,
+    -76.91
+  ],
+  "direction": "clockwise",
+  "official_length_m": 3907,
+  "notes": "Variantes que OSM modela como vías separadas del mismo trazado. Sin Inner Loop, con el corte Short Course (293208060).",
+  "ways": [
+    20163576,
+    293208063,
+    293208062,
+    293208064,
+    293208074,
+    343460633,
+    293208056,
+    293208060,
+    293208070,
+    293208065,
+    293208075,
+    293208067
+  ],
+  "start": {
+    "way": 293208075,
+    "fraction": 0.55
+  },
+  "turns": [
+    {
+      "name": "The Ninety",
+      "way": 293208067
+    },
+    {
+      "name": "The Esses",
+      "way": 293208062
+    },
+    {
+      "name": "Outer Loop",
+      "way": 293208056
+    },
+    {
+      "name": "Fast Lefthander",
+      "way": 293208065
+    }
+  ]
+}

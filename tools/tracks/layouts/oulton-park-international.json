@@ -1,0 +1,70 @@
+{
+  "slug": "oulton-park-international",
+  "name": "Oulton Park International",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    53.168,
+    -2.632,
+    53.188,
+    -2.598
+  ],
+  "direction": "clockwise",
+  "official_length_m": 4333,
+  "notes": "Ciclo dirigido con Britten's y sin Island Hairpin ni la vía de Pit Lane.",
+  "ways": [
+    21831735,
+    820427211,
+    820427206,
+    820427207,
+    820427208,
+    820427202,
+    820427209,
+    820427213,
+    820427214,
+    820427216,
+    820427215,
+    820427224,
+    820427225,
+    820427222,
+    820427223,
+    820427226,
+    820427220,
+    820427221,
+    820427227,
+    820427217,
+    820427218,
+    820427219,
+    820427212,
+    820427210
+  ],
+  "start": {
+    "way": 820427221,
+    "fraction": 0.85
+  },
+  "turns": [
+    {
+      "name": "Old Hall",
+      "way": 820427217
+    },
+    {
+      "name": "Cascades",
+      "way": 820427212
+    },
+    {
+      "name": "Island Bend",
+      "way": 21831735
+    },
+    {
+      "name": "Hilltop",
+      "way": 820427202
+    },
+    {
+      "name": "Druids",
+      "way": 820427222
+    },
+    {
+      "name": "Lodge",
+      "way": 820427220
+    }
+  ]
+}

@@ -1,0 +1,2445 @@
+{
+  "cars": [
+    {
+      "internal_name": "preset_695b_mech_1",
+      "display_name": "Abarth 695 Biposto - Standard",
+      "pi": 10.178277,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_abarth_695_biposto"
+    },
+    {
+      "internal_name": "preset_75t_mech_1",
+      "display_name": "Alfa Romeo 75 Turbo Evoluzione - Standard",
+      "pi": 7.95794582,
+      "type": "road",
+      "era": "vintage",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 1,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_alfa_romeo_75_turbo_evo"
+    },
+    {
+      "internal_name": "preset_gtam_mech_1",
+      "display_name": "Alfa Romeo Giulia GTAm - Standard",
+      "pi": 12.7652826,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_alfa_romeo_giulia_gtam"
+    },
+    {
+      "internal_name": "preset_sprintgta_mech_1",
+      "display_name": "Alfa Romeo Giulia Sprint GTA - Standard",
+      "pi": 7.72337198,
+      "type": "race",
+      "era": "vintage",
+      "engine": "ice",
+      "classes": [],
+      "p1": 1,
+      "p2": 1,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_alfa_romeo_giulia_gta_sprint"
+    },
+    {
+      "internal_name": "preset_mln_mech_1",
+      "display_name": "Alfa Romeo Junior - Elettrica 280 CV Veloce",
+      "pi": 10.5126143,
+      "type": "road",
+      "era": "modern",
+      "engine": "ev",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 1,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_alfa_romeo_junior"
+    },
+    {
+      "internal_name": "preset_a110s_mech_1",
+      "display_name": "Alpine A110 S - Aero Package",
+      "pi": 11.9882078,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_alpine_a110_s"
+    },
+    {
+      "internal_name": "preset_a290b_mech_1",
+      "display_name": "Alpine A290 Beta - Standard",
+      "pi": 9.77468,
+      "type": "road",
+      "era": "modern",
+      "engine": "ev",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 1,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_alpine_a290_b"
+    },
+    {
+      "internal_name": "preset_r8gt2_mech_1",
+      "display_name": "Audi R8 LMS GT2 - GT2",
+      "pi": 17.8733597,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt2"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_audi_r8_lms_gt2"
+    },
+    {
+      "internal_name": "preset_r8gt3_mech_1",
+      "display_name": "Audi R8 LMS GT3 Evo II - GT3",
+      "pi": 19.4821548,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt3"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_audi_r8_lms_gt3_evo_2"
+    },
+    {
+      "internal_name": "preset_r8gt4_mech_1",
+      "display_name": "Audi R8 LMS GT4 Evo - GT4",
+      "pi": 14.6620588,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt4"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_audi_r8_lms_gt4_evo"
+    },
+    {
+      "internal_name": "preset_r8v10_mech_1",
+      "display_name": "Audi R8 V10 performance quattro - Coupe quattro",
+      "pi": 13.4648924,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_audi_r8_v10_performance"
+    },
+    {
+      "internal_name": "preset_rs3_mech_1",
+      "display_name": "Audi RS 3 Sportback - Sportback",
+      "pi": 11.5046272,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_audi_rs_3_sportback"
+    },
+    {
+      "internal_name": "preset_rs6_mech_1",
+      "display_name": "Audi RS 6 Avant - Standard",
+      "pi": 11.919507,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_audi_rs_6_avant"
+    },
+    {
+      "internal_name": "preset_sq_mech_1",
+      "display_name": "Audi Sport quattro - Standard",
+      "pi": 10.7589931,
+      "type": "road",
+      "era": "vintage",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 1,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_audi_sport_quattro"
+    },
+    {
+      "internal_name": "preset_m2_mech_2",
+      "display_name": "BMW M2 Coupe - Performance",
+      "pi": 11.7109776,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_bmw_m2_coupe"
+    },
+    {
+      "internal_name": "preset_m2_mech_1",
+      "display_name": "BMW M2 Coupe - Standard",
+      "pi": 11.5433779,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_bmw_m2_coupe"
+    },
+    {
+      "internal_name": "preset_m2csr_mech_1",
+      "display_name": "BMW M2 CS Racing - 350",
+      "pi": 11.666214,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "cup"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_bmw_m2_cs_racing"
+    },
+    {
+      "internal_name": "preset_m2csr_mech_2",
+      "display_name": "BMW M2 CS Racing - 450",
+      "pi": 12.0288105,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "cup"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_bmw_m2_cs_racing"
+    },
+    {
+      "internal_name": "preset_m3evoiii_mech_1",
+      "display_name": "BMW M3 E30 Sport Evo (Evolution III) - Standard",
+      "pi": 9.3645668,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_bmw_m3_e30_evo_iii"
+    },
+    {
+      "internal_name": "preset_e46csl_mech_1",
+      "display_name": "BMW M3 E46 CSL - Standard",
+      "pi": 10.0000191,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_bmw_m3_e46_csl"
+    },
+    {
+      "internal_name": "preset_m4csl_mech_1",
+      "display_name": "BMW M4 CSL - Standard",
+      "pi": 11.8838902,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_bmw_m4_csl"
+    },
+    {
+      "internal_name": "preset_m4gt3_mech_1",
+      "display_name": "BMW M4 GT3 Evo - GT3",
+      "pi": 19.955698,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt3"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_bmw_m4_gt3"
+    },
+    {
+      "internal_name": "preset_m8c_mech_1",
+      "display_name": "BMW M8 Competition - Standard",
+      "pi": 11.5657339,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_bmw_m8_competition"
+    },
+    {
+      "internal_name": "ks_caterham_485_csr_mech_3",
+      "display_name": "Caterham 485 CSR - Final Edition",
+      "pi": 7.82292652,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_caterham_485_csr"
+    },
+    {
+      "internal_name": "ks_caterham_485_csr_mech_1",
+      "display_name": "Caterham 485 CSR - Road",
+      "pi": 7.82292652,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_caterham_485_csr"
+    },
+    {
+      "internal_name": "ks_caterham_485_csr_mech_2",
+      "display_name": "Caterham 485 CSR - Track",
+      "pi": 7.82292652,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_caterham_485_csr"
+    },
+    {
+      "internal_name": "ks_caterham_acmd_mech_1",
+      "display_name": "Caterham Academy - Academy",
+      "pi": 8.75334454,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "cup"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_caterham_academy"
+    },
+    {
+      "internal_name": "preset_zl1_mech_2",
+      "display_name": "Chevrolet Camaro ZL1 - 1LE",
+      "pi": 12.4970236,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_chevrolet_camaro_zl1"
+    },
+    {
+      "internal_name": "preset_zl1_mech_1",
+      "display_name": "Chevrolet Camaro ZL1 - Standard",
+      "pi": 12.3291807,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_chevrolet_camaro_zl1"
+    },
+    {
+      "internal_name": "preset_dalexp_mech_1",
+      "display_name": "Dallara EXP - Standard",
+      "pi": 21.633091,
+      "type": "track",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 2,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_dallara_exp"
+    },
+    {
+      "internal_name": "preset_dalsc_mech_1",
+      "display_name": "Dallara Stradale - Coupe",
+      "pi": 18.9922981,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_dallara_stradale_coupe"
+    },
+    {
+      "internal_name": "preset_dalsc_mech_2",
+      "display_name": "Dallara Stradale - Spider",
+      "pi": 18.9922981,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_dallara_stradale_coupe"
+    },
+    {
+      "internal_name": "preset_dalsc_mech_3",
+      "display_name": "Dallara Stradale - Track",
+      "pi": 20.4225845,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_dallara_stradale_coupe"
+    },
+    {
+      "internal_name": "preset_240z_mech_1",
+      "display_name": "Datsun 240Z (S30) - Standard",
+      "pi": 7.29449606,
+      "type": "road",
+      "era": "vintage",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 1,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_datsun_240z_fairlady"
+    },
+    {
+      "internal_name": "preset_240z_mech_2",
+      "display_name": "Datsun 240Z (S30) - Tuned",
+      "pi": 8.10298824,
+      "type": "road",
+      "era": "vintage",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 1,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_datsun_240z_fairlady"
+    },
+    {
+      "internal_name": "preset_288gto_mech_1",
+      "display_name": "Ferrari 288 GTO - Standard",
+      "pi": 11.0566072,
+      "type": "road",
+      "era": "vintage",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 1,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_ferrari_288_gto"
+    },
+    {
+      "internal_name": "preset_296gt3_mech_1",
+      "display_name": "Ferrari 296 GT3 - GT3",
+      "pi": 21.1987076,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt3"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_ferrari_296_gt3"
+    },
+    {
+      "internal_name": "preset_296gtb_mech_2",
+      "display_name": "Ferrari 296 GTB - Assetto Fiorano",
+      "pi": 14.7102699,
+      "type": "road",
+      "era": "modern",
+      "engine": "hybrid",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 2,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_ferrari_296_gtb"
+    },
+    {
+      "internal_name": "preset_296gtb_mech_1",
+      "display_name": "Ferrari 296 GTB - Standard",
+      "pi": 14.7102699,
+      "type": "road",
+      "era": "modern",
+      "engine": "hybrid",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 2,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_ferrari_296_gtb"
+    },
+    {
+      "internal_name": "preset_f488ce_mech_1",
+      "display_name": "Ferrari 488 Challenge Evo - Ferrari Challenge",
+      "pi": 19.0988026,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "cup"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_ferrari_488_challenge_evo"
+    },
+    {
+      "internal_name": "preset_sp3_mech_1",
+      "display_name": "Ferrari Daytona SP3 - Standard",
+      "pi": 16.0725269,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_ferrari_daytona_sp3"
+    },
+    {
+      "internal_name": "preset_f2004_mech_1",
+      "display_name": "Ferrari F2004 - Standard",
+      "pi": 41.3726273,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "f1"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_ferrari_f2004"
+    },
+    {
+      "internal_name": "preset_f40lm_mech_1",
+      "display_name": "Ferrari F40 LM - Standard",
+      "pi": 19.2176037,
+      "type": "race",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 1,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_ferrari_f40_lm"
+    },
+    {
+      "internal_name": "preset_sf25_mech_1",
+      "display_name": "Ferrari SF-25 - F1 2025",
+      "pi": 42.9716568,
+      "type": "race",
+      "era": "modern",
+      "engine": "hybrid",
+      "classes": [
+        "f1"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 2,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_ferrari_sf_25"
+    },
+    {
+      "internal_name": "preset_escortrs_mech_1",
+      "display_name": "Ford Escort RS Cosworth - Standard",
+      "pi": 8.35298347,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_ford_escort_rs_cosworth"
+    },
+    {
+      "internal_name": "preset_msggt3_mech_1",
+      "display_name": "Ford Mustang GT3 - GT3",
+      "pi": 18.2781258,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt3"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_ford_mustang_gt3"
+    },
+    {
+      "internal_name": "preset_nsxr_mech_1",
+      "display_name": "Honda NSX-R 92R - Standard",
+      "pi": 9.93019104,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_honda_nsx_r"
+    },
+    {
+      "internal_name": "preset_s2000ap1_mech_1",
+      "display_name": "Honda S2000 AP1 - Standard",
+      "pi": 9.89116764,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_honda_s2000_ap1"
+    },
+    {
+      "internal_name": "preset_i30n_hb_mech_1",
+      "display_name": "Hyundai i30 N Hatchback - Performance",
+      "pi": 9.36728191,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_hyundai_i30_n_hb"
+    },
+    {
+      "internal_name": "preset_i30n_hb_mech_2",
+      "display_name": "Hyundai i30 N Hatchback - Performance N Limited",
+      "pi": 9.56921,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_hyundai_i30_n_hb"
+    },
+    {
+      "internal_name": "preset_xbgt2_mech_1",
+      "display_name": "KTM X-Bow GT2 - GT2",
+      "pi": 18.2303219,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt2"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_ktm_x_bow_gt2"
+    },
+    {
+      "internal_name": "preset_xbgt4_mech_1",
+      "display_name": "KTM X-Bow GT4 - GT4",
+      "pi": 17.9966812,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt4"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_ktm_x_bow_gt4"
+    },
+    {
+      "internal_name": "preset_cntqv_mech_1",
+      "display_name": "Lamborghini Countach LP5000 QV - LP5000 QV",
+      "pi": 9.51107407,
+      "type": "road",
+      "era": "vintage",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 1,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_lamborghini_countach"
+    },
+    {
+      "internal_name": "preset_stevo2_mech_1",
+      "display_name": "Lamborghini Huracán ST EVO2 - Super Trofeo",
+      "pi": 17.3964825,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "cup"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_lamborghini_huracan_st_evo2"
+    },
+    {
+      "internal_name": "preset_sto_mech_1",
+      "display_name": "Lamborghini Huracán STO - Road",
+      "pi": 15.0845432,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_lamborghini_huracan_sto"
+    },
+    {
+      "internal_name": "preset_sto_mech_2",
+      "display_name": "Lamborghini Huracán STO - Trackday",
+      "pi": 15.0845432,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_lamborghini_huracan_sto"
+    },
+    {
+      "internal_name": "preset_hfevoii_mech_2",
+      "display_name": "Lancia Delta HF integrale Evoluzione II - Evo 3 \"Violet\"",
+      "pi": 9.12997055,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_lancia_delta_hf_integrale_evo_ii"
+    },
+    {
+      "internal_name": "preset_hfevoii_mech_1",
+      "display_name": "Lancia Delta HF integrale Evoluzione II - Standard",
+      "pi": 9.04829693,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_lancia_delta_hf_integrale_evo_ii"
+    },
+    {
+      "internal_name": "preset_emira_mech_2",
+      "display_name": "Lotus Emira - Sports",
+      "pi": 13.2767525,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_lotus_emira"
+    },
+    {
+      "internal_name": "preset_emira_mech_1",
+      "display_name": "Lotus Emira - Touring",
+      "pi": 13.1456022,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_lotus_emira"
+    },
+    {
+      "internal_name": "preset_exigev6_mech_2",
+      "display_name": "Lotus Exige V6 Cup - Lotus Motorsport",
+      "pi": 13.887722,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_lotus_exige_v6_cup"
+    },
+    {
+      "internal_name": "preset_exigev6_mech_1",
+      "display_name": "Lotus Exige V6 Cup - Standard",
+      "pi": 12.6052475,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_lotus_exige_v6_cup"
+    },
+    {
+      "internal_name": "preset_mcgt2_mech_1",
+      "display_name": "Maserati GT2 - GT2",
+      "pi": 16.7095242,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt2"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_maserati_mc20_gt2"
+    },
+    {
+      "internal_name": "preset_mx5na_mech_2",
+      "display_name": "Mazda MX-5 NA - RS Limited",
+      "pi": 9.31289768,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_mazda_mx5_na"
+    },
+    {
+      "internal_name": "preset_mx5na_mech_1",
+      "display_name": "Mazda MX-5 NA - Standard",
+      "pi": 9.05722713,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_mazda_mx5_na"
+    },
+    {
+      "internal_name": "preset_mx5ndcup_mech_1",
+      "display_name": "Mazda MX-5 ND Cup - Global Cup ND1",
+      "pi": 10.0767899,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "cup"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_mazda_mx5_nd_cup"
+    },
+    {
+      "internal_name": "preset_mx5ndcup_mech_2",
+      "display_name": "Mazda MX-5 ND Cup - Global Cup ND2",
+      "pi": 10.3730679,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "cup"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_mazda_mx5_nd_cup"
+    },
+    {
+      "internal_name": "preset_rx7fd_mech_1",
+      "display_name": "Mazda RX-7 FD Spirit R - Standard",
+      "pi": 9.8123951,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_mazda_rx7_fd"
+    },
+    {
+      "internal_name": "preset_amggt2_mech_1",
+      "display_name": "Mercedes-AMG GT2 - GT2",
+      "pi": 16.9706535,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt2"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_mercedes_amg_gt2"
+    },
+    {
+      "internal_name": "preset_190e_mech_1",
+      "display_name": "Mercedes-Benz 190E 2.5-16 Evo II - Standard",
+      "pi": 9.79123497,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_mercedes_190e_evo_ii"
+    },
+    {
+      "internal_name": "preset_jcs_mech_1",
+      "display_name": "Mini John Cooper S - Standard",
+      "pi": 9.50207138,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_mini_jcs_1990"
+    },
+    {
+      "internal_name": "preset_jcs_mech_2",
+      "display_name": "Mini John Cooper S - Tune",
+      "pi": 10.7533054,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_mini_jcs_1990"
+    },
+    {
+      "internal_name": "preset_t16_mech_1",
+      "display_name": "Peugeot 205 T16 - Standard",
+      "pi": 9.83931923,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_peugeot_205_t16"
+    },
+    {
+      "internal_name": "preset_gt4csmr_mech_1",
+      "display_name": "Porsche 718 Cayman GT4 Clubsport - GT4",
+      "pi": 15.405736,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt4"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_porsche_718_cayman_gt4_cs_mr"
+    },
+    {
+      "internal_name": "preset_718gt4rs_mech_1",
+      "display_name": "Porsche 718 Cayman GT4 RS - Standard",
+      "pi": 12.6674089,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_porsche_718_cayman_gt4_rs"
+    },
+    {
+      "internal_name": "preset_718gt4rs_mech_2",
+      "display_name": "Porsche 718 Cayman GT4 RS - Weissach",
+      "pi": 12.6674089,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_porsche_718_cayman_gt4_rs"
+    },
+    {
+      "internal_name": "preset_gt2rscs_mech_1",
+      "display_name": "Porsche 911 GT2 RS Clubsport Evo (991II) - GT2",
+      "pi": 17.1910248,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt2"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_porsche_991ii_gt2_rs_clubsport_evo"
+    },
+    {
+      "internal_name": "preset_992c_mech_2",
+      "display_name": "Porsche 911 GT3 Cup (992) - ABS",
+      "pi": 16.2818317,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "cup"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_porsche_992_gt3_cup"
+    },
+    {
+      "internal_name": "preset_992c_mech_1",
+      "display_name": "Porsche 911 GT3 Cup (992) - ABS TC",
+      "pi": 16.2818317,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "cup"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_porsche_992_gt3_cup"
+    },
+    {
+      "internal_name": "preset_992c_mech_3",
+      "display_name": "Porsche 911 GT3 Cup (992) - No ABS No TC",
+      "pi": 16.2818317,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "cup"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_porsche_992_gt3_cup"
+    },
+    {
+      "internal_name": "preset_992ren_mech_1",
+      "display_name": "Porsche 911 GT3 R Rennsport (992) - GT3",
+      "pi": 18.6443176,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt3"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_porsche_992_gt3_r_rennsport"
+    },
+    {
+      "internal_name": "preset_992ren_mech_2",
+      "display_name": "Porsche 911 GT3 R Rennsport (992) - Unrestricted",
+      "pi": 19.1701813,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt3"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_porsche_992_gt3_r_rennsport"
+    },
+    {
+      "internal_name": "preset_gt3rs_mech_1",
+      "display_name": "Porsche 911 GT3 RS (992) - Clubsport",
+      "pi": 16.6361027,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_porsche_992_gt3_rs"
+    },
+    {
+      "internal_name": "preset_gt3rs_mech_2",
+      "display_name": "Porsche 911 GT3 RS (992) - Weissach",
+      "pi": 16.6361027,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_porsche_992_gt3_rs"
+    },
+    {
+      "internal_name": "preset_964_mech_1",
+      "display_name": "Porsche 911 Turbo 3.6 (964) - Standard",
+      "pi": 12.1816187,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_porsche_964_turbo_3_6"
+    },
+    {
+      "internal_name": "preset_964_mech_2",
+      "display_name": "Porsche 911 Turbo 3.6 (964) - X88",
+      "pi": 12.3185015,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_porsche_964_turbo_3_6"
+    },
+    {
+      "internal_name": "preset_935_mech_1",
+      "display_name": "Porsche 935 - GT2",
+      "pi": 16.8805275,
+      "type": "race",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [
+        "gt2"
+      ],
+      "p1": 1,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_porsche_935"
+    },
+    {
+      "internal_name": "preset_r5gt_mech_1",
+      "display_name": "Renault 5 GT Turbo - Standard",
+      "pi": 8.49209881,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_renault_5_gt_turbo"
+    },
+    {
+      "internal_name": "preset_gr86_mech_3",
+      "display_name": "Toyota GR86 - Hakone Edition",
+      "pi": 8.8891,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_toyota_gr86"
+    },
+    {
+      "internal_name": "preset_gr86_mech_1",
+      "display_name": "Toyota GR86 - Standard",
+      "pi": 8.85755157,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_toyota_gr86"
+    },
+    {
+      "internal_name": "preset_gr86_mech_2",
+      "display_name": "Toyota GR86 - Trueno Edition",
+      "pi": 8.8891,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_toyota_gr86"
+    },
+    {
+      "internal_name": "preset_ae86_mech_4",
+      "display_name": "Toyota Sprinter Trueno 1600GT-Apex (AE86) - Anime Tribute",
+      "pi": 9.62917,
+      "type": "road",
+      "era": "vintage",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 1,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_toyota_ae86_sprinter_trueno"
+    },
+    {
+      "internal_name": "preset_ae86_mech_2",
+      "display_name": "Toyota Sprinter Trueno 1600GT-Apex (AE86) - Kouki",
+      "pi": 8.32389069,
+      "type": "road",
+      "era": "vintage",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 1,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_toyota_ae86_sprinter_trueno"
+    },
+    {
+      "internal_name": "preset_ae86_mech_3",
+      "display_name": "Toyota Sprinter Trueno 1600GT-Apex (AE86) - Kouki Black Limited",
+      "pi": 8.32389069,
+      "type": "road",
+      "era": "vintage",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 1,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_toyota_ae86_sprinter_trueno"
+    },
+    {
+      "internal_name": "preset_ae86_mech_1",
+      "display_name": "Toyota Sprinter Trueno 1600GT-Apex (AE86) - Zenki",
+      "pi": 8.32389069,
+      "type": "road",
+      "era": "vintage",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 1,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_toyota_ae86_sprinter_trueno"
+    },
+    {
+      "internal_name": "preset_supramkiv_mech_2",
+      "display_name": "Toyota Supra MKIV - Drift",
+      "pi": 13.0261793,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_toyota_supra_mkiv"
+    },
+    {
+      "internal_name": "preset_supramkiv_mech_1",
+      "display_name": "Toyota Supra MKIV - Standard",
+      "pi": 10.0787344,
+      "type": "road",
+      "era": "yt",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 2,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_toyota_supra_mkiv"
+    },
+    {
+      "internal_name": "preset_mk8gti_mech_1",
+      "display_name": "Volkswagen Golf 8 GTI - Clubsport",
+      "pi": 10.6219606,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_volkswagen_golf_gti_mk8"
+    },
+    {
+      "internal_name": "preset_mk8r_mech_1",
+      "display_name": "Volkswagen Golf 8 R - Standard",
+      "pi": 9.81273746,
+      "type": "road",
+      "era": "modern",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_volkswagen_golf_r_mk8"
+    },
+    {
+      "internal_name": "preset_gtimk1_mech_1",
+      "display_name": "Volkswagen Golf GTI Mk1 - Standard",
+      "pi": 7.39166498,
+      "type": "road",
+      "era": "vintage",
+      "engine": "ice",
+      "classes": [],
+      "p1": 0,
+      "p2": 1,
+      "p3": 0,
+      "is_mod": false,
+      "mod_file": "",
+      "runtime_name": "ks_volkswagen_golf_gti_mk1"
+    }
+  ],
+  "pi_min": 7.29449606,
+  "pi_max": 42.9716568,
+  "tracks": {
+    "practice": [
+      {
+        "token": "Brands Hatch|GP|GP Time Attack|3916",
+        "display": "Brands Hatch GP [3,92km] (pit:32)",
+        "track": "Brands Hatch",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 3916,
+        "max_pit_slot": 32
+      },
+      {
+        "token": "Brands Hatch|Indy|Indy Time Attack|1944",
+        "display": "Brands Hatch Indy [1,94km] (pit:32)",
+        "track": "Brands Hatch",
+        "layout": "Indy",
+        "event_name": "Indy Time Attack",
+        "length_m": 1944,
+        "max_pit_slot": 32
+      },
+      {
+        "token": "Circuit Of The Americas|GP|GP Time Attack|5515",
+        "display": "Circuit Of The Americas GP [5,51km] (pit:34)",
+        "track": "Circuit Of The Americas",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 5515,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Circuit Of The Americas|National|National Time Attack|3702",
+        "display": "Circuit Of The Americas National [3,70km] (pit:34)",
+        "track": "Circuit Of The Americas",
+        "layout": "National",
+        "event_name": "National Time Attack",
+        "length_m": 3702,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Circuit de Spa Francorchamps|GP|GP Time Attack|7004",
+        "display": "Circuit de Spa Francorchamps GP [7,00km] (pit:36)",
+        "track": "Circuit de Spa Francorchamps",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 7004,
+        "max_pit_slot": 36
+      },
+      {
+        "token": "Donington Park|GP|GP Time Attack|4020",
+        "display": "Donington Park GP [4,02km] (pit:19)",
+        "track": "Donington Park",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 4020,
+        "max_pit_slot": 19
+      },
+      {
+        "token": "Donington Park|National|National Time Attack|3149",
+        "display": "Donington Park National [3,15km] (pit:19)",
+        "track": "Donington Park",
+        "layout": "National",
+        "event_name": "National Time Attack",
+        "length_m": 3149,
+        "max_pit_slot": 19
+      },
+      {
+        "token": "Fuji Speedway|GP|GP Time Attack|4549",
+        "display": "Fuji Speedway GP [4,55km] (pit:34)",
+        "track": "Fuji Speedway",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 4549,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Fuji Speedway|GP Short|GP Short Time Attack|4526",
+        "display": "Fuji Speedway GP Short [4,53km] (pit:34)",
+        "track": "Fuji Speedway",
+        "layout": "GP Short",
+        "event_name": "GP Short Time Attack",
+        "length_m": 4526,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Imola|GP|GP Time Attack|4909",
+        "display": "Imola GP [4,91km] (pit:29)",
+        "track": "Imola",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 4909,
+        "max_pit_slot": 29
+      },
+      {
+        "token": "Kyalami|GP|GP Time Attack|4522",
+        "display": "Kyalami GP [4,52km] (pit:20)",
+        "track": "Kyalami",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 4522,
+        "max_pit_slot": 20
+      },
+      {
+        "token": "Laguna Seca|GP|GP Time Attack|3602",
+        "display": "Laguna Seca GP [3,60km] (pit:24)",
+        "track": "Laguna Seca",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 3602,
+        "max_pit_slot": 24
+      },
+      {
+        "token": "Monza|GP|GP Time Attack|5793",
+        "display": "Monza GP [5,79km] (pit:30)",
+        "track": "Monza",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 5793,
+        "max_pit_slot": 30
+      },
+      {
+        "token": "Mount Panorama|GP|GP Time Attack|6213",
+        "display": "Mount Panorama GP [6,21km] (pit:35)",
+        "track": "Mount Panorama",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 6213,
+        "max_pit_slot": 35
+      },
+      {
+        "token": "Nurburgring|24h|24h Time Attack|25947",
+        "display": "Nurburgring 24h [25,95km] (pit:30)",
+        "track": "Nurburgring",
+        "layout": "24h",
+        "event_name": "24h Time Attack",
+        "length_m": 25947,
+        "max_pit_slot": 30
+      },
+      {
+        "token": "Nurburgring|Gp Strecke|Gp Strecke Time Attack|5148",
+        "display": "Nurburgring Gp Strecke [5,15km] (pit:30)",
+        "track": "Nurburgring",
+        "layout": "Gp Strecke",
+        "event_name": "Gp Strecke Time Attack",
+        "length_m": 5148,
+        "max_pit_slot": 30
+      },
+      {
+        "token": "Nurburgring|Nordschleife|Nordschleife Time Attack|20832",
+        "display": "Nurburgring Nordschleife [20,83km] (pit:5)",
+        "track": "Nurburgring",
+        "layout": "Nordschleife",
+        "event_name": "Nordschleife Time Attack",
+        "length_m": 20832,
+        "max_pit_slot": 5
+      },
+      {
+        "token": "Nurburgring|Sprint|Sprint Time Attack|3629",
+        "display": "Nurburgring Sprint [3,63km] (pit:30)",
+        "track": "Nurburgring",
+        "layout": "Sprint",
+        "event_name": "Sprint Time Attack",
+        "length_m": 3629,
+        "max_pit_slot": 30
+      },
+      {
+        "token": "Nurburgring|Touristenfahrten|Touristenfahrten Time Attack|19300",
+        "display": "Nurburgring Touristenfahrten [19,30km] (pit:50)",
+        "track": "Nurburgring",
+        "layout": "Touristenfahrten",
+        "event_name": "Touristenfahrten Time Attack",
+        "length_m": 19300,
+        "max_pit_slot": 50
+      },
+      {
+        "token": "Oulton Park|International|International Time Attack|4333",
+        "display": "Oulton Park International [4,33km] (pit:16)",
+        "track": "Oulton Park",
+        "layout": "International",
+        "event_name": "International Time Attack",
+        "length_m": 4333,
+        "max_pit_slot": 16
+      },
+      {
+        "token": "Oulton Park|Fosters|Fosters Time Attack|2662",
+        "display": "Oulton Park Fosters [2,66km] (pit:16)",
+        "track": "Oulton Park",
+        "layout": "Fosters",
+        "event_name": "Fosters Time Attack",
+        "length_m": 2662,
+        "max_pit_slot": 16
+      },
+      {
+        "token": "Paul Ricard|Layout 1A-V2|Layout 1A-V2 Time Attack|5770",
+        "display": "Paul Ricard Layout 1A-V2 [5,77km] (pit:34)",
+        "track": "Paul Ricard",
+        "layout": "Layout 1A-V2",
+        "event_name": "Layout 1A-V2 Time Attack",
+        "length_m": 5770,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Paul Ricard|Layout 1C-V2|Layout 1C-V2 Time Attack|5842",
+        "display": "Paul Ricard Layout 1C-V2 [5,84km] (pit:34)",
+        "track": "Paul Ricard",
+        "layout": "Layout 1C-V2",
+        "event_name": "Layout 1C-V2 Time Attack",
+        "length_m": 5842,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Paul Ricard|Layout 3A|Layout 3A Time Attack|3793",
+        "display": "Paul Ricard Layout 3A [3,79km] (pit:34)",
+        "track": "Paul Ricard",
+        "layout": "Layout 3A",
+        "event_name": "Layout 3A Time Attack",
+        "length_m": 3793,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Paul Ricard|Layout 3C|Layout 3C Time Attack|3841",
+        "display": "Paul Ricard Layout 3C [3,84km] (pit:34)",
+        "track": "Paul Ricard",
+        "layout": "Layout 3C",
+        "event_name": "Layout 3C Time Attack",
+        "length_m": 3841,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Red Bull Ring|GP|GP Time Attack|4318",
+        "display": "Red Bull Ring GP [4,32km] (pit:28)",
+        "track": "Red Bull Ring",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 4318,
+        "max_pit_slot": 28
+      },
+      {
+        "token": "Red Bull Ring|National|National Time Attack|2336",
+        "display": "Red Bull Ring National [2,34km] (pit:28)",
+        "track": "Red Bull Ring",
+        "layout": "National",
+        "event_name": "National Time Attack",
+        "length_m": 2336,
+        "max_pit_slot": 28
+      },
+      {
+        "token": "Road Atlanta|GP|GP Time Attack|4088",
+        "display": "Road Atlanta GP [4,09km] (pit:28)",
+        "track": "Road Atlanta",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 4088,
+        "max_pit_slot": 28
+      },
+      {
+        "token": "Sebring International Raceway|GP|GP Time Attack|5954",
+        "display": "Sebring International Raceway GP [5,95km] (pit:45)",
+        "track": "Sebring International Raceway",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 5954,
+        "max_pit_slot": 45
+      },
+      {
+        "token": "Suzuka|GP|GP Time Attack|5807",
+        "display": "Suzuka GP [5,81km] (pit:25)",
+        "track": "Suzuka",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 5807,
+        "max_pit_slot": 25
+      },
+      {
+        "token": "Suzuka|East|East Time Attack|2243",
+        "display": "Suzuka East [2,24km] (pit:25)",
+        "track": "Suzuka",
+        "layout": "East",
+        "event_name": "East Time Attack",
+        "length_m": 2243,
+        "max_pit_slot": 25
+      },
+      {
+        "token": "Suzuka|West|West Time Attack|3466",
+        "display": "Suzuka West [3,47km] (pit:10)",
+        "track": "Suzuka",
+        "layout": "West",
+        "event_name": "West Time Attack",
+        "length_m": 3466,
+        "max_pit_slot": 10
+      },
+      {
+        "token": "Watkins Glen International|GP Inner Loop|GP Inner Loop Time Attack|5552",
+        "display": "Watkins Glen International GP Inner Loop [5,55km] (pit:40)",
+        "track": "Watkins Glen International",
+        "layout": "GP Inner Loop",
+        "event_name": "GP Inner Loop Time Attack",
+        "length_m": 5552,
+        "max_pit_slot": 40
+      },
+      {
+        "token": "Watkins Glen International|Short Inner Loop|Short Inner Loop Time Attack|3943",
+        "display": "Watkins Glen International Short Inner Loop [3,94km] (pit:40)",
+        "track": "Watkins Glen International",
+        "layout": "Short Inner Loop",
+        "event_name": "Short Inner Loop Time Attack",
+        "length_m": 3943,
+        "max_pit_slot": 40
+      },
+      {
+        "token": "Watkins Glen International|GP|GP Time Attack|5435",
+        "display": "Watkins Glen International GP [5,43km] (pit:40)",
+        "track": "Watkins Glen International",
+        "layout": "GP",
+        "event_name": "GP Time Attack",
+        "length_m": 5435,
+        "max_pit_slot": 40
+      },
+      {
+        "token": "Watkins Glen International|Short|Short Time Attack|3907",
+        "display": "Watkins Glen International Short [3,91km] (pit:40)",
+        "track": "Watkins Glen International",
+        "layout": "Short",
+        "event_name": "Short Time Attack",
+        "length_m": 3907,
+        "max_pit_slot": 40
+      }
+    ],
+    "race_weekend": [
+      {
+        "token": "Brands Hatch|GP|GP Race|3916",
+        "display": "Brands Hatch GP [3,92km] (pit:32)",
+        "track": "Brands Hatch",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 3916,
+        "max_pit_slot": 32
+      },
+      {
+        "token": "Brands Hatch|Indy|Indy Race|1944",
+        "display": "Brands Hatch Indy [1,94km] (pit:32)",
+        "track": "Brands Hatch",
+        "layout": "Indy",
+        "event_name": "Indy Race",
+        "length_m": 1944,
+        "max_pit_slot": 32
+      },
+      {
+        "token": "Circuit Of The Americas|GP|GP Race|5515",
+        "display": "Circuit Of The Americas GP [5,51km] (pit:34)",
+        "track": "Circuit Of The Americas",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 5515,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Circuit Of The Americas|National|National Race|3702",
+        "display": "Circuit Of The Americas National [3,70km] (pit:34)",
+        "track": "Circuit Of The Americas",
+        "layout": "National",
+        "event_name": "National Race",
+        "length_m": 3702,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Circuit de Spa Francorchamps|GP|GP Race|7004",
+        "display": "Circuit de Spa Francorchamps GP [7,00km] (pit:36)",
+        "track": "Circuit de Spa Francorchamps",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 7004,
+        "max_pit_slot": 36
+      },
+      {
+        "token": "Donington Park|GP|GP Race|4020",
+        "display": "Donington Park GP [4,02km] (pit:19)",
+        "track": "Donington Park",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 4020,
+        "max_pit_slot": 19
+      },
+      {
+        "token": "Donington Park|National|National Race|3149",
+        "display": "Donington Park National [3,15km] (pit:19)",
+        "track": "Donington Park",
+        "layout": "National",
+        "event_name": "National Race",
+        "length_m": 3149,
+        "max_pit_slot": 19
+      },
+      {
+        "token": "Fuji Speedway|GP|GP Race|4549",
+        "display": "Fuji Speedway GP [4,55km] (pit:34)",
+        "track": "Fuji Speedway",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 4549,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Fuji Speedway|GP Short|GP Short Race|4526",
+        "display": "Fuji Speedway GP Short [4,53km] (pit:34)",
+        "track": "Fuji Speedway",
+        "layout": "GP Short",
+        "event_name": "GP Short Race",
+        "length_m": 4526,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Imola|GP|GP Race|4909",
+        "display": "Imola GP [4,91km] (pit:29)",
+        "track": "Imola",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 4909,
+        "max_pit_slot": 29
+      },
+      {
+        "token": "Kyalami|GP|GP Race|4522",
+        "display": "Kyalami GP [4,52km] (pit:20)",
+        "track": "Kyalami",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 4522,
+        "max_pit_slot": 20
+      },
+      {
+        "token": "Laguna Seca|GP|GP Race|3602",
+        "display": "Laguna Seca GP [3,60km] (pit:24)",
+        "track": "Laguna Seca",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 3602,
+        "max_pit_slot": 24
+      },
+      {
+        "token": "Monza|GP|GP Race|5793",
+        "display": "Monza GP [5,79km] (pit:30)",
+        "track": "Monza",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 5793,
+        "max_pit_slot": 30
+      },
+      {
+        "token": "Mount Panorama|GP|GP Race|6213",
+        "display": "Mount Panorama GP [6,21km] (pit:35)",
+        "track": "Mount Panorama",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 6213,
+        "max_pit_slot": 35
+      },
+      {
+        "token": "Nurburgring|24h|24h Race|25947",
+        "display": "Nurburgring 24h [25,95km] (pit:30)",
+        "track": "Nurburgring",
+        "layout": "24h",
+        "event_name": "24h Race",
+        "length_m": 25947,
+        "max_pit_slot": 30
+      },
+      {
+        "token": "Nurburgring|Gp Strecke|Gp Strecke Race|5148",
+        "display": "Nurburgring Gp Strecke [5,15km] (pit:30)",
+        "track": "Nurburgring",
+        "layout": "Gp Strecke",
+        "event_name": "Gp Strecke Race",
+        "length_m": 5148,
+        "max_pit_slot": 30
+      },
+      {
+        "token": "Nurburgring|Nordschleife|Nordschleife Race|20832",
+        "display": "Nurburgring Nordschleife [20,83km] (pit:22)",
+        "track": "Nurburgring",
+        "layout": "Nordschleife",
+        "event_name": "Nordschleife Race",
+        "length_m": 20832,
+        "max_pit_slot": 22
+      },
+      {
+        "token": "Nurburgring|Sprint|Sprint Race|3629",
+        "display": "Nurburgring Sprint [3,63km] (pit:30)",
+        "track": "Nurburgring",
+        "layout": "Sprint",
+        "event_name": "Sprint Race",
+        "length_m": 3629,
+        "max_pit_slot": 30
+      },
+      {
+        "token": "Oulton Park|International|International Race|4333",
+        "display": "Oulton Park International [4,33km] (pit:16)",
+        "track": "Oulton Park",
+        "layout": "International",
+        "event_name": "International Race",
+        "length_m": 4333,
+        "max_pit_slot": 16
+      },
+      {
+        "token": "Oulton Park|Fosters|Fosters Race|2662",
+        "display": "Oulton Park Fosters [2,66km] (pit:16)",
+        "track": "Oulton Park",
+        "layout": "Fosters",
+        "event_name": "Fosters Race",
+        "length_m": 2662,
+        "max_pit_slot": 16
+      },
+      {
+        "token": "Paul Ricard|Layout 1A-V2|Layout 1A-V2 Race|5770",
+        "display": "Paul Ricard Layout 1A-V2 [5,77km] (pit:34)",
+        "track": "Paul Ricard",
+        "layout": "Layout 1A-V2",
+        "event_name": "Layout 1A-V2 Race",
+        "length_m": 5770,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Paul Ricard|Layout 1C-V2|Layout 1C-V2 Race|5842",
+        "display": "Paul Ricard Layout 1C-V2 [5,84km] (pit:34)",
+        "track": "Paul Ricard",
+        "layout": "Layout 1C-V2",
+        "event_name": "Layout 1C-V2 Race",
+        "length_m": 5842,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Paul Ricard|Layout 3A|Layout 3A Race|3793",
+        "display": "Paul Ricard Layout 3A [3,79km] (pit:34)",
+        "track": "Paul Ricard",
+        "layout": "Layout 3A",
+        "event_name": "Layout 3A Race",
+        "length_m": 3793,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Paul Ricard|Layout 3C|Layout 3C Race|3841",
+        "display": "Paul Ricard Layout 3C [3,84km] (pit:34)",
+        "track": "Paul Ricard",
+        "layout": "Layout 3C",
+        "event_name": "Layout 3C Race",
+        "length_m": 3841,
+        "max_pit_slot": 34
+      },
+      {
+        "token": "Red Bull Ring|GP|GP Race|4318",
+        "display": "Red Bull Ring GP [4,32km] (pit:28)",
+        "track": "Red Bull Ring",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 4318,
+        "max_pit_slot": 28
+      },
+      {
+        "token": "Red Bull Ring|National|National Race|2336",
+        "display": "Red Bull Ring National [2,34km] (pit:28)",
+        "track": "Red Bull Ring",
+        "layout": "National",
+        "event_name": "National Race",
+        "length_m": 2336,
+        "max_pit_slot": 28
+      },
+      {
+        "token": "Road Atlanta|GP|GP Race|4088",
+        "display": "Road Atlanta GP [4,09km] (pit:28)",
+        "track": "Road Atlanta",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 4088,
+        "max_pit_slot": 28
+      },
+      {
+        "token": "Sebring International Raceway|GP|GP Race|5954",
+        "display": "Sebring International Raceway GP [5,95km] (pit:45)",
+        "track": "Sebring International Raceway",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 5954,
+        "max_pit_slot": 45
+      },
+      {
+        "token": "Suzuka|GP|GP Race|5807",
+        "display": "Suzuka GP [5,81km] (pit:25)",
+        "track": "Suzuka",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 5807,
+        "max_pit_slot": 25
+      },
+      {
+        "token": "Suzuka|East|East Race|2243",
+        "display": "Suzuka East [2,24km] (pit:25)",
+        "track": "Suzuka",
+        "layout": "East",
+        "event_name": "East Race",
+        "length_m": 2243,
+        "max_pit_slot": 25
+      },
+      {
+        "token": "Suzuka|West|West Race|3466",
+        "display": "Suzuka West [3,47km] (pit:10)",
+        "track": "Suzuka",
+        "layout": "West",
+        "event_name": "West Race",
+        "length_m": 3466,
+        "max_pit_slot": 10
+      },
+      {
+        "token": "Watkins Glen International|GP Inner Loop|GP Inner Loop Race|5552",
+        "display": "Watkins Glen International GP Inner Loop [5,55km] (pit:40)",
+        "track": "Watkins Glen International",
+        "layout": "GP Inner Loop",
+        "event_name": "GP Inner Loop Race",
+        "length_m": 5552,
+        "max_pit_slot": 40
+      },
+      {
+        "token": "Watkins Glen International|Short Inner Loop|Short Inner Loop Race|3943",
+        "display": "Watkins Glen International Short Inner Loop [3,94km] (pit:40)",
+        "track": "Watkins Glen International",
+        "layout": "Short Inner Loop",
+        "event_name": "Short Inner Loop Race",
+        "length_m": 3943,
+        "max_pit_slot": 40
+      },
+      {
+        "token": "Watkins Glen International|GP|GP Race|5435",
+        "display": "Watkins Glen International GP [5,43km] (pit:40)",
+        "track": "Watkins Glen International",
+        "layout": "GP",
+        "event_name": "GP Race",
+        "length_m": 5435,
+        "max_pit_slot": 40
+      },
+      {
+        "token": "Watkins Glen International|Short|Short Race|3907",
+        "display": "Watkins Glen International Short [3,91km] (pit:40)",
+        "track": "Watkins Glen International",
+        "layout": "Short",
+        "event_name": "Short Race",
+        "length_m": 3907,
+        "max_pit_slot": 40
+      }
+    ]
+  },
+  "enums": {
+    "server_type": [
+      {
+        "label": "Ranked",
+        "value": "MultiplayerServerListSessionType_RANKED"
+      },
+      {
+        "label": "Unranked",
+        "value": "MultiplayerServerListSessionType_UNRANKED"
+      }
+    ],
+    "tuning_type": [
+      {
+        "label": "Tuning Allowed",
+        "value": "TuningAllowed"
+      },
+      {
+        "label": "Tuning Denied",
+        "value": "TuningDenied"
+      }
+    ],
+    "event_type": [
+      {
+        "label": "Practice",
+        "value": "GameModeType_PRACTICE"
+      },
+      {
+        "label": "Race Weekend",
+        "value": "GameModeType_RACE_WEEKEND"
+      }
+    ],
+    "initial_grip": [
+      {
+        "label": "Green",
+        "value": "InitialGrip_GREEN"
+      },
+      {
+        "label": "Fast",
+        "value": "InitialGrip_FAST"
+      },
+      {
+        "label": "Optimum",
+        "value": "InitialGrip_OPTIMUM"
+      }
+    ],
+    "weather": [
+      {
+        "label": "Clear",
+        "value": "GameModeSelectionWeatherType_CLEAR"
+      },
+      {
+        "label": "Scattered Clouds",
+        "value": "GameModeSelectionWeatherType_SCATTERED_CLOUDS"
+      },
+      {
+        "label": "Broken Clouds",
+        "value": "GameModeSelectionWeatherType_BROKEN_CLOUDS"
+      },
+      {
+        "label": "Overcast",
+        "value": "GameModeSelectionWeatherType_OVERCAST"
+      },
+      {
+        "label": "Drizzle",
+        "value": "GameModeSelectionWeatherType_DRIZZLE"
+      },
+      {
+        "label": "Rain",
+        "value": "GameModeSelectionWeatherType_RAIN"
+      },
+      {
+        "label": "Heavy Rain",
+        "value": "GameModeSelectionWeatherType_HEAVY_RAIN"
+      },
+      {
+        "label": "Damp",
+        "value": "GameModeSelectionWeatherType_DAMP"
+      }
+    ],
+    "weather_behaviour": [
+      {
+        "label": "Static",
+        "value": "GameModeSelectionWeatherBehaviour_STATIC"
+      },
+      {
+        "label": "Dynamic",
+        "value": "GameModeSelectionWeatherBehaviour_DYNAMIC"
+      }
+    ],
+    "duration_type": [
+      {
+        "label": "Time",
+        "value": "GameModeSelectionDuration_TIME"
+      },
+      {
+        "label": "Laps",
+        "value": "GameModeSelectionDuration_LAPS"
+      }
+    ]
+  },
+  "categories": {
+    "type": [
+      {
+        "value": "road",
+        "label": "Road"
+      },
+      {
+        "value": "race",
+        "label": "Race"
+      },
+      {
+        "value": "track",
+        "label": "Track"
+      }
+    ],
+    "era": [
+      {
+        "value": "modern",
+        "label": "Modern"
+      },
+      {
+        "value": "vintage",
+        "label": "Vintage"
+      },
+      {
+        "value": "yt",
+        "label": "YT"
+      }
+    ],
+    "engine": [
+      {
+        "value": "ice",
+        "label": "ICE"
+      },
+      {
+        "value": "ev",
+        "label": "EV"
+      },
+      {
+        "value": "hybrid",
+        "label": "Hybrid"
+      }
+    ],
+    "class": [
+      {
+        "value": "f1",
+        "label": "F1"
+      },
+      {
+        "value": "gt3",
+        "label": "GT3"
+      },
+      {
+        "value": "gt2",
+        "label": "GT2"
+      },
+      {
+        "value": "gt4",
+        "label": "GT4"
+      },
+      {
+        "value": "cup",
+        "label": "Cup / One-make"
+      }
+    ]
+  },
+  "defaults": {
+    "server": {
+      "server_name": "AC EVO Nordschleife Trackday",
+      "max_players": 20,
+      "tcp_port": 9700,
+      "udp_port": 9700,
+      "http_port": 8080,
+      "server_type": "MultiplayerServerListSessionType_RANKED",
+      "tuning_type": "TuningAllowed",
+      "cycle_enabled": true,
+      "driver_password": "fixture-secret-driver_password",
+      "spectator_password": "fixture-secret-spectator_password",
+      "admin_password": "fixture-secret-admin_password",
+      "entry_list_url": "",
+      "results_post_url": "",
+      "entry_list_path": "",
+      "results_path": ""
+    },
+    "event": {
+      "type": "GameModeType_PRACTICE",
+      "weather": "GameModeSelectionWeatherType_CLEAR",
+      "weather_behaviour": "GameModeSelectionWeatherBehaviour_STATIC",
+      "initial_grip": "InitialGrip_OPTIMUM",
+      "show_only_selected": false
+    },
+    "sessions": {
+      "practice": {
+        "length_sec": 300,
+        "hour": 16,
+        "minute": 0,
+        "time_multiplier": 1,
+        "max_wait_to_box": 10,
+        "overtime_waiting_next_session": 10,
+        "min_waiting_for_players": 10,
+        "max_waiting_for_players": 30
+      },
+      "qualify": {
+        "length_sec": 300,
+        "hour": 16,
+        "minute": 0,
+        "time_multiplier": 1,
+        "max_wait_to_box": 10,
+        "overtime_waiting_next_session": 10,
+        "min_waiting_for_players": 10,
+        "max_waiting_for_players": 30
+      },
+      "warmup": {
+        "length_sec": 300,
+        "hour": 16,
+        "minute": 0,
+        "time_multiplier": 1,
+        "max_wait_to_box": 10,
+        "overtime_waiting_next_session": 10,
+        "min_waiting_for_players": 10,
+        "max_waiting_for_players": 30
+      },
+      "race": {
+        "length_sec": 300,
+        "hour": 16,
+        "minute": 0,
+        "time_multiplier": 1,
+        "max_wait_to_box": 10,
+        "overtime_waiting_next_session": 10,
+        "min_waiting_for_players": 10,
+        "max_waiting_for_players": 30,
+        "duration_type": "GameModeSelectionDuration_TIME",
+        "laps": 10,
+        "mandatory_pitstop_enabled": false,
+        "mandatory_pitstop_window_seconds": 600,
+        "mandatory_pitstop_refuel": true,
+        "mandatory_pitstop_tyre_change": true
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "suzuka-west",
+  "name": "Suzuka West",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    34.825,
+    136.52,
+    34.86,
+    136.56
+  ],
+  "direction": "counterclockwise",
+  "official_length_m": 3466,
+  "notes": "Mitad oeste: Degner, Hairpin, Spoon, recta oeste y 130R; el enlace 411296898 sube de 130R a la recta NIPPO y se puentea con cuerdas de 18 y 53 m.",
+  "ways": [
+    411295349,
+    183391641,
+    183391656,
+    183391664,
+    183391655,
+    183391662,
+    183391658,
+    183391646,
+    183391659,
+    183391651,
+    411295347,
+    183391649,
+    183391647,
+    411295351,
+    183391648,
+    411295348,
+    175231434,
+    183391652,
+    183391660,
+    411296898
+  ],
+  "start": {
+    "way": 411295348,
+    "fraction": 0.5
+  },
+  "turns": [
+    {
+      "name": "Degner",
+      "way": 183391641
+    },
+    {
+      "name": "Hairpin",
+      "way": 183391646
+    },
+    {
+      "name": "Spoon",
+      "way": 411295351
+    },
+    {
+      "name": "130R",
+      "way": 183391652
+    }
+  ]
+}

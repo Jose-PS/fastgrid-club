@@ -1,0 +1,686 @@
+{
+  "config_path": "/data/server_launcher.json",
+  "form": {
+    "server": {
+      "server_name": "Tes as rodas Lambidas!!! --- NO DRIFT",
+      "max_players": 24,
+      "max_players_limit": 35,
+      "tcp_port": 9700,
+      "udp_port": 9700,
+      "http_port": 8080,
+      "server_type": "MultiplayerServerListSessionType_UNRANKED",
+      "tuning_type": "TuningAllowed",
+      "cycle_enabled": true,
+      "driver_password": "fixture-secret-driver_password",
+      "spectator_password": "fixture-secret-spectator_password",
+      "admin_password": "fixture-secret-admin_password",
+      "entry_list_url": "",
+      "results_post_url": "",
+      "entry_list_path": "",
+      "results_path": ""
+    },
+    "event": {
+      "type": "GameModeType_RACE_WEEKEND",
+      "weather": "GameModeSelectionWeatherType_CLEAR",
+      "weather_behaviour": "GameModeSelectionWeatherBehaviour_STATIC",
+      "initial_grip": "InitialGrip_OPTIMUM",
+      "track": "Mount Panorama|GP|GP Race|6213",
+      "show_only_selected": false
+    },
+    "cars": [
+      {
+        "name": "preset_695b_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_75t_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_gtam_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_sprintgta_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_mln_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_a110s_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_a290b_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_r8gt2_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_r8gt3_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_r8gt4_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_r8v10_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_rs3_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_rs6_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_sq_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_m2_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_m2_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_m2csr_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_m2csr_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_m3evoiii_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_e46csl_mech_1",
+        "is_selected": true,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_m4csl_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_m4gt3_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_m8c_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "ks_caterham_485_csr_mech_3",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "ks_caterham_485_csr_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "ks_caterham_485_csr_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "ks_caterham_acmd_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_zl1_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_zl1_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_dalexp_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_dalsc_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_dalsc_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_dalsc_mech_3",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_240z_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_240z_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_288gto_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_296gt3_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_296gtb_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_296gtb_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_f488ce_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_sp3_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_f2004_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_f40lm_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_sf25_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_escortrs_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_msggt3_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_nsxr_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_s2000ap1_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_i30n_hb_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_i30n_hb_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_xbgt2_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_xbgt4_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_cntqv_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_stevo2_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_sto_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_sto_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_hfevoii_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_hfevoii_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_emira_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_emira_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_exigev6_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_exigev6_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_mcgt2_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_mx5na_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_mx5na_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_mx5ndcup_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_mx5ndcup_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_rx7fd_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_amggt2_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_190e_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_jcs_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_jcs_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_t16_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_gt4csmr_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_718gt4rs_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_718gt4rs_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_gt2rscs_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_992c_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_992c_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_992c_mech_3",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_992ren_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_992ren_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_gt3rs_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_gt3rs_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_964_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_964_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_935_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_r5gt_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_gr86_mech_3",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_gr86_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_gr86_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_ae86_mech_4",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_ae86_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_ae86_mech_3",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_ae86_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_supramkiv_mech_2",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_supramkiv_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_mk8gti_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_mk8r_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      },
+      {
+        "name": "preset_gtimk1_mech_1",
+        "is_selected": false,
+        "ballast": 0.0,
+        "restrictor": 0.0
+      }
+    ],
+    "sessions": {
+      "practice": {
+        "length_sec": 0,
+        "hour": 14,
+        "minute": 0,
+        "time_multiplier": 1,
+        "max_wait_to_box": 10,
+        "overtime_waiting_next_session": 10,
+        "min_waiting_for_players": 10,
+        "max_waiting_for_players": 30
+      },
+      "qualify": {
+        "length_sec": 900,
+        "hour": 14,
+        "minute": 0,
+        "time_multiplier": 1,
+        "max_wait_to_box": 10,
+        "overtime_waiting_next_session": 10,
+        "min_waiting_for_players": 10,
+        "max_waiting_for_players": 30
+      },
+      "warmup": {
+        "length_sec": 0,
+        "hour": 14,
+        "minute": 0,
+        "time_multiplier": 1,
+        "max_wait_to_box": 10,
+        "overtime_waiting_next_session": 10,
+        "min_waiting_for_players": 10,
+        "max_waiting_for_players": 30
+      },
+      "race": {
+        "length_sec": 900,
+        "hour": 14,
+        "minute": 0,
+        "time_multiplier": 1,
+        "max_wait_to_box": 10,
+        "overtime_waiting_next_session": 10,
+        "min_waiting_for_players": 10,
+        "max_waiting_for_players": 60,
+        "duration_type": "GameModeSelectionDuration_TIME",
+        "laps": 10,
+        "mandatory_pitstop_enabled": false,
+        "mandatory_pitstop_window_seconds": 600,
+        "mandatory_pitstop_refuel": true,
+        "mandatory_pitstop_tyre_change": true
+      }
+    }
+  },
+  "config_source": "dashboard",
+  "environment_available": true,
+  "dashboard_available": true,
+  "source_switch_available": true,
+  "source_warning": ""
+}

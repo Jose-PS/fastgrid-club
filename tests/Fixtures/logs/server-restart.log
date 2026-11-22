@@ -1,0 +1,418 @@
+[2026-10-20 16:11:47.106] [network] [info] Received Ping from 192.0.2.53 [56442]
+[2026-10-20 16:11:47.921] [network] [info] Received Ping from 192.0.2.54 [26055]
+[2026-10-20 16:12:09.433] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 16:12:09.433] [gameplay] [info] On Split start false end false id 0 splittime 23967
+Stopping AssettoCorsaEVOServer.exe (pid=1003)
+AssettoCorsaEVOServer.exe exited with code 143
+X connection to :99 broken (explicit kill or server shutdown).
+X connection to :99 broken (explicit kill or server shutdown).
+X connection to :99 broken (explicit kill or server shutdown).
+free(): corrupted unsorted chunks
+Runtime fingerprint: proton='unknown' app_id=4564210 install_dir=/data/server display=:99
+Runtime rendering: ACEVO_FORCE_SOFTWARE_RENDERING=true
+Runtime resources detected: cpu_limit=1.50 mem_limit=2048 MiB
+WARNING: Resource limits are below recommended minimum for AC EVO.
+Recommendation: allocate at least 2 CPU cores and 4 GiB RAM to the container.
+Generating launch payload blobs from ENV ...
+Starting dedicated server with Proton + Xvfb (:99): /data/server/AssettoCorsaEVOServer.exe
+Started AssettoCorsaEVOServer.exe (pid=1134)
+ProtonFixes[1134] WARN: Skipping fix execution. We are probably running a unit test.
+ProtonFixes[1134] WARN: Skipping fix execution. We are probably running a unit test.
+fsync: up and running.
+[2026-10-20 16:13:04.545] [others] [info] Build release 0.9.1, version 0.9.1+release.4, revision 877dc5a16ab915ec3c01ff601c6cf79cde8726c8, steam appid 3058630, built on Aug 28 2026 13:19:36
+[2026-10-20 16:13:04.546] [others] [info] TimeDateStamp: 0x6A9171AE (2026-08-28 11:31:58 UTC)
+[2026-10-20 16:13:04.547] [others] [info] DbgHelp path: C:\windows\system32\dbghelp.dll
+[2026-10-20 16:13:04.547] [others] [info] DbgHelp version: 6.1.7601.17514
+[2026-10-20 16:13:04.838] [others] [info] Symbol search path: .;Z:\data\server
+[2026-10-20 16:13:04.839] [others] [info] Module: Z:\data\server\AssettoCorsaEVOServer.exe Base: 0x6FFFFCB30000 Size: 40218624
+[2026-10-20 16:13:04.839] [others] [info] Module: C:\windows\system32\ntdll.dll Base: 0x6FFFFFEF0000 Size: 745472
+[2026-10-20 16:13:04.839] [others] [info] Module: C:\windows\system32\kernel32.dll Base: 0x6FFFFFE80000 Size: 393216
+[2026-10-20 16:13:04.839] [others] [info] Module: C:\windows\system32\kernelbase.dll Base: 0x6FFFFFBC0000 Size: 2789376
+[2026-10-20 16:13:04.839] [others] [info] Module: C:\windows\system32\CRYPT32.dll Base: 0x6FFFFCA40000 Size: 860160
+[2026-10-20 16:13:04.840] [others] [info] Module: C:\windows\system32\advapi32.dll Base: 0x6FFFFFB60000 Size: 270336
+[2026-10-20 16:13:04.840] [others] [info] Module: C:\windows\system32\msvcrt.dll Base: 0x6FFFFFAA0000 Size: 663552
+[2026-10-20 16:13:04.840] [others] [info] Module: C:\windows\system32\rpcrt4.dll Base: 0x6FFFFFA00000 Size: 536576
+[2026-10-20 16:13:04.840] [others] [info] Module: C:\windows\system32\ucrtbase.dll Base: 0x6FFFFF910000 Size: 856064
+[2026-10-20 16:13:04.840] [others] [info] Module: C:\windows\system32\sechost.dll Base: 0x6FFFFF8E0000 Size: 131072
+[2026-10-20 16:13:04.840] [others] [info] Module: C:\windows\system32\bcrypt.dll Base: 0x6FFFFFFD0000 Size: 110592
+[2026-10-20 16:13:04.841] [others] [info] Module: C:\windows\system32\user32.dll Base: 0x6FFFFF450000 Size: 1818624
+[2026-10-20 16:13:04.841] [others] [info] Module: C:\windows\system32\gdi32.dll Base: 0x6FFFFF3C0000 Size: 524288
+[2026-10-20 16:13:04.841] [others] [info] Module: C:\windows\system32\win32u.dll Base: 0x6FFFFF370000 Size: 245760
+[2026-10-20 16:13:04.841] [others] [info] Module: C:\windows\system32\WS2_32.dll Base: 0x6FFFFF8A0000 Size: 155648
+[2026-10-20 16:13:04.841] [others] [info] Module: Z:\data\server\libssl-3-x64.dll Base: 0x6FFFFC8E0000 Size: 1339392
+[2026-10-20 16:13:04.842] [others] [info] Module: Z:\data\server\libcrypto-3-x64.dll Base: 0x6FFFFC1D0000 Size: 7335936
+[2026-10-20 16:13:04.842] [others] [info] Module: C:\windows\system32\VCRUNTIME140.dll Base: 0x6FFFFC1B0000 Size: 49152
+[2026-10-20 16:13:04.842] [others] [info] Module: Z:\data\server\steam_api64.dll Base: 0x6FFFFC150000 Size: 315392
+[2026-10-20 16:13:04.842] [others] [info] Module: C:\windows\system32\SHELL32.dll Base: 0x6FFFFB800000 Size: 9687040
+[2026-10-20 16:13:04.842] [others] [info] Module: C:\windows\system32\shlwapi.dll Base: 0x6FFFFB7A0000 Size: 319488
+[2026-10-20 16:13:04.843] [others] [info] Module: C:\windows\system32\shcore.dll Base: 0x6FFFFB770000 Size: 94208
+[2026-10-20 16:13:04.843] [others] [info] Module: C:\windows\system32\HID.DLL Base: 0x6FFFFB750000 Size: 65536
+[2026-10-20 16:13:04.843] [others] [info] Module: C:\windows\system32\SETUPAPI.dll Base: 0x6FFFFF7E0000 Size: 495616
+[2026-10-20 16:13:04.843] [others] [info] Module: C:\windows\system32\XINPUT1_4.dll Base: 0x6FFFFB720000 Size: 73728
+[2026-10-20 16:13:04.843] [others] [info] Module: C:\windows\system32\DINPUT8.dll Base: 0x6FFFFB6C0000 Size: 278528
+[2026-10-20 16:13:04.844] [others] [info] Module: C:\windows\system32\comctl32.dll Base: 0x6FFFFB560000 Size: 1314816
+[2026-10-20 16:13:04.844] [others] [info] Module: C:\windows\system32\imm32.dll Base: 0x6FFFFF340000 Size: 122880
+[2026-10-20 16:13:04.844] [others] [info] Module: C:\windows\system32\oleacc.dll Base: 0x6FFFFB520000 Size: 196608
+[2026-10-20 16:13:04.844] [others] [info] Module: C:\windows\system32\ole32.dll Base: 0x6FFFFB450000 Size: 753664
+[2026-10-20 16:13:04.844] [others] [info] Module: C:\windows\system32\combase.dll Base: 0x6FFFFB3F0000 Size: 315392
+[2026-10-20 16:13:04.845] [others] [info] Module: C:\windows\system32\coml2.dll Base: 0x6FFFFB3C0000 Size: 114688
+[2026-10-20 16:13:04.845] [others] [info] Module: C:\windows\system32\oleaut32.dll Base: 0x6FFFFB2D0000 Size: 892928
+[2026-10-20 16:13:04.845] [others] [info] Module: C:\windows\system32\VERSION.dll Base: 0x6FFFFB2B0000 Size: 53248
+[2026-10-20 16:13:04.845] [others] [info] Module: C:\windows\system32\MSVCP140.dll Base: 0x6FFFFB1C0000 Size: 872448
+[2026-10-20 16:13:04.845] [others] [info] Module: C:\windows\system32\WINMM.dll Base: 0x6FFFFB0E0000 Size: 790528
+[2026-10-20 16:13:04.846] [others] [info] Module: C:\windows\system32\msacm32.dll Base: 0x6FFFFB0B0000 Size: 131072
+[2026-10-20 16:13:04.846] [others] [info] Module: C:\windows\system32\WINTRUST.dll Base: 0x6FFFFB070000 Size: 159744
+[2026-10-20 16:13:04.846] [others] [info] Module: C:\windows\system32\imagehlp.dll Base: 0x6FFFFB040000 Size: 69632
+[2026-10-20 16:13:04.847] [others] [info] Module: C:\windows\system32\dbghelp.dll Base: 0x6FFFFAFB0000 Size: 479232
+[2026-10-20 16:13:04.847] [others] [info] Module: C:\windows\system32\VCRUNTIME140_1.dll Base: 0x6FFFFAF90000 Size: 57344
+[2026-10-20 16:13:04.848] [others] [info] Module: C:\windows\system32\IPHLPAPI.DLL Base: 0x6FFFFF2B0000 Size: 184320
+[2026-10-20 16:13:04.848] [others] [info] Module: C:\windows\system32\dnsapi.dll Base: 0x6FFFFF280000 Size: 86016
+[2026-10-20 16:13:04.848] [others] [info] Module: C:\windows\system32\nsi.dll Base: 0x6FFFFF260000 Size: 53248
+[2026-10-20 16:13:04.848] [others] [info] Module: c:\windows\system32\winex11.drv Base: 0x6FFFFAF30000 Size: 45056
+[2026-10-20 16:13:04.849] [others] [info] Module: C:\windows\system32\uxtheme.dll Base: 0x6FFFFAEE0000 Size: 217088
+[2026-10-20 16:13:04.849] [others] [info] Module: C:\windows\system32\concrt140.dll Base: 0x6FFFFAD20000 Size: 159744
+[2026-10-20 16:13:05.379] [network] [info] Backend URL: strategy always_dev, config release
+[2026-10-20 16:13:05.454] [others] [info] QueryPerformanceFrequency: 10000
+[2026-10-20 16:13:05.780] [server] [info] Starting RemoteGameServer (protocol 8)... sv 14
+[2026-10-20 16:13:05.780] [server] [info] Reading serverconfig and seasondefintion from serverLauncher
+[2026-10-20 16:13:05.783] [others] [info] ServerConfiguration pasted
+[2026-10-20 16:13:05.785] [others] [info] BuildSeasonDefinitionRequest pasted
+[2026-10-20 16:13:05.785] [ui] [info] "content\\data\\race_weekend.seasondefinition" can't be loaded into SeasonDefinition (Encountered non UTF-8 code points.
+Race WeekendR�
+^)
+[2026-10-20 16:13:05.786] [gameplay] [info] loading season Race Weekend
+[2026-10-20 16:13:05.795] [server] [info] Start Server Tes as rodas Lambidas!!! --- NO DRIFT
+[2026-10-20 16:13:05.880] [gameplay] [info] 0 spawn points of StartingPositionType_DevelopmentDefault[0]
+[2026-10-20 16:13:05.880] [gameplay] [info] 30 spawn points of StartingPositionType_Grid[0]
+[2026-10-20 16:13:05.880] [gameplay] [info] 19 spawn points of StartingPositionType_Pit[0]
+[2026-10-20 16:13:05.881] [gameplay] [info] 19 spawn points of StartingPositionType_Box[0]
+[2026-10-20 16:13:05.881] [gameplay] [info] 0 spawn points of StartingPositionType_Poi[0]
+[2026-10-20 16:13:05.881] [gameplay] [info] Loaded 68 spawn points
+[2026-10-20 16:13:05.882] [gameplay] [info] TimeAttackRemote Practice created
+[2026-10-20 16:13:05.882] [server] [info] Allowed Cars: preset_e46csl_mech_1 0 0
+[2026-10-20 16:13:05.882] [server] [info] Season Definition
+[2026-10-20 16:13:05.910] [server] [info] {
+[2026-10-20 16:13:05.910] [server] [info]  "season_type": "SeasonDefinitionType_MultiPlayer",
+[2026-10-20 16:13:05.910] [server] [info]  "gamemode_type": "GameModeType_RACE_WEEKEND",
+[2026-10-20 16:13:05.910] [server] [info]  "no_leaderboard": true,
+[2026-10-20 16:13:05.910] [server] [info]  "cycle": true,
+[2026-10-20 16:13:05.910] [server] [info]  "name": "Tes as rodas Lambidas!!! --- NO DRIFT",
+[2026-10-20 16:13:05.910] [server] [info]  "event_map": {
+[2026-10-20 16:13:05.910] [server] [info]   "0": {
+[2026-10-20 16:13:05.910] [server] [info]    "name": "Race Weekend",
+[2026-10-20 16:13:05.910] [server] [info]    "session_map": {
+[2026-10-20 16:13:05.910] [server] [info]     "1": {
+[2026-10-20 16:13:05.910] [server] [info]      "name": "Qualifying",
+[2026-10-20 16:13:05.910] [server] [info]      "description": "",
+[2026-10-20 16:13:05.910] [server] [info]      "scene": {
+[2026-10-20 16:13:05.911] [server] [info]       "track_content_data": {
+[2026-10-20 16:13:05.911] [server] [info]        "name": "Donington Park",
+[2026-10-20 16:13:05.911] [server] [info]        "nation": "GBR",
+[2026-10-20 16:13:05.911] [server] [info]        "continent": "Europe",
+[2026-10-20 16:13:05.911] [server] [info]        "coordinates": {
+[2026-10-20 16:13:05.911] [server] [info]         "longitude": -1.372,
+[2026-10-20 16:13:05.911] [server] [info]         "latitude": 52.825
+[2026-10-20 16:13:05.911] [server] [info]        },
+[2026-10-20 16:13:05.911] [server] [info]        "timezone": "TimeZone_UnitedKingdom",
+[2026-10-20 16:13:05.911] [server] [info]        "folder_path": "content\\tracks\\donington",
+[2026-10-20 16:13:05.911] [server] [info]        "file_path": "content\\tracks\\donington\\donington.scene",
+[2026-10-20 16:13:05.911] [server] [info]        "track_data_path": "content\\tracks\\donington\\donington.track",
+[2026-10-20 16:13:05.911] [server] [info]        "sky_rules": "SkyRules_Procedural",
+[2026-10-20 16:13:05.911] [server] [info]        "is_release": true,
+[2026-10-20 16:13:05.911] [server] [info]        "is_testing_disabled": false
+[2026-10-20 16:13:05.911] [server] [info]       },
+[2026-10-20 16:13:05.911] [server] [info]       "event_name": "National Time Attack",
+[2026-10-20 16:13:05.911] [server] [info]       "physics_type": "ScenePhysicsType_Realtime",
+[2026-10-20 16:13:05.911] [server] [info]       "spawn": {
+[2026-10-20 16:13:05.911] [server] [info]        "position": {
+[2026-10-20 16:13:05.911] [server] [info]         "x": 0,
+[2026-10-20 16:13:05.911] [server] [info]         "y": 0,
+[2026-10-20 16:13:05.911] [server] [info]         "z": 0
+[2026-10-20 16:13:05.911] [server] [info]        },
+[2026-10-20 16:13:05.911] [server] [info]        "rotation": {
+[2026-10-20 16:13:05.911] [server] [info]         "x": 0,
+[2026-10-20 16:13:05.911] [server] [info]         "y": 0,
+[2026-10-20 16:13:05.911] [server] [info]         "z": 0
+[2026-10-20 16:13:05.911] [server] [info]        },
+[2026-10-20 16:13:05.911] [server] [info]        "scale": {
+[2026-10-20 16:13:05.911] [server] [info]         "x": 1,
+[2026-10-20 16:13:05.911] [server] [info]         "y": 1,
+[2026-10-20 16:13:05.911] [server] [info]         "z": 1
+[2026-10-20 16:13:05.911] [server] [info]        }
+[2026-10-20 16:13:05.911] [server] [info]       },
+[2026-10-20 16:13:05.911] [server] [info]       "containers": [
+[2026-10-20 16:13:05.911] [server] [info]        "content\\tracks\\donington\\containers\\camera_sequence_practice.scene",
+[2026-10-20 16:13:05.911] [server] [info]        "content\\tracks\\donington\\containers\\digital_flags_national.scene",
+[2026-10-20 16:13:05.911] [server] [info]        "content\\tracks\\donington\\containers\\layout_national.scene",
+[2026-10-20 16:13:05.911] [server] [info]        "content\\tracks\\donington\\containers\\marshalls_national.scene",
+[2026-10-20 16:13:05.911] [server] [info]        "content\\tracks\\donington\\containers\\people_national.scene",
+[2026-10-20 16:13:05.911] [server] [info]        "content\\tracks\\donington\\containers\\pit_spawns.scene",
+[2026-10-20 16:13:05.911] [server] [info]        "content\\tracks\\donington\\containers\\pitlane_race.scene",
+[2026-10-20 16:13:05.911] [server] [info]        "content\\tracks\\donington\\containers\\timelines_national.scene",
+[2026-10-20 16:13:05.911] [server] [info]        "content\\tracks\\donington\\containers\\tv1_cameras_national.scene",
+[2026-10-20 16:13:05.911] [server] [info]        "content\\tracks\\donington\\containers\\tv2_cameras_national.scene",
+[2026-10-20 16:13:05.911] [server] [info]        "content\\tracks\\donington\\containers\\vr_cameras_national.scene"
+[2026-10-20 16:13:05.911] [server] [info]       ],
+[2026-10-20 16:13:05.911] [server] [info]       "force_scene_change": false,
+[2026-10-20 16:13:05.911] [server] [info]       "layout_image": {
+[2026-10-20 16:13:05.911] [server] [info]        "margin": 10,
+[2026-10-20 16:13:05.911] [server] [info]        "min_x": -660.816,
+[2026-10-20 16:13:05.911] [server] [info]        "min_y": -274.973,
+[2026-10-20 16:13:05.911] [server] [info]        "k_multiplier": 1379.26392,
+[2026-10-20 16:13:05.911] [server] [info]        "offset_x": 0,
+[2026-10-20 16:13:05.911] [server] [info]        "offset_y": 653.234314
+[2026-10-20 16:13:05.911] [server] [info]       },
+[2026-10-20 16:13:05.911] [server] [info]       "track_layout_name": "National"
+[2026-10-20 16:13:05.911] [server] [info]      },
+[2026-10-20 16:13:05.911] [server] [info]      "scene_file": "",
+[2026-10-20 16:13:05.911] [server] [info]      "scene_source": "Custom",
+[2026-10-20 16:13:05.911] [server] [info]      "specialization": {
+[2026-10-20 16:13:05.911] [server] [info]       "@type": "type.googleapis.com/TimeAttack.Specialization",
+[2026-10-20 16:13:05.911] [server] [info]       "base": {
+[2026-10-20 16:13:05.911] [server] [info]        "session_duration_ms": 1800000,
+[2026-10-20 16:13:05.911] [server] [info]        "session_laps": 0,
+[2026-10-20 16:13:05.911] [server] [info]        "maximum_session_overtime_duration_ms": 10000,
+[2026-10-20 16:13:05.911] [server] [info]        "maximum_session_overtime_before_next_session": 10000,
+[2026-10-20 16:13:05.911] [server] [info]        "intro_music": true,
+[2026-10-20 16:13:05.911] [server] [info]        "end_music": true,
+[2026-10-20 16:13:05.911] [server] [info]        "end_replay_type": "None"
+[2026-10-20 16:13:05.911] [server] [info]       },
+[2026-10-20 16:13:05.911] [server] [info]       "base_file": "",
+[2026-10-20 16:13:05.911] [server] [info]       "base_source": "Custom",
+[2026-10-20 16:13:05.911] [server] [info]       "penalty_transformations": {
+[2026-10-20 16:13:05.911] [server] [info]        "transformations": []
+[2026-10-20 16:13:05.911] [server] [info]       },
+[2026-10-20 16:13:05.911] [server] [info]       "penalty_transformations_file": "EA1",
+[2026-10-20 16:13:05.911] [server] [info]       "penalty_transformations_source": "Custom",
+[2026-10-20 16:13:05.911] [server] [info]       "penalty_investigations": {
+[2026-10-20 16:13:05.911] [server] [info]        "triggers": [
+[2026-10-20 16:13:05.911] [server] [info]         {
+[2026-10-20 16:13:05.911] [server] [info]          "race_car_cut": {
+[2026-10-20 16:13:05.911] [server] [info]           "tyres_out": 3,
+[2026-10-20 16:13:05.911] [server] [info]           "wet_multiplier": 0
+[2026-10-20 16:13:05.911] [server] [info]          },
+[2026-10-20 16:13:05.911] [server] [info]          "command_name": "",
+[2026-10-20 16:13:05.911] [server] [info]          "checks": []
+[2026-10-20 16:13:05.911] [server] [info]         },
+[2026-10-20 16:13:05.911] [server] [info]         {
+[2026-10-20 16:13:05.911] [server] [info]          "wrong_way": {
+[2026-10-20 16:13:05.911] [server] [info]           "min_speed": 2,
+[2026-10-20 16:13:05.911] [server] [info]           "speed_multiplier": 0.1,
+[2026-10-20 16:13:05.911] [server] [info]           "out_of_track_multiplier": 2
+[2026-10-20 16:13:05.911] [server] [info]          },
+[2026-10-20 16:13:05.911] [server] [info]          "command_name": "",
+[2026-10-20 16:13:05.911] [server] [info]          "checks": [
+[2026-10-20 16:13:05.911] [server] [info]           {
+[2026-10-20 16:13:05.911] [server] [info]            "data": {
+[2026-10-20 16:13:05.911] [server] [info]             "type": "PenaltyType_Warning",
+[2026-10-20 16:13:05.911] [server] [info]             "penalty_time_ms": 0,
+[2026-10-20 16:13:05.911] [server] [info]             "laps_for_clearing": 0
+[2026-10-20 16:13:05.911] [server] [info]            },
+[2026-10-20 16:13:05.911] [server] [info]            "weight": 30
+[2026-10-20 16:13:05.911] [server] [info]           },
+[2026-10-20 16:13:05.911] [server] [info]           {
+[2026-10-20 16:13:05.911] [server] [info]            "data": {
+[2026-10-20 16:13:05.911] [server] [info]             "type": "PenaltyType_Disqualification",
+[2026-10-20 16:13:05.911] [server] [info]             "penalty_time_ms": 0,
+[2026-10-20 16:13:05.911] [server] [info]             "laps_for_clearing": 0
+[2026-10-20 16:13:05.911] [server] [info]            },
+[2026-10-20 16:13:05.911] [server] [info]            "weight": 100
+[2026-10-20 16:13:05.911] [server] [info]           }
+[2026-10-20 16:13:05.911] [server] [info]          ]
+[2026-10-20 16:13:05.911] [server] [info]         },
+[2026-10-20 16:13:05.911] [server] [info]         {
+[2026-10-20 16:13:05.911] [server] [info]          "speeding": {
+[2026-10-20 16:13:05.911] [server] [info]           "required_speed": 60,
+[2026-10-20 16:13:05.911] [server] [info]           "check_if_higher": true
+[2026-10-20 16:13:05.911] [server] [info]          },
+[2026-10-20 16:13:05.911] [server] [info]          "command_name": "pitlane",
+[2026-10-20 16:13:05.911] [server] [info]          "checks": [
+[2026-10-20 16:13:05.911] [server] [info]           {
+[2026-10-20 16:13:05.911] [server] [info]            "data": {
+[2026-10-20 16:13:05.911] [server] [info]             "type": "PenaltyType_Warning",
+[2026-10-20 16:13:05.911] [server] [info]             "penalty_time_ms": 0,
+[2026-10-20 16:13:05.911] [server] [info]             "laps_for_clearing": 0
+[2026-10-20 16:13:05.911] [server] [info]            },
+[2026-10-20 16:13:05.911] [server] [info]            "weight": 62
+[2026-10-20 16:13:05.911] [server] [info]           },
+[2026-10-20 16:13:05.911] [server] [info]           {
+[2026-10-20 16:13:05.911] [server] [info]            "data": {
+[2026-10-20 16:13:05.911] [server] [info]             "type": "PenaltyType_MP_TeleportToPit",
+[2026-10-20 16:13:05.911] [server] [info]             "penalty_time_ms": 10000,
+[2026-10-20 16:13:05.911] [server] [info]             "laps_for_clearing": 0
+[2026-10-20 16:13:05.911] [server] [info]            },
+[2026-10-20 16:13:05.911] [server] [info]            "weight": 70
+[2026-10-20 16:13:05.911] [server] [info]           }
+[2026-10-20 16:13:05.911] [server] [info]          ]
+[2026-10-20 16:13:05.911] [server] [info]         }
+[2026-10-20 16:13:05.911] [server] [info]        ]
+[2026-10-20 16:13:05.911] [server] [info]       },
+[2026-10-20 16:13:05.911] [server] [info]       "penalty_investigations_file": "EA1",
+[2026-10-20 16:13:05.911] [server] [info]       "penalty_investigations_source": "Custom",
+[2026-10-20 16:13:05.911] [server] [info]       "rules": []
+[2026-10-20 16:13:05.911] [server] [info]      },
+[2026-10-20 16:13:05.911] [server] [info]      "weather": {
+[2026-10-20 16:13:05.911] [server] [info]       "initial_date_time": {
+[2026-10-20 16:13:05.911] [server] [info]        "year": 2024,
+[2026-10-20 16:13:05.911] [server] [info]        "month": 8,
+[2026-10-20 16:13:05.911] [server] [info]        "day": 15,
+[2026-10-20 16:13:05.912] [server] [info]        "hour": 14,
+[2026-10-20 16:13:05.912] [server] [info]        "minute": 0,
+[2026-10-20 16:13:05.912] [server] [info]        "second": 0
+[2026-10-20 16:13:05.912] [server] [info]       },
+[2026-10-20 16:13:05.912] [server] [info]       "time_multiplier": 1,
+[2026-10-20 16:13:05.912] [server] [info]       "recalc_interval_seconds": 10,
+[2026-10-20 16:13:05.912] [server] [info]       "spatial_noise_data": {
+[2026-10-20 16:13:05.912] [server] [info]        "scale": 1,
+[2026-10-20 16:13:05.912] [server] [info]        "frequency": 0.0004,
+[2026-10-20 16:13:05.912] [server] [info]        "amplitude": 1.02,
+[2026-10-20 16:13:05.912] [server] [info]        "order": 17,
+[2026-10-20 16:13:05.912] [server] [info]        "seed": {
+[2026-10-20 16:13:05.912] [server] [info]         "x": 2.81,
+[2026-10-20 16:13:05.912] [server] [info]         "y": 4.47
+[2026-10-20 16:13:05.912] [server] [info]        }
+[2026-10-20 16:13:05.912] [server] [info]       },
+[2026-10-20 16:13:05.912] [server] [info]       "static_data": {
+[2026-10-20 16:13:05.912] [server] [info]        "static_weather": {
+[2026-10-20 16:13:05.912] [server] [info]         "now": {
+[2026-10-20 16:13:05.912] [server] [info]          "nanosecondsUtc": "0",
+[2026-10-20 16:13:05.912] [server] [info]          "timeZone": "TimeZone_UTC"
+[2026-10-20 16:13:05.912] [server] [info]         },
+[2026-10-20 16:13:05.912] [server] [info]         "sun_position": {
+[2026-10-20 16:13:05.912] [server] [info]          "x": 0,
+[2026-10-20 16:13:05.912] [server] [info]          "y": 0,
+[2026-10-20 16:13:05.912] [server] [info]          "z": 0
+[2026-10-20 16:13:05.912] [server] [info]         },
+[2026-10-20 16:13:05.912] [server] [info]         "moon_position": {
+[2026-10-20 16:13:05.912] [server] [info]          "x": 0,
+[2026-10-20 16:13:05.912] [server] [info]          "y": 0,
+[2026-10-20 16:13:05.912] [server] [info]          "z": 0
+[2026-10-20 16:13:05.912] [server] [info]         },
+[2026-10-20 16:13:05.912] [server] [info]         "mean_ambient_temperature_c": 23.3815117,
+[2026-10-20 16:13:05.912] [server] [info]         "ambient_temperature_c": 29.6889973,
+[2026-10-20 16:13:05.912] [server] [info]         "cloud_coverage": 0,
+[2026-10-20 16:13:05.912] [server] [info]         "gloominess": 0,
+[2026-10-20 16:13:05.912] [server] [info]         "precipitation": 0,
+[2026-10-20 16:13:05.912] [server] [info]         "fog": 0,
+[2026-10-20 16:13:05.912] [server] [info]         "humidity": 0,
+[2026-10-20 16:13:05.912] [server] [info]         "cloud_pos_x": 0,
+[2026-10-20 16:13:05.912] [server] [info]         "cloud_pos_y": 0,
+[2026-10-20 16:13:05.912] [server] [info]         "pressure_psi": 0,
+[2026-10-20 16:13:05.912] [server] [info]         "wind_speed": 0.2,
+[2026-10-20 16:13:05.912] [server] [info]         "wind_gust": 0.1,
+[2026-10-20 16:13:05.912] [server] [info]         "wind_direction": {
+[2026-10-20 16:13:05.912] [server] [info]          "x": 1,
+[2026-10-20 16:13:05.912] [server] [info]          "y": 0,
+[2026-10-20 16:13:05.912] [server] [info]          "z": 0
+[2026-10-20 16:13:05.912] [server] [info]         },
+[2026-10-20 16:13:05.912] [server] [info]         "initial_global_wetness": 0,
+[2026-10-20 16:13:05.912] [server] [info]         "is_dynamic_weather": false
+[2026-10-20 16:13:05.912] [server] [info]        }
+[2026-10-20 16:13:05.912] [server] [info]       }
+[2026-10-20 16:13:05.912] [server] [info]      },
+[2026-10-20 16:13:05.912] [server] [info]      "weather_type": "GameModeSelectionWeatherType_CLEAR",
+[2026-10-20 16:13:05.912] [server] [info]      "weather_file": "",
+[2026-10-20 16:13:05.912] [server] [info]      "weather_source": "Custom",
+[2026-10-20 16:13:05.912] [server] [info]      "weather_update_interval_seconds": 0,
+[2026-10-20 16:13:05.912] [server] [info]      "initial_grip": "InitialGrip_OPTIMUM",
+[2026-10-20 16:13:05.912] [server] [info]      "dynamic_track_condition": {
+[2026-10-20 16:13:05.912] [server] [info]       "initial_grip": 1,
+[2026-10-20 16:13:05.912] [server] [info]       "rubber": 1,
+[2026-10-20 16:13:05.912] [server] [info]       "marbles": 1
+[2026-10-20 16:13:05.912] [server] [info]      },
+[2026-10-20 16:13:05.912] [server] [info]      "car_model": [],
+[2026-10-20 16:13:05.912] [server] [info]      "starting_sequence": {
+[2026-10-20 16:13:05.912] [server] [info]       "best": {
+[2026-10-20 16:13:05.912] [server] [info]        "best_lap": 0
+[2026-10-20 16:13:05.912] [server] [info]       },
+[2026-10-20 16:13:05.912] [server] [info]       "session_index_ref": [
+[2026-10-20 16:13:05.912] [server] [info]        0
+[2026-10-20 16:13:05.912] [server] [info]       ]
+[2026-10-20 16:13:05.912] [server] [info]      },
+[2026-10-20 16:13:05.912] [server] [info]      "netcode_update_interval": 0,
+[2026-10-20 16:13:05.912] [server] [info]      "save_as_default": false,
+[2026-10-20 16:13:05.912] [server] [info]      "pause_replay_enable": false,
+[2026-10-20 16:13:05.912] [server] [info]      "pause_go_to_pitlane_enable": false,
+[2026-10-20 16:13:05.912] [server] [info]      "pause_restart_enable": false,
+[2026-10-20 16:13:05.912] [server] [info]      "crowd_density": 0.75
+[2026-10-20 16:13:05.912] [server] [info]     },
+[2026-10-20 16:13:05.912] [server] [info]     "0": {
+[2026-10-20 16:13:05.912] [server] [info]      "name": "Practice",
+[2026-10-20 16:13:05.912] [server] [info]      "description": "",
+[2026-10-20 16:13:05.912] [server] [info]      "scene": {
+[2026-10-20 16:13:05.912] [server] [info]       "track_content_data": {
+[2026-10-20 16:13:05.912] [server] [info]        "name": "Donington Park",
+[2026-10-20 16:13:05.912] [server] [info]        "nation": "GBR",
+[2026-10-20 16:13:05.912] [server] [info]        "continent": "Europe",
+[2026-10-20 16:13:05.912] [server] [info]        "coordinates": {
+[2026-10-20 16:13:05.912] [server] [info]         "longitude": -1.372,
+[2026-10-20 16:13:05.912] [server] [info]         "latitude": 52.825
+[2026-10-20 16:13:05.912] [server] [info]        },
+[2026-10-20 16:13:05.912] [server] [info]        "timezone": "TimeZone_UnitedKingdom",
+[2026-10-20 16:13:05.912] [server] [info]        "folder_path": "content\\tracks\\donington",
+[2026-10-20 16:13:05.912] [server] [info]        "file_path": "content\\tracks\\donington\\donington.scene",
+[2026-10-20 16:13:05.912] [server] [info]        "track_data_path": "content\\tracks\\donington\\donington.track",
+[2026-10-20 16:13:05.912] [server] [info]        "sky_rules": "SkyRules_Procedural",
+[2026-10-20 16:13:05.912] [server] [info]        "is_release": true,
+[2026-10-20 16:13:05.912] [server] [info]        "is_testing_disabled": false
+[2026-10-20 16:13:05.912] [server] [info]       },
+[2026-10-20 16:13:05.912] [server] [info]       "event_name": "National Time Attack",
+[2026-10-20 16:13:05.912] [server] [info]       "physics_type": "ScenePhysicsType_Realtime",
+[2026-10-20 16:13:05.912] [server] [info]       "spawn": {
+[2026-10-20 16:13:05.912] [server] [info]        "position": {
+[2026-10-20 16:13:05.912] [server] [info]         "x": 0,
+[2026-10-20 16:13:05.912] [server] [info]         "y": 0,
+[2026-10-20 16:13:05.912] [server] [info]         "z": 0
+[2026-10-20 16:13:05.912] [server] [info]        },
+[2026-10-20 16:13:05.912] [server] [info]        "rotation": {
+[2026-10-20 16:13:05.912] [server] [info]         "x": 0,
+[2026-10-20 16:13:05.912] [server] [info]         "y": 0,
+[2026-10-20 16:13:05.912] [server] [info]         "z": 0
+[2026-10-20 16:13:05.912] [server] [info]        },
+[2026-10-20 16:13:05.912] [server] [info]        "scale": {
+[2026-10-20 16:13:05.912] [server] [info]         "x": 1,
+[2026-10-20 16:13:05.912] [server] [info]         "y": 1,
+[2026-10-20 16:13:05.912] [server] [info]         "z": 1
+[2026-10-20 16:13:05.912] [server] [info]        }
+[2026-10-20 16:13:05.912] [server] [info]       },
+[2026-10-20 16:13:05.912] [server] [info]       "containers": [
+[2026-10-20 16:13:05.912] [server] [info]        "content\\tracks\\donington\\containers\\camera_sequence_practice.scene",
+[2026-10-20 16:13:05.912] [server] [info]        "content\\tracks\\donington\\containers\\digital_flags_national.scene",
+[2026-10-20 16:13:05.912] [server] [info]        "content\\tracks\\donington\\containers\\layout_national.scene",
+[2026-10-20 16:13:05.912] [server] [info]        "content\\tracks\\donington\\containers\\marshalls_national.scene",
+[2026-10-20 16:13:05.912] [server] [info]        "content\\tracks\\donington\\containers\\people_national.scene",
+[2026-10-20 16:13:05.912] [server] [info]        "content\\tracks\\donington\\containers\\pit_spawns.scene",
+[2026-10-20 16:13:05.912] [server] [info]        "content\\tracks\\donington\\containers\\pitlane_race.scene",
+[2026-10-20 16:13:05.912] [server] [info]        "content\\tracks\\donington\\containers\\timelines_national.scene",
+[2026-10-20 16:13:05.912] [server] [info]        "content\\tracks\\donington\\containers\\tv1_cameras_national.scene",
+[2026-10-20 16:13:05.912] [server] [info]        "content\\tracks\\donington\\containers\\tv2_cameras_national.scene",
+[2026-10-20 16:13:05.912] [server] [info]        "content\\tracks\\donington\\containers\\vr_cameras_national.scene"
+[2026-10-20 16:13:05.912] [server] [info]       ],
+[2026-10-20 16:13:05.912] [server] [info]       "force_scene_change": false,
+[2026-10-20 16:13:05.912] [server] [info]       "layout_image": {
+[2026-10-20 16:13:05.912] [server] [info]        "margin": 10,
+[2026-10-20 16:13:05.912] [server] [info]        "min_x": -660.816,
+[2026-10-20 16:13:05.912] [server] [info]        "min_y": -274.973,
+[2026-10-20 16:13:05.912] [server] [info]        "k_multiplier": 1379.26392,
+[2026-10-20 16:13:05.912] [server] [info]        "offset_x": 0,
+[2026-10-20 16:13:05.912] [server] [info]        "offset_y": 653.234314
+[2026-10-20 16:13:05.912] [server] [info]       },
+[2026-10-20 16:13:05.912] [server] [info]       "track_layout_name": "National"
+[2026-10-20 16:13:05.912] [server] [info]      },
+[2026-10-20 16:13:05.912] [server] [info]      "scene_file": "",
+[2026-10-20 16:13:05.912] [server] [info]      "scene_source": "Custom",
+[2026-10-20 16:13:05.912] [server] [info]      "specialization": {
+[2026-10-20 16:13:05.912] [server] [info]       "@type": "type.googleapis.com/TimeAttack.Specialization",
+[2026-10-20 16:13:05.912] [server] [info]       "base": {
+[2026-10-20 16:13:05.912] [server] [info]        "session_duration_ms": 1800000,
+[2026-10-20 16:13:05.912] [server] [info]        "session_laps": 0,
+[2026-10-20 16:13:05.912] [server] [info]        "maximum_session_overtime_duration_ms": 10000,
+[2026-10-20 16:13:05.912] [server] [info]        "maximum_session_overtime_before_next_session": 10000,
+[2026-10-20 16:13:05.912] [server] [info]        "intro_music": true,
+[2026-10-20 16:13:05.912] [server] [info]        "end_music": true,
+[2026-10-20 16:13:05.912] [server] [info]        "end_replay_type": "None"
+[2026-10-20 16:13:05.912] [server] [info]       },
+[2026-10-20 16:13:05.912] [server] [info]       "base_file": "",
+[2026-10-20 16:13:05.912] [server] [info]       "base_source": "Custom",
+[2026-10-20 16:13:05.912] [server] [info]       "penalty_transformations": {
+[2026-10-20 16:13:05.912] [server] [info]        "transformations": []

@@ -1,0 +1,17 @@
+services:
+  acevo-server:
+    cpus: 1.5
+    mem_limit: 2g
+    memswap_limit: 2.5g
+    restart: unless-stopped
+    ports: !override
+      - "9700:9700/tcp"
+      - "9700:9700/udp"
+      - "8080:8080/tcp"
+    networks:
+      - default
+      - edge
+
+networks:
+  edge:
+    external: true

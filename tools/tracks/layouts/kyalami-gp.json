@@ -1,0 +1,70 @@
+{
+  "slug": "kyalami-gp",
+  "name": "Kyalami GP",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    -26.01,
+    28.055,
+    -25.98,
+    28.09
+  ],
+  "direction": "anticlockwise",
+  "official_length_m": 4522,
+  "notes": "Circuito completo; sin karting ni pit lanes.",
+  "ways": [
+    532871442,
+    1359379864,
+    1359379865,
+    1359379866,
+    1359379867,
+    1359379868,
+    1359379869,
+    1359379870,
+    1359379863,
+    1359379871,
+    1359379872,
+    1359379873,
+    1359379874,
+    1359379875,
+    1359379876,
+    1359379877,
+    1359379878,
+    1359379879,
+    1359379880,
+    1359379881,
+    1359379882,
+    1359379883,
+    1359379884,
+    1359379885
+  ],
+  "start": {
+    "way": 532871442,
+    "fraction": 0.5
+  },
+  "turns": [
+    {
+      "name": "Crowthorne",
+      "way": 1359379866
+    },
+    {
+      "name": "Sunset",
+      "way": 1359379871
+    },
+    {
+      "name": "The Esses",
+      "way": 1359379875
+    },
+    {
+      "name": "Leeukop",
+      "way": 1359379877
+    },
+    {
+      "name": "Mineshaft",
+      "way": 1359379879
+    },
+    {
+      "name": "Ingwe",
+      "way": 1359379885
+    }
+  ]
+}

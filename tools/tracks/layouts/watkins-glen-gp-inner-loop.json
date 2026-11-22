@@ -1,0 +1,73 @@
+{
+  "slug": "watkins-glen-gp-inner-loop",
+  "name": "Watkins Glen GP Inner Loop",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    42.325,
+    -76.95,
+    42.355,
+    -76.91
+  ],
+  "direction": "clockwise",
+  "official_length_m": 5552,
+  "notes": "Variantes que OSM modela como vías separadas del mismo trazado. Con Inner Loop (428026652); OSM da 5473 m, la oficial del juego es 118 m mayor.",
+  "ways": [
+    20163576,
+    293208063,
+    293208062,
+    293208064,
+    293208074,
+    428026652,
+    293208056,
+    50262689,
+    409834185,
+    293208072,
+    293208069,
+    293208073,
+    293208066,
+    293208071,
+    293208068,
+    293208070,
+    293208065,
+    293208075,
+    293208067
+  ],
+  "start": {
+    "way": 293208075,
+    "fraction": 0.55
+  },
+  "turns": [
+    {
+      "name": "The Ninety",
+      "way": 293208067
+    },
+    {
+      "name": "The Esses",
+      "way": 293208062
+    },
+    {
+      "name": "Outer Loop",
+      "way": 293208056
+    },
+    {
+      "name": "The Chute",
+      "way": 409834185
+    },
+    {
+      "name": "The Toe",
+      "way": 293208069
+    },
+    {
+      "name": "The Heel",
+      "way": 293208066
+    },
+    {
+      "name": "The Boot",
+      "way": 293208068
+    },
+    {
+      "name": "Fast Lefthander",
+      "way": 293208065
+    }
+  ]
+}

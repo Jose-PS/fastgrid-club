@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"><defs><path id="a" d="M0 0"/></defs><use href="https://example.invalid/x.svg#a"/><use href="javascript:alert(1)"/></svg>

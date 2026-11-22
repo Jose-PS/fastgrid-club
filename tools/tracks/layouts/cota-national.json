@@ -1,0 +1,77 @@
+{
+  "slug": "cota-national",
+  "name": "Circuit of the Americas National",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    30.12,
+    -97.655,
+    30.145,
+    -97.62
+  ],
+  "direction": "anticlockwise",
+  "official_length_m": 3702,
+  "notes": "OSM no separa el National: se ensambla el atajo Short Course 1 (514820045), que nace en mitad de Turn 6 y se une a la recta de Turn 11 a 12; ambas vías se recortan por fracciones (trim).",
+  "ways": [
+    118256423,
+    118258957,
+    118258959,
+    118258939,
+    118258950,
+    118258954,
+    118258956,
+    514758200,
+    514820043,
+    514820041,
+    {
+      "id": 118258930,
+      "trim": [
+        0,
+        0.4087
+      ]
+    },
+    514820045,
+    {
+      "id": 1571489343,
+      "trim": [
+        0.4175,
+        1
+      ]
+    },
+    118258942,
+    118258947,
+    118258943,
+    118258961,
+    118258928,
+    514836010,
+    118258933,
+    118258937,
+    118258952,
+    514836011
+  ],
+  "start": {
+    "way": 118258939,
+    "fraction": 0.65
+  },
+  "turns": [
+    {
+      "name": "Curva 1",
+      "way": 118258950
+    },
+    {
+      "name": "Esses",
+      "way": 514758200
+    },
+    {
+      "name": "Curva 12",
+      "way": 118258942
+    },
+    {
+      "name": "Curva 15",
+      "way": 118258928
+    },
+    {
+      "name": "Curva 19",
+      "way": 118256423
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "sebring-gp",
+  "name": "Sebring GP",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    27.435,
+    -81.375,
+    27.47,
+    -81.335
+  ],
+  "direction": "clockwise",
+  "official_length_m": 5954,
+  "notes": "Circuito completo; sin Club Circuit ni pit lane. La salida está en la recta de boxes tras Sunset Bend.",
+  "ways": [
+    426154257,
+    426154259,
+    1315957552,
+    1315957553,
+    1315957550,
+    1315957551,
+    426154258,
+    1315957547,
+    1315957548,
+    1315957549,
+    1315957546,
+    1315957545,
+    1315957544,
+    1315957543,
+    1315957541,
+    1315957540,
+    1315957539,
+    1315957538,
+    1315957537
+  ],
+  "start": {
+    "way": 426154259,
+    "fraction": 0.25
+  },
+  "turns": [
+    {
+      "name": "Sunset Bend",
+      "way": 426154257
+    },
+    {
+      "name": "Hairpin",
+      "way": 1315957550
+    },
+    {
+      "name": "Cunningham",
+      "way": 1315957547
+    },
+    {
+      "name": "Tower Turn",
+      "way": 1315957545
+    },
+    {
+      "name": "Gendebien",
+      "way": 1315957540
+    },
+    {
+      "name": "Le Mans Curve",
+      "way": 1315957538
+    }
+  ]
+}

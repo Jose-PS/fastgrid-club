@@ -1,0 +1,1590 @@
+[2026-11-02 16:56:40.840] [gameplay] [info] loading season Race Weekend
+[2026-11-02 16:56:40.852] [server] [info] Start Server Tes as rodas Lambidas!!! --- NO DRIFT
+[2026-11-02 16:56:40.967] [gameplay] [info] 0 spawn points of StartingPositionType_DevelopmentDefault[0]
+[2026-11-02 16:56:40.967] [gameplay] [info] 24 spawn points of StartingPositionType_Grid[0]
+[2026-11-02 16:56:40.967] [gameplay] [info] 24 spawn points of StartingPositionType_Pit[0]
+[2026-11-02 16:56:40.967] [gameplay] [info] 24 spawn points of StartingPositionType_Box[0]
+[2026-11-02 16:56:40.967] [gameplay] [info] 0 spawn points of StartingPositionType_Poi[0]
+[2026-11-02 16:56:40.967] [gameplay] [info] Loaded 72 spawn points
+[2026-11-02 16:56:40.968] [gameplay] [info] TimeAttackRemote Qualifying created
+[2026-11-02 16:56:40.969] [server] [info] Allowed Cars: preset_gtam_mech_1 0 0
+[2026-11-02 16:56:40.969] [server] [info] Allowed Cars: preset_a110s_mech_1 0 0
+[2026-11-02 16:56:40.969] [server] [info] Allowed Cars: preset_rs3_mech_1 0 0
+[2026-11-02 16:56:40.969] [server] [info] Allowed Cars: preset_rs6_mech_1 0 0
+[2026-11-02 16:56:40.969] [server] [info] Allowed Cars: preset_m2_mech_2 0 0
+[2026-11-02 16:56:40.969] [server] [info] Allowed Cars: preset_m4csl_mech_1 0 0
+[2026-11-02 16:56:40.969] [server] [info] Allowed Cars: preset_m8c_mech_1 0 0
+[2026-11-02 16:56:40.969] [server] [info] Allowed Cars: preset_zl1_mech_2 0 0
+[2026-11-02 16:56:40.969] [server] [info] Allowed Cars: preset_zl1_mech_1 0 0
+[2026-11-02 16:56:40.969] [server] [info] Allowed Cars: preset_mk8gti_mech_1 0 0
+[2026-11-02 16:56:40.969] [server] [info] Allowed Cars: preset_mk8r_mech_1 0 0
+[2026-11-02 16:56:40.969] [server] [info] Season Definition
+[2026-11-02 16:56:40.973] [server] [info] {
+[2026-11-02 16:56:40.973] [server] [info]  "season_type": "SeasonDefinitionType_MultiPlayer",
+[2026-11-02 16:56:40.973] [server] [info]  "gamemode_type": "GameModeType_RACE_WEEKEND",
+[2026-11-02 16:56:40.973] [server] [info]  "no_leaderboard": false,
+[2026-11-02 16:56:40.973] [server] [info]  "cycle": true,
+[2026-11-02 16:56:40.973] [server] [info]  "name": "Tes as rodas Lambidas!!! --- NO DRIFT",
+[2026-11-02 16:56:40.973] [server] [info]  "event_map": {
+[2026-11-02 16:56:40.973] [server] [info]   "0": {
+[2026-11-02 16:56:40.973] [server] [info]    "name": "Race Weekend",
+[2026-11-02 16:56:40.973] [server] [info]    "session_map": {
+[2026-11-02 16:56:40.973] [server] [info]     "1": {
+[2026-11-02 16:56:40.973] [server] [info]      "name": "Race",
+[2026-11-02 16:56:40.973] [server] [info]      "description": "",
+[2026-11-02 16:56:40.973] [server] [info]      "scene": {
+[2026-11-02 16:56:40.973] [server] [info]       "track_content_data": {
+[2026-11-02 16:56:40.973] [server] [info]        "name": "Laguna Seca",
+[2026-11-02 16:56:40.973] [server] [info]        "nation": "USA",
+[2026-11-02 16:56:40.973] [server] [info]        "continent": "North America",
+[2026-11-02 16:56:40.973] [server] [info]        "coordinates": {
+[2026-11-02 16:56:40.973] [server] [info]         "longitude": -121.75,
+[2026-11-02 16:56:40.973] [server] [info]         "latitude": 36.58
+[2026-11-02 16:56:40.973] [server] [info]        },
+[2026-11-02 16:56:40.973] [server] [info]        "timezone": "TimeZone_Pacific_North_America",
+[2026-11-02 16:56:40.973] [server] [info]        "folder_path": "content\\tracks\\laguna_seca",
+[2026-11-02 16:56:40.973] [server] [info]        "file_path": "content\\tracks\\laguna_seca\\laguna_seca.scene",
+[2026-11-02 16:56:40.973] [server] [info]        "track_data_path": "content\\tracks\\laguna_seca\\laguna_seca.track",
+[2026-11-02 16:56:40.973] [server] [info]        "sky_rules": "SkyRules_Procedural",
+[2026-11-02 16:56:40.973] [server] [info]        "is_release": true,
+[2026-11-02 16:56:40.973] [server] [info]        "is_testing_disabled": false
+[2026-11-02 16:56:40.973] [server] [info]       },
+[2026-11-02 16:56:40.973] [server] [info]       "event_name": "GP Race",
+[2026-11-02 16:56:40.973] [server] [info]       "physics_type": "ScenePhysicsType_Realtime",
+[2026-11-02 16:56:40.973] [server] [info]       "spawn": {
+[2026-11-02 16:56:40.973] [server] [info]        "position": {
+[2026-11-02 16:56:40.973] [server] [info]         "x": 0,
+[2026-11-02 16:56:40.973] [server] [info]         "y": 0,
+[2026-11-02 16:56:40.973] [server] [info]         "z": 0
+[2026-11-02 16:56:40.973] [server] [info]        },
+[2026-11-02 16:56:40.973] [server] [info]        "rotation": {
+[2026-11-02 16:56:40.973] [server] [info]         "x": 0,
+[2026-11-02 16:56:40.973] [server] [info]         "y": 0,
+[2026-11-02 16:56:40.973] [server] [info]         "z": 0
+[2026-11-02 16:56:40.973] [server] [info]        },
+[2026-11-02 16:56:40.973] [server] [info]        "scale": {
+[2026-11-02 16:56:40.973] [server] [info]         "x": 1,
+[2026-11-02 16:56:40.973] [server] [info]         "y": 1,
+[2026-11-02 16:56:40.973] [server] [info]         "z": 1
+[2026-11-02 16:56:40.973] [server] [info]        }
+[2026-11-02 16:56:40.973] [server] [info]       },
+[2026-11-02 16:56:40.973] [server] [info]       "containers": [
+[2026-11-02 16:56:40.973] [server] [info]        "content\\tracks\\laguna_seca\\containers\\camera_sequence_practice.scene",
+[2026-11-02 16:56:40.973] [server] [info]        "content\\tracks\\laguna_seca\\containers\\layout_laguna_seca.scene",
+[2026-11-02 16:56:40.973] [server] [info]        "content\\tracks\\laguna_seca\\containers\\pitlane_zones.scene",
+[2026-11-02 16:56:40.973] [server] [info]        "content\\tracks\\laguna_seca\\containers\\spawnpoints_grid.scene",
+[2026-11-02 16:56:40.974] [server] [info]        "content\\tracks\\laguna_seca\\containers\\spawnpoints_pitlane.scene",
+[2026-11-02 16:56:40.974] [server] [info]        "content\\tracks\\laguna_seca\\containers\\timelines_laguna_seca.scene",
+[2026-11-02 16:56:40.974] [server] [info]        "content\\tracks\\laguna_seca\\containers\\tv1_cameras_gp.scene",
+[2026-11-02 16:56:40.974] [server] [info]        "content\\tracks\\laguna_seca\\containers\\tv2_cameras_gp.scene",
+[2026-11-02 16:56:40.974] [server] [info]        "content\\tracks\\laguna_seca\\containers\\vr_cameras.scene"
+[2026-11-02 16:56:40.974] [server] [info]       ],
+[2026-11-02 16:56:40.974] [server] [info]       "force_scene_change": false,
+[2026-11-02 16:56:40.974] [server] [info]       "layout_image": {
+[2026-11-02 16:56:40.974] [server] [info]        "margin": 10,
+[2026-11-02 16:56:40.974] [server] [info]        "min_x": -407.568,
+[2026-11-02 16:56:40.974] [server] [info]        "min_y": -486.562,
+[2026-11-02 16:56:40.974] [server] [info]        "k_multiplier": 986.411,
+[2026-11-02 16:56:40.974] [server] [info]        "offset_x": 194.51123,
+[2026-11-02 16:56:40.974] [server] [info]        "offset_y": 0
+[2026-11-02 16:56:40.974] [server] [info]       },
+[2026-11-02 16:56:40.974] [server] [info]       "track_layout_name": "GP"
+[2026-11-02 16:56:40.974] [server] [info]      },
+[2026-11-02 16:56:40.974] [server] [info]      "scene_file": "",
+[2026-11-02 16:56:40.974] [server] [info]      "scene_source": "Custom",
+[2026-11-02 16:56:40.974] [server] [info]      "specialization": {
+[2026-11-02 16:56:40.974] [server] [info]       "@type": "type.googleapis.com/InstantRace.Specialization",
+[2026-11-02 16:56:40.974] [server] [info]       "base": {
+[2026-11-02 16:56:40.974] [server] [info]        "countdown_time_ms": 5000,
+[2026-11-02 16:56:40.974] [server] [info]        "countdown_random_min_time_ms": 250,
+[2026-11-02 16:56:40.974] [server] [info]        "countdown_random_max_time_ms": 4000,
+[2026-11-02 16:56:40.974] [server] [info]        "session_duration_ms": 900000,
+[2026-11-02 16:56:40.974] [server] [info]        "session_laps": 0,
+[2026-11-02 16:56:40.974] [server] [info]        "session_minimum_car_count": 0,
+[2026-11-02 16:56:40.974] [server] [info]        "maximum_waiting_for_players_duration_ms": 60000,
+[2026-11-02 16:56:40.974] [server] [info]        "minimum_waiting_for_players_duration_ms": 10000,
+[2026-11-02 16:56:40.974] [server] [info]        "maximum_session_waiting_for_leader_duration_ms": 0,
+[2026-11-02 16:56:40.974] [server] [info]        "maximum_session_overtime_duration_ms": 180000,
+[2026-11-02 16:56:40.974] [server] [info]        "maximum_go_to_box_duration_ms": 10000,
+[2026-11-02 16:56:40.974] [server] [info]        "maximum_session_overtime_before_next_session": 10000,
+[2026-11-02 16:56:40.974] [server] [info]        "start_mode": "Grid",
+[2026-11-02 16:56:40.974] [server] [info]        "starting_position": 0,
+[2026-11-02 16:56:40.974] [server] [info]        "waiting_for_players": true,
+[2026-11-02 16:56:40.974] [server] [info]        "intro_music": true,
+[2026-11-02 16:56:40.974] [server] [info]        "end_music": true,
+[2026-11-02 16:56:40.974] [server] [info]        "end_replay_type": "None"
+[2026-11-02 16:56:40.974] [server] [info]       },
+[2026-11-02 16:56:40.974] [server] [info]       "base_file": "",
+[2026-11-02 16:56:40.974] [server] [info]       "base_source": "Custom",
+[2026-11-02 16:56:40.974] [server] [info]       "penalty_transformations": {
+[2026-11-02 16:56:40.974] [server] [info]        "transformations": [
+[2026-11-02 16:56:40.974] [server] [info]         {
+[2026-11-02 16:56:40.974] [server] [info]          "type": "PenaltyType_Warning",
+[2026-11-02 16:56:40.974] [server] [info]          "trigger_type": "PenaltyTransformation_TriggerType_Count",
+[2026-11-02 16:56:40.974] [server] [info]          "trigger_countdown": 3,
+[2026-11-02 16:56:40.974] [server] [info]          "triggered_data": {
+[2026-11-02 16:56:40.974] [server] [info]           "type": "PenaltyType_Time_Penalty_Seconds",
+[2026-11-02 16:56:40.974] [server] [info]           "penalty_time_ms": 5000,
+[2026-11-02 16:56:40.974] [server] [info]           "laps_for_clearing": 0
+[2026-11-02 16:56:40.974] [server] [info]          },
+[2026-11-02 16:56:40.974] [server] [info]          "optional_clearing_type": "PenaltyTransformation_TriggerType_Time_ms",
+[2026-11-02 16:56:40.974] [server] [info]          "optional_clearing_countdown": 3600000,
+[2026-11-02 16:56:40.974] [server] [info]          "post_session_transformation": {
+[2026-11-02 16:56:40.974] [server] [info]           "add_pitlane_time": false
+[2026-11-02 16:56:40.974] [server] [info]          }
+[2026-11-02 16:56:40.974] [server] [info]         },
+[2026-11-02 16:56:40.974] [server] [info]         {
+[2026-11-02 16:56:40.974] [server] [info]          "type": "PenaltyType_Drive_Through",
+[2026-11-02 16:56:40.974] [server] [info]          "trigger_type": "PenaltyTransformation_TriggerType_Count",
+[2026-11-02 16:56:40.974] [server] [info]          "trigger_countdown": 2,
+[2026-11-02 16:56:40.974] [server] [info]          "triggered_data": {
+[2026-11-02 16:56:40.974] [server] [info]           "type": "PenaltyType_Disqualification",
+[2026-11-02 16:56:40.974] [server] [info]           "penalty_time_ms": 0,
+[2026-11-02 16:56:40.974] [server] [info]           "laps_for_clearing": 0
+[2026-11-02 16:56:40.974] [server] [info]          },
+[2026-11-02 16:56:40.974] [server] [info]          "optional_clearing_type": "PenaltyTransformation_TriggerType_Time_ms",
+[2026-11-02 16:56:40.974] [server] [info]          "optional_clearing_countdown": 0,
+[2026-11-02 16:56:40.974] [server] [info]          "post_session_transformation": {
+[2026-11-02 16:56:40.974] [server] [info]           "add_pitlane_time": true
+[2026-11-02 16:56:40.974] [server] [info]          }
+[2026-11-02 16:56:40.974] [server] [info]         },
+[2026-11-02 16:56:40.974] [server] [info]         {
+[2026-11-02 16:56:40.974] [server] [info]          "type": "PenaltyType_Stop_And_Go",
+[2026-11-02 16:56:40.974] [server] [info]          "trigger_type": "PenaltyTransformation_TriggerType_Count",
+[2026-11-02 16:56:40.974] [server] [info]          "trigger_countdown": 2,
+[2026-11-02 16:56:40.974] [server] [info]          "triggered_data": {
+[2026-11-02 16:56:40.974] [server] [info]           "type": "PenaltyType_Disqualification",
+[2026-11-02 16:56:40.974] [server] [info]           "penalty_time_ms": 0,
+[2026-11-02 16:56:40.974] [server] [info]           "laps_for_clearing": 0
+[2026-11-02 16:56:40.974] [server] [info]          },
+[2026-11-02 16:56:40.974] [server] [info]          "optional_clearing_type": "PenaltyTransformation_TriggerType_Lap",
+[2026-11-02 16:56:40.974] [server] [info]          "optional_clearing_countdown": 0,
+[2026-11-02 16:56:40.974] [server] [info]          "post_session_transformation": {
+[2026-11-02 16:56:40.974] [server] [info]           "add_pitlane_time": true
+[2026-11-02 16:56:40.974] [server] [info]          }
+[2026-11-02 16:56:40.974] [server] [info]         }
+[2026-11-02 16:56:40.974] [server] [info]        ]
+[2026-11-02 16:56:40.974] [server] [info]       },
+[2026-11-02 16:56:40.974] [server] [info]       "penalty_transformations_file": "EA1",
+[2026-11-02 16:56:40.974] [server] [info]       "penalty_transformations_source": "Custom",
+[2026-11-02 16:56:40.974] [server] [info]       "penalty_investigations": {
+[2026-11-02 16:56:40.974] [server] [info]        "triggers": [
+[2026-11-02 16:56:40.974] [server] [info]         {
+[2026-11-02 16:56:40.974] [server] [info]          "race_car_cut": {
+[2026-11-02 16:56:40.974] [server] [info]           "tyres_out": 3,
+[2026-11-02 16:56:40.974] [server] [info]           "wet_multiplier": 0
+[2026-11-02 16:56:40.974] [server] [info]          },
+[2026-11-02 16:56:40.974] [server] [info]          "command_name": "",
+[2026-11-02 16:56:40.974] [server] [info]          "checks": [
+[2026-11-02 16:56:40.974] [server] [info]           {
+[2026-11-02 16:56:40.974] [server] [info]            "data": {
+[2026-11-02 16:56:40.974] [server] [info]             "type": "PenaltyType_Warning",
+[2026-11-02 16:56:40.974] [server] [info]             "penalty_time_ms": 0,
+[2026-11-02 16:56:40.974] [server] [info]             "laps_for_clearing": 0
+[2026-11-02 16:56:40.974] [server] [info]            },
+[2026-11-02 16:56:40.974] [server] [info]            "weight": 0
+[2026-11-02 16:56:40.974] [server] [info]           },
+[2026-11-02 16:56:40.974] [server] [info]           {
+[2026-11-02 16:56:40.974] [server] [info]            "data": {
+[2026-11-02 16:56:40.974] [server] [info]             "type": "PenaltyType_Time_Penalty_Seconds",
+[2026-11-02 16:56:40.974] [server] [info]             "penalty_time_ms": 5000,
+[2026-11-02 16:56:40.974] [server] [info]             "laps_for_clearing": 0
+[2026-11-02 16:56:40.974] [server] [info]            },
+[2026-11-02 16:56:40.974] [server] [info]            "weight": 1000
+[2026-11-02 16:56:40.974] [server] [info]           },
+[2026-11-02 16:56:40.974] [server] [info]           {
+[2026-11-02 16:56:40.974] [server] [info]            "data": {
+[2026-11-02 16:56:40.974] [server] [info]             "type": "PenaltyType_Drive_Through",
+[2026-11-02 16:56:40.974] [server] [info]             "penalty_time_ms": 0,
+[2026-11-02 16:56:40.974] [server] [info]             "laps_for_clearing": 3
+[2026-11-02 16:56:40.974] [server] [info]            },
+[2026-11-02 16:56:40.974] [server] [info]            "weight": 3000
+[2026-11-02 16:56:40.974] [server] [info]           }
+[2026-11-02 16:56:40.974] [server] [info]          ]
+[2026-11-02 16:56:40.974] [server] [info]         },
+[2026-11-02 16:56:40.974] [server] [info]         {
+[2026-11-02 16:56:40.974] [server] [info]          "wrong_way": {
+[2026-11-02 16:56:40.974] [server] [info]           "min_speed": 2,
+[2026-11-02 16:56:40.974] [server] [info]           "speed_multiplier": 0.1,
+[2026-11-02 16:56:40.974] [server] [info]           "out_of_track_multiplier": 2
+[2026-11-02 16:56:40.974] [server] [info]          },
+[2026-11-02 16:56:40.974] [server] [info]          "command_name": "",
+[2026-11-02 16:56:40.974] [server] [info]          "checks": [
+[2026-11-02 16:56:40.974] [server] [info]           {
+[2026-11-02 16:56:40.974] [server] [info]            "data": {
+[2026-11-02 16:56:40.974] [server] [info]             "type": "PenaltyType_Warning",
+[2026-11-02 16:56:40.974] [server] [info]             "penalty_time_ms": 0,
+[2026-11-02 16:56:40.974] [server] [info]             "laps_for_clearing": 0
+[2026-11-02 16:56:40.974] [server] [info]            },
+[2026-11-02 16:56:40.974] [server] [info]            "weight": 30
+[2026-11-02 16:56:40.974] [server] [info]           },
+[2026-11-02 16:56:40.974] [server] [info]           {
+[2026-11-02 16:56:40.974] [server] [info]            "data": {
+[2026-11-02 16:56:40.974] [server] [info]             "type": "PenaltyType_Disqualification",
+[2026-11-02 16:56:40.974] [server] [info]             "penalty_time_ms": 0,
+[2026-11-02 16:56:40.974] [server] [info]             "laps_for_clearing": 0
+[2026-11-02 16:56:40.974] [server] [info]            },
+[2026-11-02 16:56:40.974] [server] [info]            "weight": 100
+[2026-11-02 16:56:40.974] [server] [info]           }
+[2026-11-02 16:56:40.974] [server] [info]          ]
+[2026-11-02 16:56:40.974] [server] [info]         },
+[2026-11-02 16:56:40.974] [server] [info]         {
+[2026-11-02 16:56:40.974] [server] [info]          "wrong_position_on_start": {
+[2026-11-02 16:56:40.974] [server] [info]           "distance_on_grid_thresholds": [
+[2026-11-02 16:56:40.974] [server] [info]            {
+[2026-11-02 16:56:40.974] [server] [info]             "threshold": 0.3,
+[2026-11-02 16:56:40.974] [server] [info]             "level": 1
+[2026-11-02 16:56:40.974] [server] [info]            },
+[2026-11-02 16:56:40.974] [server] [info]            {
+[2026-11-02 16:56:40.974] [server] [info]             "threshold": 0.6,
+[2026-11-02 16:56:40.974] [server] [info]             "level": 2
+[2026-11-02 16:56:40.974] [server] [info]            }
+[2026-11-02 16:56:40.974] [server] [info]           ],
+[2026-11-02 16:56:40.974] [server] [info]           "distance_on_start_thresholds": [
+[2026-11-02 16:56:40.974] [server] [info]            {
+[2026-11-02 16:56:40.974] [server] [info]             "threshold": 0.3,
+[2026-11-02 16:56:40.974] [server] [info]             "level": 1
+[2026-11-02 16:56:40.974] [server] [info]            },
+[2026-11-02 16:56:40.974] [server] [info]            {
+[2026-11-02 16:56:40.974] [server] [info]             "threshold": 0.6,
+[2026-11-02 16:56:40.974] [server] [info]             "level": 2
+[2026-11-02 16:56:40.974] [server] [info]            }
+[2026-11-02 16:56:40.974] [server] [info]           ],
+[2026-11-02 16:56:40.974] [server] [info]           "rotation_thresholds": [
+[2026-11-02 16:56:40.974] [server] [info]            {
+[2026-11-02 16:56:40.974] [server] [info]             "threshold": 30,
+[2026-11-02 16:56:40.974] [server] [info]             "level": 1
+[2026-11-02 16:56:40.974] [server] [info]            },
+[2026-11-02 16:56:40.974] [server] [info]            {
+[2026-11-02 16:56:40.974] [server] [info]             "threshold": 45,
+[2026-11-02 16:56:40.974] [server] [info]             "level": 2
+[2026-11-02 16:56:40.974] [server] [info]            }
+[2026-11-02 16:56:40.974] [server] [info]           ]
+[2026-11-02 16:56:40.974] [server] [info]          },
+[2026-11-02 16:56:40.974] [server] [info]          "command_name": "",
+[2026-11-02 16:56:40.974] [server] [info]          "checks": [
+[2026-11-02 16:56:40.974] [server] [info]           {
+[2026-11-02 16:56:40.974] [server] [info]            "data": {
+[2026-11-02 16:56:40.974] [server] [info]             "type": "PenaltyType_Time_Penalty_Seconds",
+[2026-11-02 16:56:40.974] [server] [info]             "penalty_time_ms": 5000,
+[2026-11-02 16:56:40.974] [server] [info]             "laps_for_clearing": 0
+[2026-11-02 16:56:40.974] [server] [info]            },
+[2026-11-02 16:56:40.974] [server] [info]            "weight": 1
+[2026-11-02 16:56:40.974] [server] [info]           },
+[2026-11-02 16:56:40.974] [server] [info]           {
+[2026-11-02 16:56:40.974] [server] [info]            "data": {
+[2026-11-02 16:56:40.974] [server] [info]             "type": "PenaltyType_Drive_Through",
+[2026-11-02 16:56:40.974] [server] [info]             "penalty_time_ms": 0,
+[2026-11-02 16:56:40.974] [server] [info]             "laps_for_clearing": 3
+[2026-11-02 16:56:40.974] [server] [info]            },
+[2026-11-02 16:56:40.974] [server] [info]            "weight": 2
+[2026-11-02 16:56:40.974] [server] [info]           }
+[2026-11-02 16:56:40.976] [server] [info]          ]
+[2026-11-02 16:56:40.976] [server] [info]         },
+[2026-11-02 16:56:40.976] [server] [info]         {
+[2026-11-02 16:56:40.976] [server] [info]          "speeding": {
+[2026-11-02 16:56:40.976] [server] [info]           "required_speed": 50,
+[2026-11-02 16:56:40.976] [server] [info]           "check_if_higher": true
+[2026-11-02 16:56:40.976] [server] [info]          },
+[2026-11-02 16:56:40.976] [server] [info]          "command_name": "pitlane",
+[2026-11-02 16:56:40.976] [server] [info]          "checks": [
+[2026-11-02 16:56:40.976] [server] [info]           {
+[2026-11-02 16:56:40.976] [server] [info]            "data": {
+[2026-11-02 16:56:40.976] [server] [info]             "type": "PenaltyType_Drive_Through",
+[2026-11-02 16:56:40.976] [server] [info]             "penalty_time_ms": 0,
+[2026-11-02 16:56:40.976] [server] [info]             "laps_for_clearing": 3
+[2026-11-02 16:56:40.976] [server] [info]            },
+[2026-11-02 16:56:40.976] [server] [info]            "weight": 62
+[2026-11-02 16:56:40.976] [server] [info]           },
+[2026-11-02 16:56:40.976] [server] [info]           {
+[2026-11-02 16:56:40.976] [server] [info]            "data": {
+[2026-11-02 16:56:40.976] [server] [info]             "type": "PenaltyType_Disqualification",
+[2026-11-02 16:56:40.976] [server] [info]             "penalty_time_ms": 0,
+[2026-11-02 16:56:40.976] [server] [info]             "laps_for_clearing": 0
+[2026-11-02 16:56:40.976] [server] [info]            },
+[2026-11-02 16:56:40.976] [server] [info]            "weight": 80
+[2026-11-02 16:56:40.976] [server] [info]           }
+[2026-11-02 16:56:40.976] [server] [info]          ]
+[2026-11-02 16:56:40.976] [server] [info]         }
+[2026-11-02 16:56:40.976] [server] [info]        ]
+[2026-11-02 16:56:40.976] [server] [info]       },
+[2026-11-02 16:56:40.976] [server] [info]       "penalty_investigations_file": "EA1",
+[2026-11-02 16:56:40.976] [server] [info]       "penalty_investigations_source": "Custom",
+[2026-11-02 16:56:40.976] [server] [info]       "rules": [],
+[2026-11-02 16:56:40.976] [server] [info]       "allowed_car_table_keys": [],
+[2026-11-02 16:56:40.976] [server] [info]       "allowed_car_keys": []
+[2026-11-02 16:56:40.976] [server] [info]      },
+[2026-11-02 16:56:40.976] [server] [info]      "weather": {
+[2026-11-02 16:56:40.976] [server] [info]       "initial_date_time": {
+[2026-11-02 16:56:40.976] [server] [info]        "year": 2024,
+[2026-11-02 16:56:40.976] [server] [info]        "month": 8,
+[2026-11-02 16:56:40.976] [server] [info]        "day": 15,
+[2026-11-02 16:56:40.976] [server] [info]        "hour": 14,
+[2026-11-02 16:56:40.976] [server] [info]        "minute": 0,
+[2026-11-02 16:56:40.976] [server] [info]        "second": 0
+[2026-11-02 16:56:40.976] [server] [info]       },
+[2026-11-02 16:56:40.976] [server] [info]       "time_multiplier": 1,
+[2026-11-02 16:56:40.976] [server] [info]       "recalc_interval_seconds": 10,
+[2026-11-02 16:56:40.976] [server] [info]       "spatial_noise_data": {
+[2026-11-02 16:56:40.976] [server] [info]        "scale": 1,
+[2026-11-02 16:56:40.976] [server] [info]        "frequency": 0.0004,
+[2026-11-02 16:56:40.977] [server] [info]        "amplitude": 1.02,
+[2026-11-02 16:56:40.977] [server] [info]        "order": 17,
+[2026-11-02 16:56:40.977] [server] [info]        "seed": {
+[2026-11-02 16:56:40.977] [server] [info]         "x": 2.81,
+[2026-11-02 16:56:40.977] [server] [info]         "y": 4.47
+[2026-11-02 16:56:40.977] [server] [info]        }
+[2026-11-02 16:56:40.977] [server] [info]       },
+[2026-11-02 16:56:40.977] [server] [info]       "static_data": {
+[2026-11-02 16:56:40.977] [server] [info]        "static_weather": {
+[2026-11-02 16:56:40.977] [server] [info]         "now": {
+[2026-11-02 16:56:40.977] [server] [info]          "nanosecondsUtc": "0",
+[2026-11-02 16:56:40.977] [server] [info]          "timeZone": "TimeZone_UTC"
+[2026-11-02 16:56:40.977] [server] [info]         },
+[2026-11-02 16:56:40.977] [server] [info]         "sun_position": {
+[2026-11-02 16:56:40.977] [server] [info]          "x": 0,
+[2026-11-02 16:56:40.977] [server] [info]          "y": 0,
+[2026-11-02 16:56:40.977] [server] [info]          "z": 0
+[2026-11-02 16:56:40.977] [server] [info]         },
+[2026-11-02 16:56:40.977] [server] [info]         "moon_position": {
+[2026-11-02 16:56:40.977] [server] [info]          "x": 0,
+[2026-11-02 16:56:40.977] [server] [info]          "y": 0,
+[2026-11-02 16:56:40.977] [server] [info]          "z": 0
+[2026-11-02 16:56:40.977] [server] [info]         },
+[2026-11-02 16:56:40.977] [server] [info]         "mean_ambient_temperature_c": 23.3815117,
+[2026-11-02 16:56:40.977] [server] [info]         "ambient_temperature_c": 29.6889973,
+[2026-11-02 16:56:40.977] [server] [info]         "cloud_coverage": 0,
+[2026-11-02 16:56:40.977] [server] [info]         "gloominess": 0,
+[2026-11-02 16:56:40.977] [server] [info]         "precipitation": 0,
+[2026-11-02 16:56:40.977] [server] [info]         "fog": 0,
+[2026-11-02 16:56:40.977] [server] [info]         "humidity": 0,
+[2026-11-02 16:56:40.977] [server] [info]         "cloud_pos_x": 0,
+[2026-11-02 16:56:40.977] [server] [info]         "cloud_pos_y": 0,
+[2026-11-02 16:56:40.977] [server] [info]         "pressure_psi": 0,
+[2026-11-02 16:56:40.977] [server] [info]         "wind_speed": 0.2,
+[2026-11-02 16:56:40.977] [server] [info]         "wind_gust": 0.1,
+[2026-11-02 16:56:40.977] [server] [info]         "wind_direction": {
+[2026-11-02 16:56:40.977] [server] [info]          "x": 1,
+[2026-11-02 16:56:40.977] [server] [info]          "y": 0,
+[2026-11-02 16:56:40.977] [server] [info]          "z": 0
+[2026-11-02 16:56:40.977] [server] [info]         },
+[2026-11-02 16:56:40.977] [server] [info]         "initial_global_wetness": 0,
+[2026-11-02 16:56:40.977] [server] [info]         "is_dynamic_weather": false
+[2026-11-02 16:56:40.977] [server] [info]        }
+[2026-11-02 16:56:40.977] [server] [info]       }
+[2026-11-02 16:56:40.977] [server] [info]      },
+[2026-11-02 16:56:40.977] [server] [info]      "weather_type": "GameModeSelectionWeatherType_CLEAR",
+[2026-11-02 16:56:40.977] [server] [info]      "weather_file": "",
+[2026-11-02 16:56:40.977] [server] [info]      "weather_source": "Custom",
+[2026-11-02 16:56:40.977] [server] [info]      "weather_update_interval_seconds": 0,
+[2026-11-02 16:56:40.977] [server] [info]      "initial_grip": "InitialGrip_OPTIMUM",
+[2026-11-02 16:56:40.977] [server] [info]      "dynamic_track_condition": {
+[2026-11-02 16:56:40.977] [server] [info]       "initial_grip": 1,
+[2026-11-02 16:56:40.977] [server] [info]       "rubber": 1,
+[2026-11-02 16:56:40.977] [server] [info]       "marbles": 1
+[2026-11-02 16:56:40.977] [server] [info]      },
+[2026-11-02 16:56:40.977] [server] [info]      "car_model": [],
+[2026-11-02 16:56:40.977] [server] [info]      "starting_sequence": {
+[2026-11-02 16:56:40.977] [server] [info]       "best": {
+[2026-11-02 16:56:40.977] [server] [info]        "best_lap": 0
+[2026-11-02 16:56:40.977] [server] [info]       },
+[2026-11-02 16:56:40.977] [server] [info]       "session_index_ref": [
+[2026-11-02 16:56:40.977] [server] [info]        0
+[2026-11-02 16:56:40.977] [server] [info]       ]
+[2026-11-02 16:56:40.977] [server] [info]      },
+[2026-11-02 16:56:40.977] [server] [info]      "netcode_update_interval": 0,
+[2026-11-02 16:56:40.977] [server] [info]      "save_as_default": false,
+[2026-11-02 16:56:40.977] [server] [info]      "pause_replay_enable": false,
+[2026-11-02 16:56:40.977] [server] [info]      "pause_go_to_pitlane_enable": false,
+[2026-11-02 16:56:40.977] [server] [info]      "pause_restart_enable": false,
+[2026-11-02 16:56:40.977] [server] [info]      "crowd_density": 1
+[2026-11-02 16:56:40.977] [server] [info]     },
+[2026-11-02 16:56:40.977] [server] [info]     "0": {
+[2026-11-02 16:56:40.977] [server] [info]      "name": "Qualifying",
+[2026-11-02 16:56:40.977] [server] [info]      "description": "",
+[2026-11-02 16:56:40.977] [server] [info]      "scene": {
+[2026-11-02 16:56:40.977] [server] [info]       "track_content_data": {
+[2026-11-02 16:56:40.977] [server] [info]        "name": "Laguna Seca",
+[2026-11-02 16:56:40.977] [server] [info]        "nation": "USA",
+[2026-11-02 16:56:40.977] [server] [info]        "continent": "North America",
+[2026-11-02 16:56:40.977] [server] [info]        "coordinates": {
+[2026-11-02 16:56:40.977] [server] [info]         "longitude": -121.75,
+[2026-11-02 16:56:40.977] [server] [info]         "latitude": 36.58
+[2026-11-02 16:56:40.977] [server] [info]        },
+[2026-11-02 16:56:40.977] [server] [info]        "timezone": "TimeZone_Pacific_North_America",
+[2026-11-02 16:56:40.977] [server] [info]        "folder_path": "content\\tracks\\laguna_seca",
+[2026-11-02 16:56:40.977] [server] [info]        "file_path": "content\\tracks\\laguna_seca\\laguna_seca.scene",
+[2026-11-02 16:56:40.977] [server] [info]        "track_data_path": "content\\tracks\\laguna_seca\\laguna_seca.track",
+[2026-11-02 16:56:40.977] [server] [info]        "sky_rules": "SkyRules_Procedural",
+[2026-11-02 16:56:40.977] [server] [info]        "is_release": true,
+[2026-11-02 16:56:40.977] [server] [info]        "is_testing_disabled": false
+[2026-11-02 16:56:40.977] [server] [info]       },
+[2026-11-02 16:56:40.977] [server] [info]       "event_name": "GP Time Attack",
+[2026-11-02 16:56:40.977] [server] [info]       "physics_type": "ScenePhysicsType_Realtime",
+[2026-11-02 16:56:40.977] [server] [info]       "spawn": {
+[2026-11-02 16:56:40.977] [server] [info]        "position": {
+[2026-11-02 16:56:40.977] [server] [info]         "x": 0,
+[2026-11-02 16:56:40.977] [server] [info]         "y": 0,
+[2026-11-02 16:56:40.977] [server] [info]         "z": 0
+[2026-11-02 16:56:40.978] [server] [info]        },
+[2026-11-02 16:56:40.978] [server] [info]        "rotation": {
+[2026-11-02 16:56:40.978] [server] [info]         "x": 0,
+[2026-11-02 16:56:40.978] [server] [info]         "y": 0,
+[2026-11-02 16:56:40.978] [server] [info]         "z": 0
+[2026-11-02 16:56:40.978] [server] [info]        },
+[2026-11-02 16:56:40.978] [server] [info]        "scale": {
+[2026-11-02 16:56:40.978] [server] [info]         "x": 1,
+[2026-11-02 16:56:40.978] [server] [info]         "y": 1,
+[2026-11-02 16:56:40.978] [server] [info]         "z": 1
+[2026-11-02 16:56:40.978] [server] [info]        }
+[2026-11-02 16:56:40.978] [server] [info]       },
+[2026-11-02 16:56:40.978] [server] [info]       "containers": [
+[2026-11-02 16:56:40.978] [server] [info]        "content\\tracks\\laguna_seca\\containers\\camera_sequence_practice.scene",
+[2026-11-02 16:56:40.978] [server] [info]        "content\\tracks\\laguna_seca\\containers\\layout_laguna_seca.scene",
+[2026-11-02 16:56:40.978] [server] [info]        "content\\tracks\\laguna_seca\\containers\\pitlane_zones.scene",
+[2026-11-02 16:56:40.978] [server] [info]        "content\\tracks\\laguna_seca\\containers\\spawnpoints_pitlane.scene",
+[2026-11-02 16:56:40.978] [server] [info]        "content\\tracks\\laguna_seca\\containers\\timelines_laguna_seca.scene",
+[2026-11-02 16:56:40.978] [server] [info]        "content\\tracks\\laguna_seca\\containers\\tv1_cameras_gp.scene",
+[2026-11-02 16:56:40.978] [server] [info]        "content\\tracks\\laguna_seca\\containers\\tv2_cameras_gp.scene",
+[2026-11-02 16:56:40.978] [server] [info]        "content\\tracks\\laguna_seca\\containers\\vr_cameras.scene"
+[2026-11-02 16:56:40.978] [server] [info]       ],
+[2026-11-02 16:56:40.978] [server] [info]       "force_scene_change": false,
+[2026-11-02 16:56:40.978] [server] [info]       "layout_image": {
+[2026-11-02 16:56:40.978] [server] [info]        "margin": 10,
+[2026-11-02 16:56:40.978] [server] [info]        "min_x": -407.568,
+[2026-11-02 16:56:40.978] [server] [info]        "min_y": -486.562,
+[2026-11-02 16:56:40.978] [server] [info]        "k_multiplier": 986.411,
+[2026-11-02 16:56:40.978] [server] [info]        "offset_x": 194.51123,
+[2026-11-02 16:56:40.978] [server] [info]        "offset_y": 0
+[2026-11-02 16:56:40.978] [server] [info]       },
+[2026-11-02 16:56:40.978] [server] [info]       "track_layout_name": "GP"
+[2026-11-02 16:56:40.978] [server] [info]      },
+[2026-11-02 16:56:40.978] [server] [info]      "scene_file": "",
+[2026-11-02 16:56:40.978] [server] [info]      "scene_source": "Custom",
+[2026-11-02 16:56:40.978] [server] [info]      "specialization": {
+[2026-11-02 16:56:40.978] [server] [info]       "@type": "type.googleapis.com/TimeAttack.Specialization",
+[2026-11-02 16:56:40.978] [server] [info]       "base": {
+[2026-11-02 16:56:40.979] [server] [info]        "session_duration_ms": 900000,
+[2026-11-02 16:56:40.979] [server] [info]        "session_laps": 0,
+[2026-11-02 16:56:40.979] [server] [info]        "maximum_session_overtime_duration_ms": 10000,
+[2026-11-02 16:56:40.979] [server] [info]        "maximum_session_overtime_before_next_session": 10000,
+[2026-11-02 16:56:40.979] [server] [info]        "intro_music": true,
+[2026-11-02 16:56:40.979] [server] [info]        "end_music": true,
+[2026-11-02 16:56:40.979] [server] [info]        "end_replay_type": "None"
+[2026-11-02 16:56:40.979] [server] [info]       },
+[2026-11-02 16:56:40.979] [server] [info]       "base_file": "",
+[2026-11-02 16:56:40.979] [server] [info]       "base_source": "Custom",
+[2026-11-02 16:56:40.979] [server] [info]       "penalty_transformations": {
+[2026-11-02 16:56:40.979] [server] [info]        "transformations": []
+[2026-11-02 16:56:40.979] [server] [info]       },
+[2026-11-02 16:56:40.979] [server] [info]       "penalty_transformations_file": "EA1",
+[2026-11-02 16:56:40.979] [server] [info]       "penalty_transformations_source": "Custom",
+[2026-11-02 16:56:40.979] [server] [info]       "penalty_investigations": {
+[2026-11-02 16:56:40.979] [server] [info]        "triggers": [
+[2026-11-02 16:56:40.979] [server] [info]         {
+[2026-11-02 16:56:40.979] [server] [info]          "race_car_cut": {
+[2026-11-02 16:56:40.979] [server] [info]           "tyres_out": 3,
+[2026-11-02 16:56:40.979] [server] [info]           "wet_multiplier": 0
+[2026-11-02 16:56:40.979] [server] [info]          },
+[2026-11-02 16:56:40.979] [server] [info]          "command_name": "",
+[2026-11-02 16:56:40.979] [server] [info]          "checks": []
+[2026-11-02 16:56:40.979] [server] [info]         },
+[2026-11-02 16:56:40.979] [server] [info]         {
+[2026-11-02 16:56:40.979] [server] [info]          "wrong_way": {
+[2026-11-02 16:56:40.979] [server] [info]           "min_speed": 2,
+[2026-11-02 16:56:40.979] [server] [info]           "speed_multiplier": 0.1,
+[2026-11-02 16:56:40.979] [server] [info]           "out_of_track_multiplier": 2
+[2026-11-02 16:56:40.979] [server] [info]          },
+[2026-11-02 16:56:40.979] [server] [info]          "command_name": "",
+[2026-11-02 16:56:40.979] [server] [info]          "checks": [
+[2026-11-02 16:56:40.979] [server] [info]           {
+[2026-11-02 16:56:40.979] [server] [info]            "data": {
+[2026-11-02 16:56:40.979] [server] [info]             "type": "PenaltyType_Warning",
+[2026-11-02 16:56:40.979] [server] [info]             "penalty_time_ms": 0,
+[2026-11-02 16:56:40.979] [server] [info]             "laps_for_clearing": 0
+[2026-11-02 16:56:40.979] [server] [info]            },
+[2026-11-02 16:56:40.979] [server] [info]            "weight": 30
+[2026-11-02 16:56:40.979] [server] [info]           },
+[2026-11-02 16:56:40.979] [server] [info]           {
+[2026-11-02 16:56:40.980] [server] [info]            "data": {
+[2026-11-02 16:56:40.980] [server] [info]             "type": "PenaltyType_Disqualification",
+[2026-11-02 16:56:40.980] [server] [info]             "penalty_time_ms": 0,
+[2026-11-02 16:56:40.980] [server] [info]             "laps_for_clearing": 0
+[2026-11-02 16:56:40.980] [server] [info]            },
+[2026-11-02 16:56:40.980] [server] [info]            "weight": 100
+[2026-11-02 16:56:40.980] [server] [info]           }
+[2026-11-02 16:56:40.980] [server] [info]          ]
+[2026-11-02 16:56:40.980] [server] [info]         },
+[2026-11-02 16:56:40.980] [server] [info]         {
+[2026-11-02 16:56:40.980] [server] [info]          "speeding": {
+[2026-11-02 16:56:40.980] [server] [info]           "required_speed": 60,
+[2026-11-02 16:56:40.980] [server] [info]           "check_if_higher": true
+[2026-11-02 16:56:40.980] [server] [info]          },
+[2026-11-02 16:56:40.980] [server] [info]          "command_name": "pitlane",
+[2026-11-02 16:56:40.980] [server] [info]          "checks": [
+[2026-11-02 16:56:40.980] [server] [info]           {
+[2026-11-02 16:56:40.980] [server] [info]            "data": {
+[2026-11-02 16:56:40.980] [server] [info]             "type": "PenaltyType_Warning",
+[2026-11-02 16:56:40.980] [server] [info]             "penalty_time_ms": 0,
+[2026-11-02 16:56:40.980] [server] [info]             "laps_for_clearing": 0
+[2026-11-02 16:56:40.980] [server] [info]            },
+[2026-11-02 16:56:40.980] [server] [info]            "weight": 62
+[2026-11-02 16:56:40.980] [server] [info]           },
+[2026-11-02 16:56:40.980] [server] [info]           {
+[2026-11-02 16:56:40.980] [server] [info]            "data": {
+[2026-11-02 16:56:40.980] [server] [info]             "type": "PenaltyType_MP_TeleportToPit",
+[2026-11-02 16:56:40.980] [server] [info]             "penalty_time_ms": 10000,
+[2026-11-02 16:56:40.980] [server] [info]             "laps_for_clearing": 0
+[2026-11-02 16:56:40.980] [server] [info]            },
+[2026-11-02 16:56:40.980] [server] [info]            "weight": 70
+[2026-11-02 16:56:40.980] [server] [info]           }
+[2026-11-02 16:56:40.980] [server] [info]          ]
+[2026-11-02 16:56:40.980] [server] [info]         }
+[2026-11-02 16:56:40.980] [server] [info]        ]
+[2026-11-02 16:56:40.980] [server] [info]       },
+[2026-11-02 16:56:40.980] [server] [info]       "penalty_investigations_file": "EA1",
+[2026-11-02 16:56:40.980] [server] [info]       "penalty_investigations_source": "Custom",
+[2026-11-02 16:56:40.980] [server] [info]       "rules": []
+[2026-11-02 16:56:40.980] [server] [info]      },
+[2026-11-02 16:56:40.980] [server] [info]      "weather": {
+[2026-11-02 16:56:40.980] [server] [info]       "initial_date_time": {
+[2026-11-02 16:56:40.980] [server] [info]        "year": 2024,
+[2026-11-02 16:56:40.980] [server] [info]        "month": 8,
+[2026-11-02 16:56:40.980] [server] [info]        "day": 15,
+[2026-11-02 16:56:40.980] [server] [info]        "hour": 14,
+[2026-11-02 16:56:40.980] [server] [info]        "minute": 0,
+[2026-11-02 16:56:40.980] [server] [info]        "second": 0
+[2026-11-02 16:56:40.980] [server] [info]       },
+[2026-11-02 16:56:40.980] [server] [info]       "time_multiplier": 1,
+[2026-11-02 16:56:40.980] [server] [info]       "recalc_interval_seconds": 10,
+[2026-11-02 16:56:40.980] [server] [info]       "spatial_noise_data": {
+[2026-11-02 16:56:40.980] [server] [info]        "scale": 1,
+[2026-11-02 16:56:40.980] [server] [info]        "frequency": 0.0004,
+[2026-11-02 16:56:40.980] [server] [info]        "amplitude": 1.02,
+[2026-11-02 16:56:40.980] [server] [info]        "order": 17,
+[2026-11-02 16:56:40.980] [server] [info]        "seed": {
+[2026-11-02 16:56:40.980] [server] [info]         "x": 2.81,
+[2026-11-02 16:56:40.980] [server] [info]         "y": 4.47
+[2026-11-02 16:56:40.981] [server] [info]        }
+[2026-11-02 16:56:40.981] [server] [info]       },
+[2026-11-02 16:56:40.981] [server] [info]       "static_data": {
+[2026-11-02 16:56:40.981] [server] [info]        "static_weather": {
+[2026-11-02 16:56:40.981] [server] [info]         "now": {
+[2026-11-02 16:56:40.981] [server] [info]          "nanosecondsUtc": "0",
+[2026-11-02 16:56:40.981] [server] [info]          "timeZone": "TimeZone_UTC"
+[2026-11-02 16:56:40.981] [server] [info]         },
+[2026-11-02 16:56:40.981] [server] [info]         "sun_position": {
+[2026-11-02 16:56:40.981] [server] [info]          "x": 0,
+[2026-11-02 16:56:40.981] [server] [info]          "y": 0,
+[2026-11-02 16:56:40.981] [server] [info]          "z": 0
+[2026-11-02 16:56:40.981] [server] [info]         },
+[2026-11-02 16:56:40.981] [server] [info]         "moon_position": {
+[2026-11-02 16:56:40.981] [server] [info]          "x": 0,
+[2026-11-02 16:56:40.981] [server] [info]          "y": 0,
+[2026-11-02 16:56:40.981] [server] [info]          "z": 0
+[2026-11-02 16:56:40.981] [server] [info]         },
+[2026-11-02 16:56:40.981] [server] [info]         "mean_ambient_temperature_c": 23.3815117,
+[2026-11-02 16:56:40.981] [server] [info]         "ambient_temperature_c": 29.6889973,
+[2026-11-02 16:56:40.981] [server] [info]         "cloud_coverage": 0,
+[2026-11-02 16:56:40.981] [server] [info]         "gloominess": 0,
+[2026-11-02 16:56:40.981] [server] [info]         "precipitation": 0,
+[2026-11-02 16:56:40.981] [server] [info]         "fog": 0,
+[2026-11-02 16:56:40.981] [server] [info]         "humidity": 0,
+[2026-11-02 16:56:40.981] [server] [info]         "cloud_pos_x": 0,
+[2026-11-02 16:56:40.981] [server] [info]         "cloud_pos_y": 0,
+[2026-11-02 16:56:40.981] [server] [info]         "pressure_psi": 0,
+[2026-11-02 16:56:40.981] [server] [info]         "wind_speed": 0.2,
+[2026-11-02 16:56:40.981] [server] [info]         "wind_gust": 0.1,
+[2026-11-02 16:56:40.981] [server] [info]         "wind_direction": {
+[2026-11-02 16:56:40.981] [server] [info]          "x": 1,
+[2026-11-02 16:56:40.981] [server] [info]          "y": 0,
+[2026-11-02 16:56:40.981] [server] [info]          "z": 0
+[2026-11-02 16:56:40.981] [server] [info]         },
+[2026-11-02 16:56:40.981] [server] [info]         "initial_global_wetness": 0,
+[2026-11-02 16:56:40.981] [server] [info]         "is_dynamic_weather": false
+[2026-11-02 16:56:40.981] [server] [info]        }
+[2026-11-02 16:56:40.981] [server] [info]       }
+[2026-11-02 16:56:40.981] [server] [info]      },
+[2026-11-02 16:56:40.981] [server] [info]      "weather_type": "GameModeSelectionWeatherType_CLEAR",
+[2026-11-02 16:56:40.981] [server] [info]      "weather_file": "",
+[2026-11-02 16:56:40.981] [server] [info]      "weather_source": "Custom",
+[2026-11-02 16:56:40.981] [server] [info]      "weather_update_interval_seconds": 0,
+[2026-11-02 16:56:40.981] [server] [info]      "initial_grip": "InitialGrip_OPTIMUM",
+[2026-11-02 16:56:40.981] [server] [info]      "dynamic_track_condition": {
+[2026-11-02 16:56:40.981] [server] [info]       "initial_grip": 1,
+[2026-11-02 16:56:40.981] [server] [info]       "rubber": 1,
+[2026-11-02 16:56:40.981] [server] [info]       "marbles": 1
+[2026-11-02 16:56:40.981] [server] [info]      },
+[2026-11-02 16:56:40.981] [server] [info]      "car_model": [],
+[2026-11-02 16:56:40.981] [server] [info]      "netcode_update_interval": 0,
+[2026-11-02 16:56:40.981] [server] [info]      "save_as_default": false,
+[2026-11-02 16:56:40.981] [server] [info]      "pause_replay_enable": false,
+[2026-11-02 16:56:40.981] [server] [info]      "pause_go_to_pitlane_enable": false,
+[2026-11-02 16:56:40.981] [server] [info]      "pause_restart_enable": false,
+[2026-11-02 16:56:40.981] [server] [info]      "crowd_density": 0.75
+[2026-11-02 16:56:40.981] [server] [info]     }
+[2026-11-02 16:56:40.981] [server] [info]    }
+[2026-11-02 16:56:40.981] [server] [info]   }
+[2026-11-02 16:56:40.981] [server] [info]  },
+[2026-11-02 16:56:40.981] [server] [info]  "entrylist": {
+[2026-11-02 16:56:40.981] [server] [info]   "competitors": [
+[2026-11-02 16:56:40.981] [server] [info]    {
+[2026-11-02 16:56:40.981] [server] [info]     "competitor_key": "",
+[2026-11-02 16:56:40.981] [server] [info]     "name": "None"
+[2026-11-02 16:56:40.981] [server] [info]    }
+[2026-11-02 16:56:40.981] [server] [info]   ],
+[2026-11-02 16:56:40.981] [server] [info]   "cars": [],
+[2026-11-02 16:56:40.981] [server] [info]   "drivers": []
+[2026-11-02 16:56:40.981] [server] [info]  },
+[2026-11-02 16:56:40.981] [server] [info]  "entrylist_file": "",
+[2026-11-02 16:56:40.981] [server] [info]  "entrylist_source": "Custom",
+[2026-11-02 16:56:40.981] [server] [info]  "event_mutable_data": {},
+[2026-11-02 16:56:40.981] [server] [info]  "event_results_map": {},
+[2026-11-02 16:56:40.981] [server] [info]  "season_cache": {
+[2026-11-02 16:56:40.981] [server] [info]   "current_session_id": 0,
+[2026-11-02 16:56:40.981] [server] [info]   "current_event_id": 0
+[2026-11-02 16:56:40.981] [server] [info]  }
+[2026-11-02 16:56:40.981] [server] [info] }
+[2026-11-02 16:56:40.981] [server] [info] Server Config
+[2026-11-02 16:56:40.982] [server] [info] {
+[2026-11-02 16:56:40.982] [server] [info]  "server_tcp_listener_port": 9700,
+[2026-11-02 16:56:40.982] [server] [info]  "server_udp_listener_port": 9700,
+[2026-11-02 16:56:40.982] [server] [info]  "server_tcp_internal_port": 9700,
+[2026-11-02 16:56:40.982] [server] [info]  "server_udp_internal_port": 9700,
+[2026-11-02 16:56:40.982] [server] [info]  "server_http_port": 8080,
+[2026-11-02 16:56:40.982] [server] [info]  "server_name": "Tes as rodas Lambidas!!! --- NO DRIFT",
+[2026-11-02 16:56:40.982] [server] [info]  "launch_path": "",
+[2026-11-02 16:56:40.982] [server] [info]  "netcode_update_interval": 55,
+[2026-11-02 16:56:40.982] [server] [info]  "driver_password": "",
+[2026-11-02 16:56:40.982] [server] [info]  "spectator_password": "",
+[2026-11-02 16:56:40.982] [server] [info]  "max_players": 10,
+[2026-11-02 16:56:40.982] [server] [info]  "allowed_cars_list_full": [
+[2026-11-02 16:56:40.982] [server] [info]   {
+[2026-11-02 16:56:40.982] [server] [info]    "car_name": "preset_gtam_mech_1",
+[2026-11-02 16:56:40.982] [server] [info]    "ballast": 0,
+[2026-11-02 16:56:40.983] [server] [info]    "restrictor": 0
+[2026-11-02 16:56:40.983] [server] [info]   },
+[2026-11-02 16:56:40.983] [server] [info]   {
+[2026-11-02 16:56:40.983] [server] [info]    "car_name": "preset_a110s_mech_1",
+[2026-11-02 16:56:40.983] [server] [info]    "ballast": 0,
+[2026-11-02 16:56:40.983] [server] [info]    "restrictor": 0
+[2026-11-02 16:56:40.983] [server] [info]   },
+[2026-11-02 16:56:40.983] [server] [info]   {
+[2026-11-02 16:56:40.983] [server] [info]    "car_name": "preset_rs3_mech_1",
+[2026-11-02 16:56:40.983] [server] [info]    "ballast": 0,
+[2026-11-02 16:56:40.983] [server] [info]    "restrictor": 0
+[2026-11-02 16:56:40.983] [server] [info]   },
+[2026-11-02 16:56:40.983] [server] [info]   {
+[2026-11-02 16:56:40.983] [server] [info]    "car_name": "preset_rs6_mech_1",
+[2026-11-02 16:56:40.983] [server] [info]    "ballast": 0,
+[2026-11-02 16:56:40.983] [server] [info]    "restrictor": 0
+[2026-11-02 16:56:40.983] [server] [info]   },
+[2026-11-02 16:56:40.983] [server] [info]   {
+[2026-11-02 16:56:40.983] [server] [info]    "car_name": "preset_m2_mech_2",
+[2026-11-02 16:56:40.983] [server] [info]    "ballast": 0,
+[2026-11-02 16:56:40.983] [server] [info]    "restrictor": 0
+[2026-11-02 16:56:40.983] [server] [info]   },
+[2026-11-02 16:56:40.983] [server] [info]   {
+[2026-11-02 16:56:40.983] [server] [info]    "car_name": "preset_m4csl_mech_1",
+[2026-11-02 16:56:40.983] [server] [info]    "ballast": 0,
+[2026-11-02 16:56:40.983] [server] [info]    "restrictor": 0
+[2026-11-02 16:56:40.983] [server] [info]   },
+[2026-11-02 16:56:40.983] [server] [info]   {
+[2026-11-02 16:56:40.983] [server] [info]    "car_name": "preset_m8c_mech_1",
+[2026-11-02 16:56:40.983] [server] [info]    "ballast": 0,
+[2026-11-02 16:56:40.983] [server] [info]    "restrictor": 0
+[2026-11-02 16:56:40.983] [server] [info]   },
+[2026-11-02 16:56:40.983] [server] [info]   {
+[2026-11-02 16:56:40.983] [server] [info]    "car_name": "preset_zl1_mech_2",
+[2026-11-02 16:56:40.983] [server] [info]    "ballast": 0,
+[2026-11-02 16:56:40.983] [server] [info]    "restrictor": 0
+[2026-11-02 16:56:40.983] [server] [info]   },
+[2026-11-02 16:56:40.983] [server] [info]   {
+[2026-11-02 16:56:40.983] [server] [info]    "car_name": "preset_zl1_mech_1",
+[2026-11-02 16:56:40.983] [server] [info]    "ballast": 0,
+[2026-11-02 16:56:40.983] [server] [info]    "restrictor": 0
+[2026-11-02 16:56:40.983] [server] [info]   },
+[2026-11-02 16:56:40.983] [server] [info]   {
+[2026-11-02 16:56:40.983] [server] [info]    "car_name": "preset_mk8gti_mech_1",
+[2026-11-02 16:56:40.983] [server] [info]    "ballast": 0,
+[2026-11-02 16:56:40.984] [server] [info]    "restrictor": 0
+[2026-11-02 16:56:40.984] [server] [info]   },
+[2026-11-02 16:56:40.984] [server] [info]   {
+[2026-11-02 16:56:40.984] [server] [info]    "car_name": "preset_mk8r_mech_1",
+[2026-11-02 16:56:40.984] [server] [info]    "ballast": 0,
+[2026-11-02 16:56:40.984] [server] [info]    "restrictor": 0
+[2026-11-02 16:56:40.984] [server] [info]   }
+[2026-11-02 16:56:40.984] [server] [info]  ],
+[2026-11-02 16:56:40.984] [server] [info]  "type": "MultiplayerServerListSessionType_RANKED",
+[2026-11-02 16:56:40.984] [server] [info]  "cycle": true,
+[2026-11-02 16:56:40.984] [server] [info]  "admin_password": "",
+[2026-11-02 16:56:40.984] [server] [info]  "pi_min": 0,
+[2026-11-02 16:56:40.984] [server] [info]  "pi_max": 0,
+[2026-11-02 16:56:40.984] [server] [info]  "property_1": [],
+[2026-11-02 16:56:40.984] [server] [info]  "property_2": [],
+[2026-11-02 16:56:40.984] [server] [info]  "property_3": [],
+[2026-11-02 16:56:40.984] [server] [info]  "entry_list_server_url": "",
+[2026-11-02 16:56:40.984] [server] [info]  "results_post_url": "",
+[2026-11-02 16:56:40.984] [server] [info]  "token": "",
+[2026-11-02 16:56:40.984] [server] [info]  "entry_list_path": "",
+[2026-11-02 16:56:40.984] [server] [info]  "results_path": "",
+[2026-11-02 16:56:40.984] [server] [info]  "tuning_type": "TuningAllowed"
+[2026-11-02 16:56:40.984] [server] [info] }
+[2026-11-02 16:56:42.362] [server] [info] Sha unique content: 8ecfb3f79209c7d8170e3f0672f1929819af97d65ab690258dd1c2903eb362aa
+[2026-11-02 16:56:42.372] [network] [info] Launching OnlineServices with server config: Tes as rodas Lambidas!!! --- NO DRIFT on TCP 9700
+[2026-11-02 16:56:42.372] [server] [info] An internal TCP port 9700 has been specified, opening socket to that instead of listener port 9700
+[2026-11-02 16:56:42.372] [server] [info] An internal UDP port 9700 has been specified, opening socket to that instead of listener port 9700
+[2026-11-02 16:56:42.373] [server] [info] Listening to TCP 9700
+[2026-11-02 16:56:42.375] [server] [info] Listening to UDP 9700
+[2026-11-02 16:56:42.377] [network] [info] Result server url : 
+[2026-11-02 16:56:42.378] [server] [info] Server updated: 0 players
+[2026-11-02 16:56:42.378] [messages] [error] ServerEngineChannel: doesn't implement message handler for message WeatherNoiseData
+[2026-11-02 16:56:42.379] [network] [info] VSERVER Connecting to backend at wss://c.gk.sd:6990/9kB3F1CAx7mQ2zL5vN8pD4sT6yW0eU1r/000500
+[2026-11-02 16:56:42.392] [network] [info] Websocket status changed: CONNECTING
+[2026-11-02 16:56:43.362] [network] [info] Websocket connection opened
+[2026-11-02 16:56:43.363] [network] [info] Outbound msg to backend: type.googleapis.com/RegisterRequest (Success: true)
+[2026-11-02 16:56:43.363] [network] [info] sent lobby handshake
+[2026-11-02 16:56:43.363] [network] [info] Websocket status changed: CONNECTED
+[2026-11-02 16:56:43.374] [network] [info] Incoming msg from backend with type_url: type.googleapis.com/RegisterResponse
+[2026-11-02 16:56:43.416] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 16:56:43.928] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestRegisterServer (Success: true)
+[2026-11-02 16:56:43.939] [network] [info] Received Ping from 192.0.2.19 [8003]
+[2026-11-02 16:56:43.940] [network] [info] Incoming msg from backend with type_url: type.googleapis.com/MultiplayerServerListResponseRegisterServer
+[2026-11-02 16:56:44.952] [network] [info] Outbound msg to backend: type.googleapis.com/BackendRequestSeasonGuid (Success: true)
+[2026-11-02 16:56:44.960] [network] [info] Incoming msg from backend with type_url: type.googleapis.com/BackendResponseSeasonGuid
+[2026-11-02 16:56:45.972] [network] [info] Received season guid e2c8f8657afe4950-8faa7463641a8416
+[2026-11-02 16:56:47.855] [network] [info] Received Ping from 192.0.2.20 [51656]
+[2026-11-02 16:57:05.906] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 16:57:05.907] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 16:57:05.907] [server] [info] New connection received 696
+[2026-11-02 16:57:05.907] [server] [info] Alive connections: 1
+[2026-11-02 16:57:05.913] [network] [info] [ConnectionRequest] Connection with user 76561198000000001 was successful
+[2026-11-02 16:57:05.913] [server] [info] Server updated: 0 players
+[2026-11-02 16:57:05.914] [server] [info] Server updated: 0 players
+[2026-11-02 16:57:05.915] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 16:57:05.915] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 16:57:06.427] [network] [info] Server Late, dt 0.5213448
+[2026-11-02 16:57:07.554] [server] [info] [C:1|G:0] [RemoteGameServer][44a6bb478b2433ea-8c4c4fdd204c7692] RequestPlayerCar preset_gtam_mech_1
+[2026-11-02 16:57:07.555] [network] [info] Ranked server: correct car preset_gtam_mech_1
+[2026-11-02 16:57:07.556] [server] [info] [C:1|G:0] [ServerVehicleSystem][44a6bb478b2433ea-8c4c4fdd204c7692] Creating Car (Driver 1	76561198000000001)
+[2026-11-02 16:57:07.556] [gameplay] [info] ------------------ pitboxes used ------------------
+[2026-11-02 16:57:07.556] [server] [info] assigning pit slot 0 competitor_id 7656119800000000144a6bb478b2433ea-8c4c4fdd204c7692 car_number 0
+[2026-11-02 16:57:07.556] [gameplay] [info] ---------------------------------------------------
+[2026-11-02 16:57:07.557] [gameplay] [info] searchForSpawn 44a6bb478b2433ea-8c4c4fdd204c7692 p:-202.28 261.30 -336.47
+[2026-11-02 16:57:07.557] [server] [info] Car [44a6bb478b2433ea-8c4c4fdd204c7692] #0 for driver Driver 1 [76561198000000001]
+[2026-11-02 16:57:07.557] [server] [info] Init connection TCP socket name: 'sok_1'
+[2026-11-02 16:57:07.558] [server] [info] Server updated: 1 players
+[2026-11-02 16:57:07.558] [server] [info] Server updated: 1 players
+[2026-11-02 16:57:07.559] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 16:57:07.559] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 16:57:10.100] [network] [info] High client ping 2191
+[2026-11-02 16:57:10.100] [network] [info] High client ping 1188
+[2026-11-02 16:57:13.123] [gameplay] [info] Remote onConnectionTcpMessage
+[2026-11-02 16:57:13.124] [gameplay] [info] 76561198000000001 connected (true) on car ks_alfa_romeo_giulia_gtam, with new carId 44a6bb478b2433ea-8c4c4fdd204c7692
+[2026-11-02 16:57:13.124] [server] [info] connecting gamecar 44a6bb478b2433ea-8c4c4fdd204c7692 (Driver 1 | 76561198000000001)
+[2026-11-02 16:57:13.124] [server] [info] Car def found comp 7656119800000000144a6bb478b2433ea-8c4c4fdd204c7692 pit 0
+[2026-11-02 16:57:13.124] [gameplay] [info] ACEVO-2768: Car 44a6bb478b2433ea-8c4c4fdd204c7692 assigned to slot 0
+[2026-11-02 16:57:13.124] [gameplay] [info] create pitzone from spawn
+[2026-11-02 16:57:13.125] [server] [info] Car def found comp 7656119800000000144a6bb478b2433ea-8c4c4fdd204c7692 pit 0
+[2026-11-02 16:57:13.125] [gameplay] [info] ACEVO-2768: Car 44a6bb478b2433ea-8c4c4fdd204c7692 assigned to slot 0
+[2026-11-02 16:57:13.125] [server] [info] Teleporting 44a6bb478b2433ea-8c4c4fdd204c7692 pos 0
+[2026-11-02 16:57:13.279] [gameplay] [info] [SERVER][44a6bb478b2433ea-8c4c4fdd204c7692] Received pit_state: pit_step: Steady
+[2026-11-02 16:57:15.735] [gameplay] [info] Outplap split
+[2026-11-02 16:57:26.059] [gameplay] [info] [SERVER][44a6bb478b2433ea-8c4c4fdd204c7692] Received pit_state: pit_step: OutOfTolerance total_pit_time_ms: 30000
+[2026-11-02 16:57:29.296] [gameplay] [info] Penalty Type PenaltyType_Warning has no tranformation
+[2026-11-02 16:57:29.701] [gameplay] [info] Penalty Type PenaltyType_MP_TeleportToPit has no tranformation
+[2026-11-02 16:57:34.081] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 16:57:34.081] [gameplay] [info] On Split start true end true id 2 splittime 243073
+[2026-11-02 16:57:34.081] [gameplay] [error] Couldn't create lap from opensplits (carId 44a6bb478b2433ea-8c4c4fdd204c7692): Splitcollection 1/3, split times: 2, 
+[2026-11-02 16:57:34.473] [gameplay] [info] crossed entry, crossed exit 0, stoppped 0, sng 0
+[2026-11-02 16:57:34.473] [gameplay] [info] Penalty managment: car on track but invalid pit id 44a6bb478b2433ea-8c4c4fdd204c7692
+[2026-11-02 16:57:34.474] [server] [info] Car def found comp 7656119800000000144a6bb478b2433ea-8c4c4fdd204c7692 pit 0
+[2026-11-02 16:57:34.474] [gameplay] [info] ACEVO-2768: Car 44a6bb478b2433ea-8c4c4fdd204c7692 assigned to slot 0
+[2026-11-02 16:57:34.474] [server] [info] Teleporting 44a6bb478b2433ea-8c4c4fdd204c7692 pos 0
+[2026-11-02 16:57:34.488] [gameplay] [info] [SERVER][44a6bb478b2433ea-8c4c4fdd204c7692] Received pit_state: total_pit_time_ms: 30000
+[2026-11-02 16:57:34.534] [gameplay] [info] crossed entry, crossed exit 0, stoppped 0, sng 0
+[2026-11-02 16:57:34.534] [gameplay] [info] Penalty managment: car on track but invalid pit id 44a6bb478b2433ea-8c4c4fdd204c7692
+[2026-11-02 16:57:34.534] [gameplay] [info] crossed entry, crossed exit 0, stoppped 0, sng 0
+[2026-11-02 16:57:34.541] [gameplay] [info] [SERVER][44a6bb478b2433ea-8c4c4fdd204c7692] Received pit_state: pit_step: Steady total_pit_time_ms: 30000
+[2026-11-02 16:57:41.570] [gameplay] [info] [SERVER][44a6bb478b2433ea-8c4c4fdd204c7692] Received pit_state: pit_step: OutOfTolerance total_pit_time_ms: 30000
+[2026-11-02 16:57:52.762] [gameplay] [info] Unexpected On Split
+[2026-11-02 16:57:53.304] [gameplay] [info] crossed entry, crossed exit 0, stoppped 0, sng 0
+[2026-11-02 16:57:53.304] [gameplay] [info] Penalty managment: car on track but invalid pit id 44a6bb478b2433ea-8c4c4fdd204c7692
+[2026-11-02 16:57:53.321] [gameplay] [info] [SERVER][44a6bb478b2433ea-8c4c4fdd204c7692] Received pit_state: total_pit_time_ms: 30000
+[2026-11-02 16:58:12.951] [gameplay] [info] crossed entry, crossed exit 0, stoppped 0, sng 0
+[2026-11-02 16:58:38.487] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 16:58:38.487] [gameplay] [info] On Split start false end false id 0 splittime 45726
+[2026-11-02 16:58:40.433] [server] [info] lastHeartbeat 120002 9700 9700
+[2026-11-02 16:58:40.434] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 16:58:59.515] [network] [info] Received Ping from 192.0.2.21 [52467]
+[2026-11-02 16:59:01.269] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 16:59:01.269] [gameplay] [info] On Split start false end false id 1 splittime 22782
+[2026-11-02 16:59:10.345] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 16:59:10.345] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 16:59:10.345] [server] [info] New connection received 700
+[2026-11-02 16:59:10.345] [server] [info] Alive connections: 2
+[2026-11-02 16:59:10.346] [server] [info] Server updated: 1 players
+[2026-11-02 16:59:10.346] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 16:59:11.343] [server] [info] connection closed 2 due to not established conn
+[2026-11-02 16:59:11.343] [server] [info] Removing dead connection 2
+[2026-11-02 16:59:11.344] [server] [info] Alive connections: 1
+[2026-11-02 16:59:11.344] [server] [info] Server updated: 1 players
+[2026-11-02 16:59:11.344] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 16:59:39.953] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 16:59:39.953] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 16:59:39.953] [server] [info] New connection received 700
+[2026-11-02 16:59:39.954] [server] [info] Alive connections: 2
+[2026-11-02 16:59:39.955] [server] [info] Server updated: 1 players
+[2026-11-02 16:59:39.955] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 16:59:40.950] [server] [info] connection closed 3 due to not established conn
+[2026-11-02 16:59:40.951] [server] [info] Removing dead connection 3
+[2026-11-02 16:59:40.951] [server] [info] Alive connections: 1
+[2026-11-02 16:59:40.951] [server] [info] Server updated: 1 players
+[2026-11-02 16:59:40.952] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 16:59:42.292] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 16:59:42.293] [gameplay] [info] On Split start true end true id 2 splittime 41022
+[2026-11-02 16:59:42.293] [gameplay] [info] On Split end with all splits, id 2, 392749519127818240
+[2026-11-02 16:59:42.293] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:49.530
+[2026-11-02 17:00:20.111] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:00:20.111] [gameplay] [info] On Split start false end false id 0 splittime 37818
+[2026-11-02 17:00:40.437] [server] [info] lastHeartbeat 240004 9700 9700
+[2026-11-02 17:00:40.438] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 17:00:41.924] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:00:41.924] [gameplay] [info] On Split start false end false id 1 splittime 21813
+[2026-11-02 17:01:23.614] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:01:23.614] [gameplay] [info] On Split start true end true id 2 splittime 41691
+[2026-11-02 17:01:23.614] [gameplay] [info] On Split end with all splits, id 2, 392749944098893824
+[2026-11-02 17:01:23.614] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:41.322
+[2026-11-02 17:01:26.749] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:01:26.749] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:01:26.749] [server] [info] New connection received 700
+[2026-11-02 17:01:26.750] [server] [info] Alive connections: 2
+[2026-11-02 17:01:26.750] [server] [info] Server updated: 1 players
+[2026-11-02 17:01:26.751] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:01:27.748] [server] [info] connection closed 4 due to not established conn
+[2026-11-02 17:01:27.748] [server] [info] Removing dead connection 4
+[2026-11-02 17:01:27.749] [server] [info] Alive connections: 1
+[2026-11-02 17:01:27.749] [server] [info] Server updated: 1 players
+[2026-11-02 17:01:27.750] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:01:43.656] [network] [info] Received Ping from 192.0.2.22 [62784]
+[2026-11-02 17:02:00.375] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:02:00.375] [gameplay] [info] On Split start false end false id 0 splittime 36756
+[2026-11-02 17:02:22.920] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:02:22.920] [gameplay] [info] On Split start false end false id 1 splittime 22545
+[2026-11-02 17:02:40.441] [server] [info] lastHeartbeat 360006 9700 9700
+[2026-11-02 17:02:40.441] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 17:03:03.484] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:03:03.484] [gameplay] [info] On Split start true end true id 2 splittime 40566
+[2026-11-02 17:03:03.485] [gameplay] [info] On Split end with all splits, id 2, 392750362988228608
+[2026-11-02 17:03:03.485] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:39.867
+[2026-11-02 17:03:41.236] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:03:41.236] [gameplay] [info] On Split start false end false id 0 splittime 37749
+[2026-11-02 17:04:03.509] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:04:03.510] [gameplay] [info] On Split start false end false id 1 splittime 22275
+[2026-11-02 17:04:07.179] [network] [info] Received Ping from 192.0.2.23 [56188]
+[2026-11-02 17:04:40.446] [server] [info] lastHeartbeat 480009 9700 9700
+[2026-11-02 17:04:40.446] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 17:04:43.085] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:04:43.085] [gameplay] [info] On Split start true end true id 2 splittime 39576
+[2026-11-02 17:04:43.085] [gameplay] [info] On Split end with all splits, id 2, 392750780740907008
+[2026-11-02 17:04:43.085] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:39.600
+[2026-11-02 17:05:20.063] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:05:20.063] [gameplay] [info] On Split start false end false id 0 splittime 36978
+[2026-11-02 17:05:41.692] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:05:41.692] [gameplay] [info] On Split start false end false id 1 splittime 21624
+[2026-11-02 17:06:03.992] [network] [info] Received Ping from 192.0.2.24 [56756]
+[2026-11-02 17:06:21.896] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:06:21.896] [gameplay] [info] On Split start true end true id 2 splittime 40206
+[2026-11-02 17:06:21.896] [gameplay] [info] On Split end with all splits, id 2, 392751195184279552
+[2026-11-02 17:06:21.896] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:38.808
+[2026-11-02 17:06:40.447] [server] [info] lastHeartbeat 600009 9700 9700
+[2026-11-02 17:06:40.449] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 17:06:58.461] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:06:58.461] [gameplay] [info] On Split start false end false id 0 splittime 36564
+[2026-11-02 17:07:20.525] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:07:20.526] [gameplay] [info] On Split start false end false id 1 splittime 22062
+[2026-11-02 17:07:59.715] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:07:59.715] [gameplay] [info] On Split start true end true id 2 splittime 39192
+[2026-11-02 17:07:59.715] [gameplay] [info] On Split end with all splits, id 2, 392751605466902528
+[2026-11-02 17:07:59.715] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:37.818
+[2026-11-02 17:08:03.929] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:08:03.930] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:08:03.930] [server] [info] New connection received 700
+[2026-11-02 17:08:03.930] [server] [info] Alive connections: 2
+[2026-11-02 17:08:03.931] [server] [info] Server updated: 1 players
+[2026-11-02 17:08:03.932] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:08:03.943] [network] [info] [ConnectionRequest] Connection with user 76561198000000003 was successful
+[2026-11-02 17:08:05.507] [server] [info] [C:5|G:0] [RemoteGameServer][4e21b8d38d7f3000-32c9d9c8bf6327be] RequestPlayerCar preset_gtam_mech_1
+[2026-11-02 17:08:05.509] [network] [info] Ranked server: correct car preset_gtam_mech_1
+[2026-11-02 17:08:05.509] [server] [info] [C:5|G:0] [ServerVehicleSystem][4e21b8d38d7f3000-32c9d9c8bf6327be] Creating Car (Driver 3	76561198000000003)
+[2026-11-02 17:08:05.509] [gameplay] [info] ------------------ pitboxes used ------------------
+[2026-11-02 17:08:05.509] [server] [info] assigning pit slot 1 competitor_id 765611980000000034e21b8d38d7f3000-32c9d9c8bf6327be car_number 1
+[2026-11-02 17:08:05.509] [gameplay] [info] ---------------------------------------------------
+[2026-11-02 17:08:05.510] [gameplay] [info] searchForSpawn 4e21b8d38d7f3000-32c9d9c8bf6327be p:-198.70 261.34 -341.17
+[2026-11-02 17:08:05.510] [server] [info] Car [4e21b8d38d7f3000-32c9d9c8bf6327be] #1 for driver Driver 3 [76561198000000003]
+[2026-11-02 17:08:05.510] [server] [info] Init connection TCP socket name: 'sok_3'
+[2026-11-02 17:08:05.511] [server] [info] Server updated: 2 players
+[2026-11-02 17:08:05.511] [server] [info] Server updated: 2 players
+[2026-11-02 17:08:05.512] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:08:05.512] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:08:07.223] [network] [info] High client ping 1287
+[2026-11-02 17:08:10.383] [gameplay] [info] Remote onConnectionTcpMessage
+[2026-11-02 17:08:10.383] [gameplay] [info] 76561198000000003 connected (true) on car ks_alfa_romeo_giulia_gtam, with new carId 4e21b8d38d7f3000-32c9d9c8bf6327be
+[2026-11-02 17:08:10.384] [server] [info] connecting gamecar 4e21b8d38d7f3000-32c9d9c8bf6327be (Driver 3 | 76561198000000003)
+[2026-11-02 17:08:10.384] [server] [info] Car def found comp 765611980000000034e21b8d38d7f3000-32c9d9c8bf6327be pit 1
+[2026-11-02 17:08:10.384] [gameplay] [info] ACEVO-2768: Car 4e21b8d38d7f3000-32c9d9c8bf6327be assigned to slot 1
+[2026-11-02 17:08:10.384] [gameplay] [info] create pitzone from spawn
+[2026-11-02 17:08:10.386] [server] [info] Car def found comp 765611980000000034e21b8d38d7f3000-32c9d9c8bf6327be pit 1
+[2026-11-02 17:08:10.386] [gameplay] [info] ACEVO-2768: Car 4e21b8d38d7f3000-32c9d9c8bf6327be assigned to slot 1
+[2026-11-02 17:08:10.386] [server] [info] Teleporting 4e21b8d38d7f3000-32c9d9c8bf6327be pos 1
+[2026-11-02 17:08:10.494] [gameplay] [info] [SERVER][4e21b8d38d7f3000-32c9d9c8bf6327be] Received pit_state: pit_slot: 1
+[2026-11-02 17:08:10.525] [gameplay] [info] [SERVER][4e21b8d38d7f3000-32c9d9c8bf6327be] Received pit_state: pit_slot: 1 pit_step: Steady
+[2026-11-02 17:08:11.416] [gameplay] [info] Remote onConnectionTcpMessage
+[2026-11-02 17:08:16.082] [gameplay] [info] Remote onConnectionTcpMessage
+[2026-11-02 17:08:19.453] [network] [info] Received Ping from 192.0.2.25 [61193]
+[2026-11-02 17:08:36.233] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:08:36.233] [gameplay] [info] On Split start false end false id 0 splittime 36513
+[2026-11-02 17:08:39.553] [gameplay] [info] [SERVER][4e21b8d38d7f3000-32c9d9c8bf6327be] Received pit_state: pit_slot: 1 pit_step: OutOfTolerance total_pit_time_ms: 30000
+[2026-11-02 17:08:40.450] [server] [info] lastHeartbeat 720010 9700 9700
+[2026-11-02 17:08:40.450] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 17:08:52.353] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:08:52.353] [gameplay] [info] On Split start true end true id 2 splittime 350080
+[2026-11-02 17:08:52.353] [gameplay] [error] Couldn't create lap from opensplits (carId 4e21b8d38d7f3000-32c9d9c8bf6327be): Splitcollection 1/3, split times: 2, 
+[2026-11-02 17:08:52.943] [gameplay] [info] [SERVER][4e21b8d38d7f3000-32c9d9c8bf6327be] Received pit_state: pit_slot: 1 total_pit_time_ms: 30000
+[2026-11-02 17:08:57.945] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:08:57.945] [gameplay] [info] On Split start false end false id 1 splittime 21714
+[2026-11-02 17:09:00.110] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:09:00.110] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:09:00.110] [server] [info] New connection received 708
+[2026-11-02 17:09:00.110] [server] [info] Alive connections: 3
+[2026-11-02 17:09:00.111] [server] [info] Server updated: 2 players
+[2026-11-02 17:09:00.111] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:09:00.198] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:09:00.198] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:09:00.198] [server] [info] New connection received 712
+[2026-11-02 17:09:00.198] [server] [info] Alive connections: 4
+[2026-11-02 17:09:00.200] [server] [info] Server updated: 2 players
+[2026-11-02 17:09:00.201] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:09:01.107] [server] [info] connection closed 6 due to not established conn
+[2026-11-02 17:09:01.107] [server] [info] Removing dead connection 6
+[2026-11-02 17:09:01.107] [server] [info] Alive connections: 3
+[2026-11-02 17:09:01.108] [server] [info] Server updated: 2 players
+[2026-11-02 17:09:01.108] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:09:01.198] [server] [info] connection closed 7 due to not established conn
+[2026-11-02 17:09:01.198] [server] [info] Removing dead connection 7
+[2026-11-02 17:09:01.198] [server] [info] Alive connections: 2
+[2026-11-02 17:09:01.198] [server] [info] Server updated: 2 players
+[2026-11-02 17:09:01.199] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:09:35.933] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:09:35.934] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:09:35.934] [server] [info] New connection received 712
+[2026-11-02 17:09:35.934] [server] [info] Alive connections: 3
+[2026-11-02 17:09:35.935] [server] [info] Server updated: 2 players
+[2026-11-02 17:09:35.936] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:09:36.931] [server] [info] connection closed 8 due to not established conn
+[2026-11-02 17:09:36.932] [server] [info] Removing dead connection 8
+[2026-11-02 17:09:36.932] [server] [info] Alive connections: 2
+[2026-11-02 17:09:36.932] [server] [info] Server updated: 2 players
+[2026-11-02 17:09:36.933] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:09:37.222] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:09:37.223] [gameplay] [info] On Split start true end true id 2 splittime 39279
+[2026-11-02 17:09:37.223] [gameplay] [info] On Split end with all splits, id 2, 392752014445096960
+[2026-11-02 17:09:37.223] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:37.506
+[2026-11-02 17:10:15.716] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:10:15.716] [gameplay] [info] On Split start false end false id 0 splittime 38490
+[2026-11-02 17:10:16.885] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:10:16.886] [gameplay] [info] On Split start false end false id 0 splittime 84534
+[2026-11-02 17:10:32.910] [network] [info] Received Ping from 192.0.2.26 [61602]
+[2026-11-02 17:10:37.655] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:10:37.655] [gameplay] [info] On Split start false end false id 1 splittime 21939
+[2026-11-02 17:10:39.174] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:10:39.174] [gameplay] [info] On Split start false end false id 1 splittime 22281
+[2026-11-02 17:10:40.453] [server] [info] lastHeartbeat 840012 9700 9700
+[2026-11-02 17:10:40.454] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 17:10:55.044] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:10:55.044] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:10:55.044] [server] [info] New connection received 708
+[2026-11-02 17:10:55.045] [server] [info] Alive connections: 3
+[2026-11-02 17:10:55.046] [server] [info] Server updated: 2 players
+[2026-11-02 17:10:55.047] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:10:56.044] [server] [info] connection closed 9 due to not established conn
+[2026-11-02 17:10:56.044] [server] [info] Removing dead connection 9
+[2026-11-02 17:10:56.045] [server] [info] Alive connections: 2
+[2026-11-02 17:10:56.045] [server] [info] Server updated: 2 players
+[2026-11-02 17:10:56.046] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:11:16.570] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:11:16.570] [gameplay] [info] On Split start true end true id 2 splittime 38916
+[2026-11-02 17:11:16.570] [gameplay] [info] On Split end with all splits, id 2, 392752431136616448
+[2026-11-02 17:11:16.570] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:39.345
+[2026-11-02 17:11:18.623] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:11:18.623] [gameplay] [info] On Split start true end true id 2 splittime 39450
+[2026-11-02 17:11:18.623] [gameplay] [info] On Split end with all splits, id 2, 392752439747522560
+[2026-11-02 17:11:18.623] [gameplay] [info] New lap carId 4e21b8d38d7f3000-32c9d9c8bf6327be: 02:26.265
+[2026-11-02 17:11:53.931] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:11:53.931] [gameplay] [info] On Split start false end false id 0 splittime 37359
+[2026-11-02 17:11:54.983] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:11:54.983] [gameplay] [info] On Split start false end false id 0 splittime 36366
+[2026-11-02 17:11:58.968] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:11:58.968] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:11:58.968] [server] [info] New connection received 708
+[2026-11-02 17:11:58.968] [server] [info] Alive connections: 3
+[2026-11-02 17:11:58.969] [server] [info] Server updated: 2 players
+[2026-11-02 17:11:58.969] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:11:59.965] [server] [info] connection closed 10 due to not established conn
+[2026-11-02 17:11:59.965] [server] [info] Removing dead connection 10
+[2026-11-02 17:11:59.966] [server] [info] Alive connections: 2
+[2026-11-02 17:11:59.966] [server] [info] Server updated: 2 players
+[2026-11-02 17:11:59.966] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:12:15.749] [gameplay] [info] WAIT_LAST_LAP: overtime: 10000
+[2026-11-02 17:12:15.785] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:12:15.785] [gameplay] [info] On Split start false end false id 1 splittime 21855
+[2026-11-02 17:12:16.864] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:12:16.864] [gameplay] [info] On Split start false end false id 1 splittime 21867
+[2026-11-02 17:12:28.506] [server] [info] Car def found comp 765611980000000034e21b8d38d7f3000-32c9d9c8bf6327be pit 1
+[2026-11-02 17:12:28.506] [gameplay] [info] ACEVO-2768: Car 4e21b8d38d7f3000-32c9d9c8bf6327be assigned to slot 1
+[2026-11-02 17:12:28.506] [server] [info] Teleporting 4e21b8d38d7f3000-32c9d9c8bf6327be pos 1
+[2026-11-02 17:12:28.514] [server] [info] Car def found comp 7656119800000000144a6bb478b2433ea-8c4c4fdd204c7692 pit 0
+[2026-11-02 17:12:28.514] [gameplay] [info] ACEVO-2768: Car 44a6bb478b2433ea-8c4c4fdd204c7692 assigned to slot 0
+[2026-11-02 17:12:28.514] [server] [info] Teleporting 44a6bb478b2433ea-8c4c4fdd204c7692 pos 0
+[2026-11-02 17:12:28.521] [gameplay] [info] [SERVER][44a6bb478b2433ea-8c4c4fdd204c7692] Received pit_state: pit_step: Steady total_pit_time_ms: 30000
+[2026-11-02 17:12:28.529] [gameplay] [info] [SERVER][44a6bb478b2433ea-8c4c4fdd204c7692] Received pit_state: total_pit_time_ms: 30000
+[2026-11-02 17:12:28.533] [gameplay] [info] [SERVER][4e21b8d38d7f3000-32c9d9c8bf6327be] Received pit_state: pit_slot: 1 pit_step: Steady total_pit_time_ms: 30000
+[2026-11-02 17:12:28.540] [gameplay] [info] [SERVER][4e21b8d38d7f3000-32c9d9c8bf6327be] Received pit_state: pit_slot: 1 total_pit_time_ms: 30000
+[2026-11-02 17:12:28.625] [gameplay] [info] [SERVER][4e21b8d38d7f3000-32c9d9c8bf6327be] Received pit_state: pit_slot: 1 pit_step: Steady total_pit_time_ms: 30000
+[2026-11-02 17:12:28.663] [gameplay] [info] crossed entry, crossed exit 0, stoppped 0, sng 0
+[2026-11-02 17:12:28.664] [gameplay] [info] crossed entry, crossed exit 0, stoppped 0, sng 0
+[2026-11-02 17:12:28.691] [gameplay] [info] [SERVER][44a6bb478b2433ea-8c4c4fdd204c7692] Received pit_state: pit_step: Steady total_pit_time_ms: 30000
+[2026-11-02 17:12:34.934] [server] [info] OnExitGamemode
+[2026-11-02 17:12:34.934] [server] [info] STEP: 1
+[2026-11-02 17:12:34.935] [gameplay] [info] Changing GameMode. Alive Connections: 2
+[2026-11-02 17:12:35.040] [gameplay] [info] 0 spawn points of StartingPositionType_DevelopmentDefault[0]
+[2026-11-02 17:12:35.040] [gameplay] [info] 24 spawn points of StartingPositionType_Grid[0]
+[2026-11-02 17:12:35.041] [gameplay] [info] 24 spawn points of StartingPositionType_Pit[0]
+[2026-11-02 17:12:35.041] [gameplay] [info] 24 spawn points of StartingPositionType_Box[0]
+[2026-11-02 17:12:35.041] [gameplay] [info] 0 spawn points of StartingPositionType_Poi[0]
+[2026-11-02 17:12:35.041] [gameplay] [info] Loaded 72 spawn points
+[2026-11-02 17:12:35.042] [server] [info] RemoteGameServer InstantRaceRemote reset()
+[2026-11-02 17:12:35.042] [network] [info] Remote cars added to ready to start map 44a6bb478b2433ea-8c4c4fdd204c7692
+[2026-11-02 17:12:35.042] [network] [info] Remote cars added to ready to start map 4e21b8d38d7f3000-32c9d9c8bf6327be
+[2026-11-02 17:12:35.042] [gameplay] [info] RACE GRID: use the results
+[2026-11-02 17:12:35.042] [gameplay] [info] RACE GRID: car 44a6bb47-8b24-33ea-8c4c-4fdd204c7692 inserted to spawn 0
+[2026-11-02 17:12:35.042] [gameplay] [info] RACE GRID: car 4e21b8d3-8d7f-3000-32c9-d9c8bf6327be inserted to spawn 1
+[2026-11-02 17:12:35.042] [gameplay] [info] STARTING GRID (best): #0 - [0] Driver 1 (01:37.506)
+[2026-11-02 17:12:35.042] [gameplay] [info] STARTING GRID (best): #1 - [1] Driver 3 (35791:23.647)
+[2026-11-02 17:12:35.042] [gameplay] [info] RACE GRID: 44a6bb478b2433ea-8c4c4fdd204c7692	 Position: 0	
+[2026-11-02 17:12:35.042] [gameplay] [info] RACE GRID: 4e21b8d38d7f3000-32c9d9c8bf6327be	 Position: 1	
+[2026-11-02 17:12:35.042] [server] [info] Teleporting 44a6bb478b2433ea-8c4c4fdd204c7692 pos 0 (StartingPositionType_Grid) [-253.15393 263.79248 -298.4525]
+[2026-11-02 17:12:35.042] [server] [info] Teleporting 4e21b8d38d7f3000-32c9d9c8bf6327be pos 1 (StartingPositionType_Grid) [-252.81526 263.9286 -307.7718]
+[2026-11-02 17:12:35.042] [gameplay] [info] InstantRaceRemote Race created
+[2026-11-02 17:12:35.043] [gameplay] [info] searchForSpawn 44a6bb478b2433ea-8c4c4fdd204c7692 p:-202.28 261.30 -336.47
+[2026-11-02 17:12:35.043] [gameplay] [info] searchForSpawn 4e21b8d38d7f3000-32c9d9c8bf6327be p:-198.70 261.34 -341.17
+[2026-11-02 17:12:35.047] [network] [info] Server Late, dt 0.1129992
+[2026-11-02 17:12:35.048] [server] [info] Server updated: 2 players
+[2026-11-02 17:12:35.048] [messages] [error] ServerEngineChannel: doesn't implement message handler for message WeatherNoiseData
+[2026-11-02 17:12:35.049] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:12:35.277] [server] [info] [C:5|G:0] [RemoteGameServer][4e21b8d38d7f3000-32c9d9c8bf6327be] RequestPlayerCar preset_gtam_mech_1
+[2026-11-02 17:12:35.279] [network] [info] Ranked server: correct car preset_gtam_mech_1
+[2026-11-02 17:12:35.279] [server] [info] [C:5|G:0] [ServerVehicleSystem][4e21b8d38d7f3000-32c9d9c8bf6327be] Destroying Car(1) By ID (Driver 3	76561198000000003)
+[2026-11-02 17:12:35.279] [server] [info] Pit Spawn [0] pit_slot 1 has been unassigned.
+[2026-11-02 17:12:35.279] [server] [info] [C:5|G:0] [RemoteGameMode][4e21b8d38d7f3000-32c9d9c8bf6327be] disconnectCar
+[2026-11-02 17:12:35.279] [server] [info] Removing registered competitor 765611980000000034e21b8d38d7f3000-32c9d9c8bf6327be car_number 1
+[2026-11-02 17:12:35.280] [server] [info] [C:5|G:0] [ServerVehicleSystem][4e21b8d38d7f3000-32c9d9c8bf6327be] Creating Car (Driver 3	76561198000000003)
+[2026-11-02 17:12:35.280] [gameplay] [info] ------------------ pitboxes used ------------------
+[2026-11-02 17:12:35.280] [server] [info] assigning pit slot 1 competitor_id 765611980000000034e21b8d38d7f3000-32c9d9c8bf6327be car_number 1
+[2026-11-02 17:12:35.280] [gameplay] [info] ---------------------------------------------------
+[2026-11-02 17:12:35.280] [gameplay] [info] searchForSpawn 4e21b8d38d7f3000-32c9d9c8bf6327be p:-198.70 261.34 -341.17
+[2026-11-02 17:12:35.280] [server] [info] Car [4e21b8d38d7f3000-32c9d9c8bf6327be] #1 for driver Driver 3 [76561198000000003]
+[2026-11-02 17:12:35.280] [server] [info] Init connection TCP socket name: 'sok_3'
+[2026-11-02 17:12:35.285] [server] [info] [C:1|G:0] [RemoteGameServer][44a6bb478b2433ea-8c4c4fdd204c7692] RequestPlayerCar preset_gtam_mech_1
+[2026-11-02 17:12:35.286] [network] [info] Ranked server: correct car preset_gtam_mech_1
+[2026-11-02 17:12:35.286] [server] [info] [C:1|G:0] [ServerVehicleSystem][44a6bb478b2433ea-8c4c4fdd204c7692] Destroying Car(0) By ID (Driver 1	76561198000000001)
+[2026-11-02 17:12:35.286] [server] [info] Pit Spawn [0] pit_slot has been unassigned.
+[2026-11-02 17:12:35.286] [server] [info] [C:1|G:0] [RemoteGameMode][44a6bb478b2433ea-8c4c4fdd204c7692] disconnectCar
+[2026-11-02 17:12:35.286] [server] [info] Removing registered competitor 7656119800000000144a6bb478b2433ea-8c4c4fdd204c7692 car_number 0
+[2026-11-02 17:12:35.287] [server] [info] [C:1|G:0] [ServerVehicleSystem][44a6bb478b2433ea-8c4c4fdd204c7692] Creating Car (Driver 1	76561198000000001)
+[2026-11-02 17:12:35.287] [gameplay] [info] ------------------ pitboxes used ------------------
+[2026-11-02 17:12:35.287] [server] [info] assigning pit slot 0 competitor_id 7656119800000000144a6bb478b2433ea-8c4c4fdd204c7692 car_number 0
+[2026-11-02 17:12:35.287] [gameplay] [info] ---------------------------------------------------
+[2026-11-02 17:12:35.287] [gameplay] [info] searchForSpawn 44a6bb478b2433ea-8c4c4fdd204c7692 p:-202.28 261.30 -336.47
+[2026-11-02 17:12:35.287] [server] [info] Car [44a6bb478b2433ea-8c4c4fdd204c7692] #0 for driver Driver 1 [76561198000000001]
+[2026-11-02 17:12:35.287] [server] [info] Init connection TCP socket name: 'sok_1'
+[2026-11-02 17:12:35.440] [gameplay] [info] Remote onConnectionTcpMessage
+[2026-11-02 17:12:35.440] [server] [info] Connecting Car 4e21b8d38d7f3000-32c9d9c8bf6327be (Driver 3 | 76561198000000003 (AI: false)
+[2026-11-02 17:12:35.440] [gameplay] [info] 76561198000000003 connected (true) on car ks_alfa_romeo_giulia_gtam, with new carId 4e21b8d38d7f3000-32c9d9c8bf6327be
+[2026-11-02 17:12:35.441] [gameplay] [info] RACE GRID: use the results
+[2026-11-02 17:12:35.441] [gameplay] [info] STARTING GRID (best): #0 - [0] Driver 1 (01:37.506)
+[2026-11-02 17:12:35.441] [gameplay] [info] STARTING GRID (best): #1 - [1] Driver 3 (35791:23.647)
+[2026-11-02 17:12:35.441] [gameplay] [info] RACE GRID: 44a6bb478b2433ea-8c4c4fdd204c7692	 Position: 0	
+[2026-11-02 17:12:35.441] [gameplay] [info] RACE GRID: 4e21b8d38d7f3000-32c9d9c8bf6327be	 Position: 1	
+[2026-11-02 17:12:35.442] [server] [info] Teleporting 4e21b8d38d7f3000-32c9d9c8bf6327be pos 1 (StartingPositionType_Grid) [-252.81526 263.9286 -307.7718]
+[2026-11-02 17:12:35.442] [gameplay] [info] Received ClientLoaded event for car_id 4e21b8d38d7f3000-32c9d9c8bf6327be, teleported to grid position
+[2026-11-02 17:12:35.442] [network] [info] Remote cars added to ready to start map 4e21b8d38d7f3000-32c9d9c8bf6327be
+[2026-11-02 17:12:35.443] [server] [info] Car def found comp 765611980000000034e21b8d38d7f3000-32c9d9c8bf6327be pit 1
+[2026-11-02 17:12:35.443] [gameplay] [info] ACEVO-2768: Car 4e21b8d38d7f3000-32c9d9c8bf6327be assigned to slot 1
+[2026-11-02 17:12:35.443] [gameplay] [info] create pitzone from spawn
+[2026-11-02 17:12:35.444] [gameplay] [info] RACE GRID: use the results
+[2026-11-02 17:12:35.444] [gameplay] [info] STARTING GRID (best): #0 - [0] Driver 1 (01:37.506)
+[2026-11-02 17:12:35.444] [gameplay] [info] STARTING GRID (best): #1 - [1] Driver 3 (35791:23.647)
+[2026-11-02 17:12:35.445] [gameplay] [info] RACE GRID: 44a6bb478b2433ea-8c4c4fdd204c7692	 Position: 0	
+[2026-11-02 17:12:35.445] [gameplay] [info] RACE GRID: 4e21b8d38d7f3000-32c9d9c8bf6327be	 Position: 1	
+[2026-11-02 17:12:35.445] [server] [info] Teleporting 4e21b8d38d7f3000-32c9d9c8bf6327be pos 1 (StartingPositionType_Grid) [-252.81526 263.9286 -307.7718]
+[2026-11-02 17:12:35.446] [gameplay] [info] Received ClientLoaded event for car_id 4e21b8d38d7f3000-32c9d9c8bf6327be, teleported to grid position
+[2026-11-02 17:12:35.446] [gameplay] [info] [SERVER] setSessionPhase Start_Spawn_On_Position
+[2026-11-02 17:12:35.446] [server] [info] ---------- RESET VEHICLES TO GRID ----------
+[2026-11-02 17:12:35.446] [server] [info] [4e21b8d38d7f3000-32c9d9c8bf6327be] is already at pos 1
+[2026-11-02 17:12:35.446] [server] [info] Teleporting 44a6bb478b2433ea-8c4c4fdd204c7692 pos 0 (StartingPositionType_Grid) [-253.15393 263.79248 -298.4525]
+[2026-11-02 17:12:35.446] [server] [info] --------------------------------------------
+[2026-11-02 17:12:35.447] [network] [info] GamemodeState sent, ready to start map size 1
+[2026-11-02 17:12:35.483] [gameplay] [info] [SERVER][4e21b8d38d7f3000-32c9d9c8bf6327be] Received pit_state: pit_slot: 1
+[2026-11-02 17:12:35.524] [gameplay] [info] [SERVER][4e21b8d38d7f3000-32c9d9c8bf6327be] Received pit_state: pit_slot: 1 pit_step: OutOfTolerance
+[2026-11-02 17:12:35.543] [gameplay] [info] [SERVER][4e21b8d38d7f3000-32c9d9c8bf6327be] Received pit_state: pit_slot: 1
+[2026-11-02 17:12:35.637] [gameplay] [info] Remote onConnectionTcpMessage
+[2026-11-02 17:12:35.637] [server] [info] Connecting Car 44a6bb478b2433ea-8c4c4fdd204c7692 (Driver 1 | 76561198000000001 (AI: false)
+[2026-11-02 17:12:35.637] [gameplay] [info] 76561198000000001 connected (true) on car ks_alfa_romeo_giulia_gtam, with new carId 44a6bb478b2433ea-8c4c4fdd204c7692
+[2026-11-02 17:12:35.637] [gameplay] [info] RACE GRID: use the results
+[2026-11-02 17:12:35.637] [gameplay] [info] STARTING GRID (best): #0 - [0] Driver 1 (01:37.506)
+[2026-11-02 17:12:35.637] [gameplay] [info] STARTING GRID (best): #1 - [1] Driver 3 (35791:23.647)
+[2026-11-02 17:12:35.637] [gameplay] [info] RACE GRID: 44a6bb478b2433ea-8c4c4fdd204c7692	 Position: 0	
+[2026-11-02 17:12:35.637] [gameplay] [info] RACE GRID: 4e21b8d38d7f3000-32c9d9c8bf6327be	 Position: 1	
+[2026-11-02 17:12:35.637] [server] [info] Teleporting 44a6bb478b2433ea-8c4c4fdd204c7692 pos 0 (StartingPositionType_Grid) [-253.15393 263.79248 -298.4525]
+[2026-11-02 17:12:35.638] [gameplay] [info] Received ClientLoaded event for car_id 44a6bb478b2433ea-8c4c4fdd204c7692, teleported to grid position
+[2026-11-02 17:12:35.638] [network] [info] Remote cars added to ready to start map 44a6bb478b2433ea-8c4c4fdd204c7692
+[2026-11-02 17:12:35.639] [server] [info] Car def found comp 7656119800000000144a6bb478b2433ea-8c4c4fdd204c7692 pit 0
+[2026-11-02 17:12:35.639] [gameplay] [info] ACEVO-2768: Car 44a6bb478b2433ea-8c4c4fdd204c7692 assigned to slot 0
+[2026-11-02 17:12:35.639] [gameplay] [info] create pitzone from spawn
+[2026-11-02 17:12:35.639] [gameplay] [info] RACE GRID: use the results
+[2026-11-02 17:12:35.639] [gameplay] [info] STARTING GRID (best): #0 - [0] Driver 1 (01:37.506)
+[2026-11-02 17:12:35.639] [gameplay] [info] STARTING GRID (best): #1 - [1] Driver 3 (35791:23.647)
+[2026-11-02 17:12:35.639] [gameplay] [info] RACE GRID: 44a6bb478b2433ea-8c4c4fdd204c7692	 Position: 0	
+[2026-11-02 17:12:35.639] [gameplay] [info] RACE GRID: 4e21b8d38d7f3000-32c9d9c8bf6327be	 Position: 1	
+[2026-11-02 17:12:35.640] [server] [info] Teleporting 44a6bb478b2433ea-8c4c4fdd204c7692 pos 0 (StartingPositionType_Grid) [-253.15393 263.79248 -298.4525]
+[2026-11-02 17:12:35.640] [gameplay] [info] Received ClientLoaded event for car_id 44a6bb478b2433ea-8c4c4fdd204c7692, teleported to grid position
+[2026-11-02 17:12:35.640] [server] [info] ---------- RESET VEHICLES TO GRID ----------
+[2026-11-02 17:12:35.640] [server] [info] [4e21b8d38d7f3000-32c9d9c8bf6327be] is already at pos 1
+[2026-11-02 17:12:35.640] [server] [info] [44a6bb478b2433ea-8c4c4fdd204c7692] is already at pos 0
+[2026-11-02 17:12:35.640] [server] [info] --------------------------------------------
+[2026-11-02 17:12:35.744] [gameplay] [info] [SERVER][44a6bb478b2433ea-8c4c4fdd204c7692] Received pit_state: pit_step: OutOfTolerance
+[2026-11-02 17:12:35.768] [gameplay] [info] [SERVER][44a6bb478b2433ea-8c4c4fdd204c7692] Received pit_state: 
+[2026-11-02 17:12:36.352] [gameplay] [info] Remote onConnectionTcpMessage
+[2026-11-02 17:12:36.551] [gameplay] [info] Remote onConnectionTcpMessage
+[2026-11-02 17:12:37.318] [gameplay] [info] RACE GRID: use the results
+[2026-11-02 17:12:37.318] [gameplay] [info] STARTING GRID (best): #0 - [0] Driver 1 (01:37.506)
+[2026-11-02 17:12:37.318] [gameplay] [info] STARTING GRID (best): #1 - [1] Driver 3 (35791:23.647)
+[2026-11-02 17:12:37.318] [gameplay] [info] RACE GRID: 44a6bb478b2433ea-8c4c4fdd204c7692	 Position: 0	
+[2026-11-02 17:12:37.318] [gameplay] [info] RACE GRID: 4e21b8d38d7f3000-32c9d9c8bf6327be	 Position: 1	
+[2026-11-02 17:12:37.319] [gameplay] [info] InstantRaceRemote min waiting duration 11881.80819991976
+[2026-11-02 17:12:37.319] [server] [info] ---------- RESET VEHICLES TO GRID ----------
+[2026-11-02 17:12:37.319] [server] [info] [4e21b8d38d7f3000-32c9d9c8bf6327be] is already at pos 1
+[2026-11-02 17:12:37.319] [server] [info] [44a6bb478b2433ea-8c4c4fdd204c7692] is already at pos 0
+[2026-11-02 17:12:37.319] [server] [info] --------------------------------------------
+[2026-11-02 17:12:40.458] [server] [info] lastHeartbeat 960014 9700 9700
+[2026-11-02 17:12:40.458] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 17:12:48.635] [network] [info] Received Ping from 192.0.2.27 [26809]
+[2026-11-02 17:12:50.577] [gameplay] [info] RACE GRID: use the results
+[2026-11-02 17:12:50.577] [gameplay] [info] STARTING GRID (best): #0 - [0] Driver 1 (01:37.506)
+[2026-11-02 17:12:50.577] [gameplay] [info] STARTING GRID (best): #1 - [1] Driver 3 (35791:23.647)
+[2026-11-02 17:12:50.578] [gameplay] [info] RACE GRID: 44a6bb478b2433ea-8c4c4fdd204c7692	 Position: 0	
+[2026-11-02 17:12:50.578] [gameplay] [info] RACE GRID: 4e21b8d38d7f3000-32c9d9c8bf6327be	 Position: 1	
+[2026-11-02 17:12:50.578] [gameplay] [info] InstantRaceRemote ready
+[2026-11-02 17:12:50.579] [gameplay] [info] [SERVER] setSessionPhase Waiting_For_Players
+[2026-11-02 17:12:50.579] [gameplay] [info] [SERVER] setSessionPhase Start_Spawn_On_Position
+[2026-11-02 17:12:50.579] [server] [info] ---------- RESET VEHICLES TO GRID ----------
+[2026-11-02 17:12:50.579] [server] [info] [4e21b8d38d7f3000-32c9d9c8bf6327be] is already at pos 1
+[2026-11-02 17:12:50.579] [server] [info] [44a6bb478b2433ea-8c4c4fdd204c7692] is already at pos 0
+[2026-11-02 17:12:50.579] [server] [info] --------------------------------------------
+[2026-11-02 17:12:50.583] [gameplay] [info] changing session phase 0 -> 1
+[2026-11-02 17:12:50.583] [gameplay] [info] RACE GRID: use the results
+[2026-11-02 17:12:50.583] [gameplay] [info] STARTING GRID (best): #0 - [0] Driver 1 (01:37.506)
+[2026-11-02 17:12:50.583] [gameplay] [info] STARTING GRID (best): #1 - [1] Driver 3 (35791:23.647)
+[2026-11-02 17:12:50.583] [gameplay] [info] RACE GRID: 44a6bb478b2433ea-8c4c4fdd204c7692	 Position: 0	
+[2026-11-02 17:12:50.583] [gameplay] [info] RACE GRID: 4e21b8d38d7f3000-32c9d9c8bf6327be	 Position: 1	
+[2026-11-02 17:12:50.583] [gameplay] [info] RACE GRID:
+[2026-11-02 17:12:50.583] [gameplay] [info] #0 - [0] Driver 1
+[2026-11-02 17:12:50.583] [gameplay] [info] #1 - [1] Driver 3
+[2026-11-02 17:12:50.583] [server] [info] ---------- RESET VEHICLES TO GRID ----------
+[2026-11-02 17:12:50.583] [server] [info] [4e21b8d38d7f3000-32c9d9c8bf6327be] is already at pos 1
+[2026-11-02 17:12:50.583] [server] [info] [44a6bb478b2433ea-8c4c4fdd204c7692] is already at pos 0
+[2026-11-02 17:12:50.583] [server] [info] --------------------------------------------
+[2026-11-02 17:12:55.579] [gameplay] [info] changing session phase 1 -> 2
+[2026-11-02 17:12:55.579] [gameplay] [info] Outplap split
+[2026-11-02 17:12:55.579] [gameplay] [info] Outplap split
+[2026-11-02 17:12:55.580] [gameplay] [info] [SERVER] setSessionPhase Start_Countdown_No_Lights
+[2026-11-02 17:12:55.580] [gameplay] [info] [SERVER] setSessionPhase Start_Countdown_Lights_On
+[2026-11-02 17:12:55.580] [gameplay] [info] [SERVER] setSessionPhase Start_Countdown_Lights_Off
+[2026-11-02 17:12:55.584] [gameplay] [info] changing session phase 2 -> 3
+[2026-11-02 17:13:00.580] [gameplay] [info] changing session phase 3 -> 4
+[2026-11-02 17:13:02.100] [gameplay] [info] changing session phase 4 -> 50
+[2026-11-02 17:13:02.100] [gameplay] [info] [SERVER] setSessionPhase Session
+[2026-11-02 17:13:02.100] [gameplay] [info] [SERVER] setSessionPhase Overtime_Waiting_For_Leader
+[2026-11-02 17:13:02.100] [gameplay] [info] [SERVER] setSessionPhase Overtime_Waiting_For_Others
+[2026-11-02 17:13:02.100] [network] [info] Clearing ready to start map
+[2026-11-02 17:13:09.263] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (1178239 ms, splitindex 2) lap:0
+[2026-11-02 17:13:09.264] [gameplay] [info] Unexpected On Split
+[2026-11-02 17:13:09.473] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (607192 ms, splitindex 2) lap:0
+[2026-11-02 17:13:09.473] [gameplay] [info] Unexpected On Split
+[2026-11-02 17:13:47.816] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (38334 ms, splitindex 0) lap:0
+[2026-11-02 17:13:47.816] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:13:47.816] [gameplay] [info] On Split start false end false id 0 splittime 45711
+[2026-11-02 17:13:48.366] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (39099 ms, splitindex 0) lap:0
+[2026-11-02 17:13:48.366] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:13:48.366] [gameplay] [info] On Split start false end false id 0 splittime 46261
+[2026-11-02 17:14:09.321] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:14:09.321] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:14:09.321] [server] [info] New connection received 708
+[2026-11-02 17:14:09.321] [server] [info] Alive connections: 3
+[2026-11-02 17:14:09.322] [server] [info] Server updated: 2 players
+[2026-11-02 17:14:09.323] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:14:09.726] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (21915 ms, splitindex 1) lap:0
+[2026-11-02 17:14:09.726] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:14:09.726] [gameplay] [info] On Split start false end false id 1 splittime 21915
+[2026-11-02 17:14:10.319] [server] [info] connection closed 11 due to not established conn
+[2026-11-02 17:14:10.320] [server] [info] Removing dead connection 11
+[2026-11-02 17:14:10.320] [server] [info] Alive connections: 2
+[2026-11-02 17:14:10.320] [server] [info] Server updated: 2 players
+[2026-11-02 17:14:10.321] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:14:10.361] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (21996 ms, splitindex 1) lap:0
+[2026-11-02 17:14:10.361] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:14:10.361] [gameplay] [info] On Split start false end false id 1 splittime 21996
+[2026-11-02 17:14:34.776] [network] [info] Received Ping from 192.0.2.28 [45109]
+[2026-11-02 17:14:36.122] [network] [warning] No response for this path
+[2026-11-02 17:14:40.461] [server] [info] lastHeartbeat 1080015 9700 9700
+[2026-11-02 17:14:40.463] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 17:14:58.504] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:14:58.504] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:14:58.505] [server] [info] New connection received 708
+[2026-11-02 17:14:58.505] [server] [info] Alive connections: 3
+[2026-11-02 17:14:58.505] [server] [info] Server updated: 2 players
+[2026-11-02 17:14:58.506] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:14:59.502] [server] [info] connection closed 12 due to not established conn
+[2026-11-02 17:14:59.502] [server] [info] Removing dead connection 12
+[2026-11-02 17:14:59.503] [server] [info] Alive connections: 2
+[2026-11-02 17:14:59.503] [server] [info] Server updated: 2 players
+[2026-11-02 17:14:59.504] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:15:01.830] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (51468 ms, splitindex 2) lap:0
+[2026-11-02 17:15:01.831] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:15:01.831] [gameplay] [info] On Split start true end true id 2 splittime 51468
+[2026-11-02 17:15:01.831] [gameplay] [info] On Split end with all splits, id 2, 392753375949729792
+[2026-11-02 17:15:01.831] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:59.725
+[2026-11-02 17:15:02.455] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (52731 ms, splitindex 2) lap:0
+[2026-11-02 17:15:02.455] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:15:02.455] [gameplay] [info] On Split start true end true id 2 splittime 52731
+[2026-11-02 17:15:02.455] [gameplay] [info] On Split end with all splits, id 2, 392753378566975488
+[2026-11-02 17:15:02.455] [gameplay] [info] New lap carId 4e21b8d38d7f3000-32c9d9c8bf6327be: 02:00.357
+[2026-11-02 17:15:38.513] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (36681 ms, splitindex 0) lap:1
+[2026-11-02 17:15:38.513] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:15:38.513] [gameplay] [info] On Split start false end false id 0 splittime 36681
+[2026-11-02 17:15:38.852] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (36402 ms, splitindex 0) lap:1
+[2026-11-02 17:15:38.853] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:15:38.853] [gameplay] [info] On Split start false end false id 0 splittime 36402
+[2026-11-02 17:15:59.942] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (21429 ms, splitindex 1) lap:1
+[2026-11-02 17:15:59.943] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:15:59.943] [gameplay] [info] On Split start false end false id 1 splittime 21429
+[2026-11-02 17:16:00.615] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (21747 ms, splitindex 1) lap:1
+[2026-11-02 17:16:00.615] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:16:00.615] [gameplay] [info] On Split start false end false id 1 splittime 21747
+[2026-11-02 17:16:37.204] [network] [info] Received Ping from 192.0.2.29 [54005]
+[2026-11-02 17:16:39.797] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (39855 ms, splitindex 2) lap:1
+[2026-11-02 17:16:39.797] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:16:39.797] [gameplay] [info] On Split start true end true id 2 splittime 39855
+[2026-11-02 17:16:39.797] [gameplay] [info] On Split end with all splits, id 2, 392753786848915456
+[2026-11-02 17:16:39.797] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:37.965
+[2026-11-02 17:16:39.863] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (39249 ms, splitindex 2) lap:1
+[2026-11-02 17:16:39.863] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:16:39.863] [gameplay] [info] On Split start true end true id 2 splittime 39249
+[2026-11-02 17:16:39.863] [gameplay] [info] On Split end with all splits, id 2, 392753787125739520
+[2026-11-02 17:16:39.863] [gameplay] [info] New lap carId 4e21b8d38d7f3000-32c9d9c8bf6327be: 01:37.398
+[2026-11-02 17:16:40.466] [server] [info] lastHeartbeat 1200018 9700 9700
+[2026-11-02 17:16:40.466] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 17:17:16.028] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (36228 ms, splitindex 0) lap:2
+[2026-11-02 17:17:16.029] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:17:16.029] [gameplay] [info] On Split start false end false id 0 splittime 36228
+[2026-11-02 17:17:16.654] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (36801 ms, splitindex 0) lap:2
+[2026-11-02 17:17:16.654] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:17:16.654] [gameplay] [info] On Split start false end false id 0 splittime 36801
+[2026-11-02 17:17:37.735] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (21711 ms, splitindex 1) lap:2
+[2026-11-02 17:17:37.735] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:17:37.736] [gameplay] [info] On Split start false end false id 1 splittime 21711
+[2026-11-02 17:17:38.496] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (21831 ms, splitindex 1) lap:2
+[2026-11-02 17:17:38.496] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:17:38.496] [gameplay] [info] On Split start false end false id 1 splittime 21831
+[2026-11-02 17:18:07.092] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:18:07.092] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:18:07.092] [server] [info] New connection received 708
+[2026-11-02 17:18:07.092] [server] [info] Alive connections: 3
+[2026-11-02 17:18:07.093] [server] [info] Server updated: 2 players
+[2026-11-02 17:18:07.094] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:18:08.089] [server] [info] connection closed 13 due to not established conn
+[2026-11-02 17:18:08.089] [server] [info] Removing dead connection 13
+[2026-11-02 17:18:08.089] [server] [info] Alive connections: 2
+[2026-11-02 17:18:08.089] [server] [info] Server updated: 2 players
+[2026-11-02 17:18:08.090] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:18:16.986] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (39246 ms, splitindex 2) lap:2
+[2026-11-02 17:18:16.986] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:18:16.986] [gameplay] [info] On Split start true end true id 2 splittime 39246
+[2026-11-02 17:18:16.986] [gameplay] [info] On Split end with all splits, id 2, 392754194489126912
+[2026-11-02 17:18:16.986] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:37.185
+[2026-11-02 17:18:17.755] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (39267 ms, splitindex 2) lap:2
+[2026-11-02 17:18:17.755] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:18:17.755] [gameplay] [info] On Split start true end true id 2 splittime 39267
+[2026-11-02 17:18:17.755] [gameplay] [info] On Split end with all splits, id 2, 392754197714546688
+[2026-11-02 17:18:17.755] [gameplay] [info] New lap carId 4e21b8d38d7f3000-32c9d9c8bf6327be: 01:37.899
+[2026-11-02 17:18:32.257] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:18:32.258] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:18:32.258] [server] [info] New connection received 708
+[2026-11-02 17:18:32.258] [server] [info] Alive connections: 3
+[2026-11-02 17:18:32.259] [server] [info] Server updated: 2 players
+[2026-11-02 17:18:32.259] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:18:33.254] [server] [info] connection closed 14 due to not established conn
+[2026-11-02 17:18:33.254] [server] [info] Removing dead connection 14
+[2026-11-02 17:18:33.255] [server] [info] Alive connections: 2
+[2026-11-02 17:18:33.255] [server] [info] Server updated: 2 players
+[2026-11-02 17:18:33.256] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:18:40.468] [server] [info] lastHeartbeat 1320019 9700 9700
+[2026-11-02 17:18:40.468] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 17:18:53.475] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (36492 ms, splitindex 0) lap:3
+[2026-11-02 17:18:53.475] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:18:53.476] [gameplay] [info] On Split start false end false id 0 splittime 36492
+[2026-11-02 17:18:53.994] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (36234 ms, splitindex 0) lap:3
+[2026-11-02 17:18:53.994] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:18:53.994] [gameplay] [info] On Split start false end false id 0 splittime 36234
+[2026-11-02 17:18:58.395] [network] [info] Received Ping from 192.0.2.30 [24758]
+[2026-11-02 17:19:15.106] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (21627 ms, splitindex 1) lap:3
+[2026-11-02 17:19:15.106] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:19:15.106] [gameplay] [info] On Split start false end false id 1 splittime 21627
+[2026-11-02 17:19:15.813] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (21816 ms, splitindex 1) lap:3
+[2026-11-02 17:19:15.813] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:19:15.813] [gameplay] [info] On Split start false end false id 1 splittime 21816
+[2026-11-02 17:19:54.375] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (38565 ms, splitindex 2) lap:3
+[2026-11-02 17:19:54.376] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:19:54.376] [gameplay] [info] On Split start true end true id 2 splittime 38565
+[2026-11-02 17:19:54.376] [gameplay] [info] On Split end with all splits, id 2, 392754602972393472
+[2026-11-02 17:19:54.376] [gameplay] [info] New lap carId 4e21b8d38d7f3000-32c9d9c8bf6327be: 01:36.615
+[2026-11-02 17:19:54.870] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (39765 ms, splitindex 2) lap:3
+[2026-11-02 17:19:54.871] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:19:54.871] [gameplay] [info] On Split start true end true id 2 splittime 39765
+[2026-11-02 17:19:54.871] [gameplay] [info] On Split end with all splits, id 2, 392754605048573952
+[2026-11-02 17:19:54.871] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:37.884
+[2026-11-02 17:20:13.495] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:20:13.496] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:20:13.496] [server] [info] New connection received 708
+[2026-11-02 17:20:13.496] [server] [info] Alive connections: 3
+[2026-11-02 17:20:13.498] [server] [info] Server updated: 2 players
+[2026-11-02 17:20:13.499] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:20:14.491] [server] [info] connection closed 15 due to not established conn
+[2026-11-02 17:20:14.491] [server] [info] Removing dead connection 15
+[2026-11-02 17:20:14.491] [server] [info] Alive connections: 2
+[2026-11-02 17:20:14.492] [server] [info] Server updated: 2 players
+[2026-11-02 17:20:14.492] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:20:31.043] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (36666 ms, splitindex 0) lap:4
+[2026-11-02 17:20:31.043] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:20:31.043] [gameplay] [info] On Split start false end false id 0 splittime 36666
+[2026-11-02 17:20:31.729] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (36858 ms, splitindex 0) lap:4
+[2026-11-02 17:20:31.729] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:20:31.729] [gameplay] [info] On Split start false end false id 0 splittime 36858
+[2026-11-02 17:20:40.471] [server] [info] lastHeartbeat 1440021 9700 9700
+[2026-11-02 17:20:40.472] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 17:20:52.973] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (21933 ms, splitindex 1) lap:4
+[2026-11-02 17:20:52.973] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:20:52.973] [gameplay] [info] On Split start false end false id 1 splittime 21933
+[2026-11-02 17:20:53.408] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (21678 ms, splitindex 1) lap:4
+[2026-11-02 17:20:53.408] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:20:53.408] [gameplay] [info] On Split start false end false id 1 splittime 21678
+[2026-11-02 17:21:25.568] [network] [info] Received Ping from 192.0.2.31 [49958]
+[2026-11-02 17:21:35.663] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (42681 ms, splitindex 2) lap:4
+[2026-11-02 17:21:35.663] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:21:35.663] [gameplay] [info] On Split start true end true id 2 splittime 42681
+[2026-11-02 17:21:35.663] [gameplay] [info] On Split end with all splits, id 2, 392755027800862720
+[2026-11-02 17:21:35.663] [gameplay] [info] New lap carId 4e21b8d38d7f3000-32c9d9c8bf6327be: 01:41.280
+[2026-11-02 17:21:36.302] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (42894 ms, splitindex 2) lap:4
+[2026-11-02 17:21:36.303] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:21:36.303] [gameplay] [info] On Split start true end true id 2 splittime 42894
+[2026-11-02 17:21:36.303] [gameplay] [info] On Split end with all splits, id 2, 392755030485217280
+[2026-11-02 17:21:36.303] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:41.430
+[2026-11-02 17:22:01.401] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:22:01.402] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:22:01.402] [server] [info] New connection received 708
+[2026-11-02 17:22:01.402] [server] [info] Alive connections: 3
+[2026-11-02 17:22:01.403] [server] [info] Server updated: 2 players
+[2026-11-02 17:22:01.403] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:22:02.398] [server] [info] connection closed 16 due to not established conn
+[2026-11-02 17:22:02.399] [server] [info] Removing dead connection 16
+[2026-11-02 17:22:02.399] [server] [info] Alive connections: 2
+[2026-11-02 17:22:02.399] [server] [info] Server updated: 2 players
+[2026-11-02 17:22:02.400] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:22:11.915] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (36249 ms, splitindex 0) lap:5
+[2026-11-02 17:22:11.915] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:22:11.915] [gameplay] [info] On Split start false end false id 0 splittime 36249
+[2026-11-02 17:22:12.689] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (36387 ms, splitindex 0) lap:5
+[2026-11-02 17:22:12.689] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:22:12.689] [gameplay] [info] On Split start false end false id 0 splittime 36387
+[2026-11-02 17:22:33.810] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (21900 ms, splitindex 1) lap:5
+[2026-11-02 17:22:33.810] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:22:33.810] [gameplay] [info] On Split start false end false id 1 splittime 21900
+[2026-11-02 17:22:34.334] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (21645 ms, splitindex 1) lap:5
+[2026-11-02 17:22:34.334] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:22:34.334] [gameplay] [info] On Split start false end false id 1 splittime 21645
+[2026-11-02 17:22:40.474] [server] [info] lastHeartbeat 1560022 9700 9700
+[2026-11-02 17:22:40.475] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 17:22:42.218] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:22:42.218] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:22:42.219] [server] [info] New connection received 708
+[2026-11-02 17:22:42.219] [server] [info] Alive connections: 3
+[2026-11-02 17:22:42.219] [server] [info] Server updated: 2 players
+[2026-11-02 17:22:42.220] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:22:43.218] [server] [info] connection closed 17 due to not established conn
+[2026-11-02 17:22:43.218] [server] [info] Removing dead connection 17
+[2026-11-02 17:22:43.219] [server] [info] Alive connections: 2
+[2026-11-02 17:22:43.219] [server] [info] Server updated: 2 players
+[2026-11-02 17:22:43.219] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:23:15.901] [network] [info] Received Ping from 192.0.2.32 [3082]
+[2026-11-02 17:23:16.325] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (42516 ms, splitindex 2) lap:5
+[2026-11-02 17:23:16.326] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:23:16.326] [gameplay] [info] On Split start true end true id 2 splittime 42516
+[2026-11-02 17:23:16.326] [gameplay] [info] On Split end with all splits, id 2, 392755450012086272
+[2026-11-02 17:23:16.326] [gameplay] [info] New lap carId 4e21b8d38d7f3000-32c9d9c8bf6327be: 01:40.665
+[2026-11-02 17:23:16.655] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (42321 ms, splitindex 2) lap:5
+[2026-11-02 17:23:16.656] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:23:16.656] [gameplay] [info] On Split start true end true id 2 splittime 42321
+[2026-11-02 17:23:16.656] [gameplay] [info] On Split end with all splits, id 2, 392755451396206592
+[2026-11-02 17:23:16.656] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:40.353
+[2026-11-02 17:23:52.674] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (36351 ms, splitindex 0) lap:6
+[2026-11-02 17:23:52.675] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:23:52.675] [gameplay] [info] On Split start false end false id 0 splittime 36351
+[2026-11-02 17:23:53.070] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (36414 ms, splitindex 0) lap:6
+[2026-11-02 17:23:53.070] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:23:53.070] [gameplay] [info] On Split start false end false id 0 splittime 36414
+[2026-11-02 17:24:14.293] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (21615 ms, splitindex 1) lap:6
+[2026-11-02 17:24:14.293] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:24:14.293] [gameplay] [info] On Split start false end false id 1 splittime 21615
+[2026-11-02 17:24:14.976] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (21903 ms, splitindex 1) lap:6
+[2026-11-02 17:24:14.978] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:24:14.978] [gameplay] [info] On Split start false end false id 1 splittime 21903
+[2026-11-02 17:24:40.428] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:24:40.428] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:24:40.429] [server] [info] New connection received 716
+[2026-11-02 17:24:40.429] [server] [info] Alive connections: 3
+[2026-11-02 17:24:40.430] [server] [info] Server updated: 2 players
+[2026-11-02 17:24:40.431] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:24:40.480] [server] [info] lastHeartbeat 1680025 9700 9700
+[2026-11-02 17:24:40.481] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 17:24:41.426] [server] [info] connection closed 18 due to not established conn
+[2026-11-02 17:24:41.427] [server] [info] Removing dead connection 18
+[2026-11-02 17:24:41.428] [server] [info] Alive connections: 2
+[2026-11-02 17:24:41.428] [server] [info] Server updated: 2 players
+[2026-11-02 17:24:41.428] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:24:52.475] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (38181 ms, splitindex 2) lap:6
+[2026-11-02 17:24:52.475] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:24:52.475] [gameplay] [info] On Split start true end true id 2 splittime 38181
+[2026-11-02 17:24:52.475] [gameplay] [info] On Split end with all splits, id 2, 392755853290221568
+[2026-11-02 17:24:52.475] [gameplay] [info] New lap carId 4e21b8d38d7f3000-32c9d9c8bf6327be: 01:36.147
+[2026-11-02 17:24:54.185] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (39210 ms, splitindex 2) lap:6
+[2026-11-02 17:24:54.185] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:24:54.185] [gameplay] [info] On Split start true end true id 2 splittime 39210
+[2026-11-02 17:24:54.185] [gameplay] [info] On Split end with all splits, id 2, 392755860462481408
+[2026-11-02 17:24:54.185] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:37.527
+[2026-11-02 17:25:31.211] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (37023 ms, splitindex 0) lap:7
+[2026-11-02 17:25:31.211] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:25:31.211] [gameplay] [info] On Split start false end false id 0 splittime 37023
+[2026-11-02 17:25:31.874] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (39399 ms, splitindex 0) lap:7
+[2026-11-02 17:25:31.875] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:25:31.875] [gameplay] [info] On Split start false end false id 0 splittime 39399
+[2026-11-02 17:25:32.028] [network] [info] Received Ping from 192.0.2.33 [55391]
+[2026-11-02 17:25:52.797] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (21588 ms, splitindex 1) lap:7
+[2026-11-02 17:25:52.797] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:25:52.797] [gameplay] [info] On Split start false end false id 1 splittime 21588
+[2026-11-02 17:25:53.635] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (21750 ms, splitindex 1) lap:7
+[2026-11-02 17:25:53.635] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:25:53.636] [gameplay] [info] On Split start false end false id 1 splittime 21750
+[2026-11-02 17:26:11.213] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:26:11.214] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:26:11.214] [server] [info] New connection received 708
+[2026-11-02 17:26:11.214] [server] [info] Alive connections: 3
+[2026-11-02 17:26:11.215] [server] [info] Server updated: 2 players
+[2026-11-02 17:26:11.215] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:26:12.213] [server] [info] connection closed 19 due to not established conn
+[2026-11-02 17:26:12.213] [server] [info] Removing dead connection 19
+[2026-11-02 17:26:12.214] [server] [info] Alive connections: 2
+[2026-11-02 17:26:12.214] [server] [info] Server updated: 2 players
+[2026-11-02 17:26:12.214] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:26:31.766] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (38967 ms, splitindex 2) lap:7
+[2026-11-02 17:26:31.766] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:26:31.766] [gameplay] [info] On Split start true end true id 2 splittime 38967
+[2026-11-02 17:26:31.766] [gameplay] [info] On Split end with all splits, id 2, 392756269746860032
+[2026-11-02 17:26:31.766] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:37.578
+[2026-11-02 17:26:32.280] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (38649 ms, splitindex 2) lap:7
+[2026-11-02 17:26:32.280] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:26:32.280] [gameplay] [info] On Split start true end true id 2 splittime 38649
+[2026-11-02 17:26:32.280] [gameplay] [info] On Split end with all splits, id 2, 392756271902732288
+[2026-11-02 17:26:32.280] [gameplay] [info] New lap carId 4e21b8d38d7f3000-32c9d9c8bf6327be: 01:39.798
+[2026-11-02 17:26:40.485] [server] [info] lastHeartbeat 1800028 9700 9700
+[2026-11-02 17:26:40.485] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-11-02 17:27:02.152] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-11-02 17:27:02.152] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-11-02 17:27:02.152] [server] [info] New connection received 716
+[2026-11-02 17:27:02.153] [server] [info] Alive connections: 3
+[2026-11-02 17:27:02.153] [server] [info] Server updated: 2 players
+[2026-11-02 17:27:02.154] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:27:03.149] [server] [info] connection closed 20 due to not established conn
+[2026-11-02 17:27:03.149] [server] [info] Removing dead connection 20
+[2026-11-02 17:27:03.149] [server] [info] Alive connections: 2
+[2026-11-02 17:27:03.150] [server] [info] Server updated: 2 players
+[2026-11-02 17:27:03.150] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-11-02 17:27:07.178] [network] [info] Received Ping from 192.0.2.34 [64975]
+[2026-11-02 17:27:07.930] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (36165 ms, splitindex 0) lap:8
+[2026-11-02 17:27:07.930] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:27:07.930] [gameplay] [info] On Split start false end false id 0 splittime 36165
+[2026-11-02 17:27:08.419] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (36135 ms, splitindex 0) lap:8
+[2026-11-02 17:27:08.419] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-11-02 17:27:08.419] [gameplay] [info] On Split start false end false id 0 splittime 36135
+[2026-11-02 17:27:29.740] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (21807 ms, splitindex 1) lap:8
+[2026-11-02 17:27:29.740] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:27:29.740] [gameplay] [info] On Split start false end false id 1 splittime 21807
+[2026-11-02 17:27:30.434] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (22014 ms, splitindex 1) lap:8
+[2026-11-02 17:27:30.435] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-11-02 17:27:30.435] [gameplay] [info] On Split start false end false id 1 splittime 22014
+[2026-11-02 17:28:02.114] [gameplay] [info] changing session phase 50 -> 60
+[2026-11-02 17:28:09.986] [gameplay] [info] Split completed for car 44a6bb478b2433ea-8c4c4fdd204c7692: (40245 ms, splitindex 2) lap:8
+[2026-11-02 17:28:09.986] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:28:09.986] [gameplay] [info] On Split start true end true id 2 splittime 40245
+[2026-11-02 17:28:09.986] [gameplay] [info] On Split end with all splits, id 2, 392756681711398912
+[2026-11-02 17:28:09.986] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:38.217
+[2026-11-02 17:28:10.001] [gameplay] [info] [SERVER] setSessionPhase Overtime_Waiting_For_Leader
+[2026-11-02 17:28:10.001] [gameplay] [info] [SERVER] setSessionPhase Overtime_Waiting_For_Others
+[2026-11-02 17:28:10.008] [gameplay] [info] changing session phase 60 -> 70
+[2026-11-02 17:28:10.009] [gameplay] [info] END_SESSION WatingForOthers Ending Lap for 44a6bb478b2433ea-8c4c4fdd204c7692 car
+[2026-11-02 17:28:10.239] [gameplay] [info] Split completed for car 4e21b8d38d7f3000-32c9d9c8bf6327be: (39801 ms, splitindex 2) lap:8
+[2026-11-02 17:28:10.239] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-11-02 17:28:10.239] [gameplay] [info] On Split start true end true id 2 splittime 39801
+[2026-11-02 17:28:10.239] [gameplay] [info] On Split end with all splits, id 2, 392756682772557824
+[2026-11-02 17:28:10.239] [gameplay] [info] New lap carId 4e21b8d38d7f3000-32c9d9c8bf6327be: 01:37.950
+[2026-11-02 17:28:10.250] [gameplay] [info] [SERVER] setSessionPhase Overtime_Waiting_For_Others
+[2026-11-02 17:28:10.250] [gameplay] [info] END_SESSION WatingForOthers Ending Lap for 4e21b8d38d7f3000-32c9d9c8bf6327be car
+[2026-11-02 17:28:10.250] [gameplay] [info] [SERVER] setSessionPhase Overtime_Waiting_For_Others
+[2026-11-02 17:28:10.254] [gameplay] [info] changing session phase 70 -> 71
+[2026-11-02 17:28:10.254] [gameplay] [info] [SERVER] setSessionPhase Waiting_For_Ai
+[2026-11-02 17:28:10.264] [gameplay] [info] changing session phase 71 -> 72
+[2026-11-02 17:28:10.264] [gameplay] [info] [SERVER] setSessionPhase Waiting_For_PitBox
+[2026-11-02 17:28:12.457] [server] [info] Car def found comp 7656119800000000144a6bb478b2433ea-8c4c4fdd204c7692 pit 0
+[2026-11-02 17:28:12.457] [gameplay] [info] ACEVO-2768: Car 44a6bb478b2433ea-8c4c4fdd204c7692 assigned to slot 0
+[2026-11-02 17:28:12.457] [server] [info] Teleporting 44a6bb478b2433ea-8c4c4fdd204c7692 pos 0 (StartingPositionType_Pit) [-202.2833 261.29797 -336.4691]
+[2026-11-02 17:28:12.526] [gameplay] [info] [SERVER][44a6bb478b2433ea-8c4c4fdd204c7692] Received pit_state: pit_step: Steady total_pit_time_ms: 30000
+[2026-11-02 17:28:14.405] [server] [info] Car def found comp 765611980000000034e21b8d38d7f3000-32c9d9c8bf6327be pit 1
+[2026-11-02 17:28:14.405] [gameplay] [info] ACEVO-2768: Car 4e21b8d38d7f3000-32c9d9c8bf6327be assigned to slot 1
+[2026-11-02 17:28:14.405] [server] [info] Teleporting 4e21b8d38d7f3000-32c9d9c8bf6327be pos 1 (StartingPositionType_Pit) [-198.69832 261.34076 -341.17084]
+[2026-11-02 17:28:14.485] [gameplay] [info] [SERVER][4e21b8d38d7f3000-32c9d9c8bf6327be] Received pit_state: pit_slot: 1 pit_step: Steady total_pit_time_ms: 30000
+[2026-11-02 17:28:14.485] [gameplay] [info] END_SESSION All cars pitted
+[2026-11-02 17:28:14.485] [gameplay] [info] [SERVER] setSessionPhase Waiting_For_PitBox
+[2026-11-02 17:28:14.489] [gameplay] [info] changing session phase 72 -> 80
+[2026-11-02 17:28:14.490] [gameplay] [info] [SERVER] setSessionPhase Ended
+[2026-11-02 17:28:14.610] [gameplay] [info] [SERVER][44a6bb478b2433ea-8c4c4fdd204c7692] Received pit_state: total_pit_time_ms: 30000
+[2026-11-02 17:28:14.631] [gameplay] [info] [SERVER][4e21b8d38d7f3000-32c9d9c8bf6327be] Received pit_state: pit_slot: 1 total_pit_time_ms: 30000
+[2026-11-02 17:28:24.490] [gameplay] [info] changing session phase 80 -> 90
+[2026-11-02 17:28:24.492] [server] [info] OnExitGamemode
+[2026-11-02 17:28:24.492] [server] [info] STEP: 1
+[2026-11-02 17:28:24.492] [gameplay] [info] Changing GameMode. Alive Connections: 2
+[2026-11-02 17:28:24.591] [gameplay] [info] 0 spawn points of StartingPositionType_DevelopmentDefault[0]
+[2026-11-02 17:28:24.592] [gameplay] [info] 0 spawn points of StartingPositionType_Grid[0]
+[2026-11-02 17:28:24.592] [gameplay] [info] 24 spawn points of StartingPositionType_Pit[0]
+[2026-11-02 17:28:24.592] [gameplay] [info] 24 spawn points of StartingPositionType_Box[0]
+[2026-11-02 17:28:24.592] [gameplay] [info] 0 spawn points of StartingPositionType_Poi[0]
+[2026-11-02 17:28:24.592] [gameplay] [info] Loaded 48 spawn points

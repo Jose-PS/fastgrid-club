@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 60" data-attribution="Fixture de prueba, no es un circuito real">
+  <title>Fixture</title>
+  <defs>
+    <linearGradient id="g1"><stop offset="0" stop-color="currentColor"/></linearGradient>
+    <path id="shape" d="M10 10 L90 10 L90 50 Z"/>
+  </defs>
+  <g fill="none" stroke="currentColor" stroke-width="2">
+    <path d="M10 10 L90 10 L90 50 Z" stroke="url(#g1)"/>
+    <use xlink:href="#shape"/>
+    <line x1="10" y1="10" x2="20" y2="20"/>
+  </g>
+  <text x="5" y="5" font-size="4" aria-hidden="true">Fixture</text>
+</svg>

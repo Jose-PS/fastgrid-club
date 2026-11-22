@@ -1,0 +1,49 @@
+{
+  "slug": "suzuka-east",
+  "name": "Suzuka East",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    34.825,
+    136.52,
+    34.86,
+    136.56
+  ],
+  "direction": "clockwise",
+  "official_length_m": 2243,
+  "notes": "Mitad este: tras NIPPO/Dunlop se toma la conexión 411295346 (OSM une con vértices intermedios de otras vías, se puentea con cuerdas de 38 y 46 m).",
+  "ways": [
+    183391665,
+    183391643,
+    183391645,
+    183391644,
+    183391657,
+    183391636,
+    183391635,
+    183391628,
+    183391634,
+    183391629,
+    183391633,
+    183391631,
+    183391632,
+    183391630,
+    411295346
+  ],
+  "start": {
+    "way": 183391665,
+    "fraction": 0.55
+  },
+  "turns": [
+    {
+      "name": "First Curve",
+      "way": 183391643
+    },
+    {
+      "name": "S Curves",
+      "way": 183391628
+    },
+    {
+      "name": "Reverse Bank",
+      "way": 183391631
+    }
+  ]
+}

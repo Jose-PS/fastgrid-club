@@ -1,0 +1,42 @@
+{
+  "slug": "laguna-seca-gp",
+  "name": "Laguna Seca GP",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    36.565,
+    -121.78,
+    36.595,
+    -121.74
+  ],
+  "direction": "anticlockwise",
+  "official_length_m": 3602,
+  "notes": "Circuito completo de OSM; sin pit lane.",
+  "ways": [
+    10464852,
+    1315957508,
+    1315957507,
+    1315957502,
+    1315957506,
+    1315957503,
+    1315957504,
+    1315957505
+  ],
+  "start": {
+    "way": 10464852,
+    "fraction": 0.3
+  },
+  "turns": [
+    {
+      "name": "Andretti Hairpin",
+      "way": 1315957508
+    },
+    {
+      "name": "Corkscrew",
+      "way": 1315957503
+    },
+    {
+      "name": "Rainey Curve",
+      "way": 1315957505
+    }
+  ]
+}

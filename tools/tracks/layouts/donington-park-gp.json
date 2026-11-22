@@ -1,0 +1,63 @@
+{
+  "slug": "donington-park-gp",
+  "name": "Donington Park GP",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    52.815,
+    -1.395,
+    52.845,
+    -1.355
+  ],
+  "direction": "clockwise",
+  "official_length_m": 4020,
+  "notes": "Circuito GP completo con el bucle Melbourne; sin pit lane.",
+  "ways": [
+    28381201,
+    842454048,
+    841515326,
+    841515325,
+    841515314,
+    242867013,
+    841515315,
+    842454041,
+    842454046,
+    841515305,
+    841515306,
+    841515342,
+    841515343,
+    841515319,
+    841515320,
+    841515321,
+    841515324
+  ],
+  "start": {
+    "way": 242867013,
+    "fraction": 0.5
+  },
+  "turns": [
+    {
+      "name": "Redgate",
+      "way": 841515315
+    },
+    {
+      "name": "Craner Curves",
+      "way": 842454046
+    },
+    {
+      "name": "Old Hairpin",
+      "way": 841515305
+    },
+    {
+      "name": "McLeans",
+      "way": 841515319
+    },
+    {
+      "name": "Coppice",
+      "way": 841515321
+    },
+    {
+      "name": "Melbourne Hairpin",
+      "way": 841515326
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[2026-11-03 10:00:00.000] [gameplay] [info] InstantRaceRemote Race created
+[2026-11-03 10:00:01.000] [server] [info] [C:1|G:0] [ServerVehicleSystem][aaaa000000000001-bbbb000000000001] Creating Car (Ana María O'Brien  	76561198000000009)
+[2026-11-03 10:00:02.000] [gameplay] [info] 76561198000000009 connected (true) on car ks_test_car, with new carId aaaa000000000001-bbbb000000000001
+[2026-11-03 10:00:03.000] [server] [info] Connecting Car aaaa000000000001-bbbb000000000001 (Ana | María | 76561198000000009 (AI: false)
+[2026-11-03 10:01:00.000] [gameplay] [info] New lap carId aaaa000000000001-bbbb000000000001: 01:30.000
+[2026-11-03 10:02:00.000] [server] [info] [C:1|G:0] [ServerVehicleSystem][aaaa000000000001-bbbb000000000001] Destroying Car(0) By ConnectionID (Ana María O'Brien  	76561198000000009)
+[2026-11-03 10:03:00.000] [gameplay] [info] New lap carId aaaa000000000001-bbbb000000000001: 01:31.000

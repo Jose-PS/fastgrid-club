@@ -1,0 +1,335 @@
+{
+  "slug": "nurburgring-24h",
+  "name": "Nürburgring 24h",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    50.31,
+    6.9,
+    50.41,
+    7.03
+  ],
+  "direction": "clockwise",
+  "official_length_m": 25947,
+  "notes": "Combinado 24h: GP-Strecke de 5114 m (con NGK-Schikane) + Nordschleife; entra en la Nordschleife por la Anbindung de T13 y vuelve al GP por la Anbindung zum GP Kurs. Enlaces puenteados en recta.",
+  "ways": [
+    {
+      "id": 1149161210,
+      "reverse": false
+    },
+    {
+      "id": 1149161208,
+      "reverse": false
+    },
+    {
+      "id": 1443047846,
+      "reverse": false
+    },
+    {
+      "id": 1443047847,
+      "reverse": false
+    },
+    {
+      "id": 1079809244,
+      "reverse": false
+    },
+    {
+      "id": 820679447,
+      "reverse": false
+    },
+    {
+      "id": 820679448,
+      "reverse": false
+    },
+    {
+      "id": 820679446,
+      "reverse": false
+    },
+    {
+      "id": 1113009623,
+      "reverse": false
+    },
+    {
+      "id": 820679445,
+      "reverse": false
+    },
+    {
+      "id": 820330155,
+      "reverse": false
+    },
+    {
+      "id": 820330154,
+      "reverse": false
+    },
+    {
+      "id": 1113009624,
+      "reverse": false
+    },
+    {
+      "id": 820330153,
+      "reverse": false
+    },
+    {
+      "id": 820330152,
+      "reverse": false
+    },
+    {
+      "id": 1079809245,
+      "reverse": false
+    },
+    {
+      "id": 1443047845,
+      "reverse": false
+    },
+    {
+      "id": 1443047844,
+      "reverse": false
+    },
+    {
+      "id": 27852990,
+      "reverse": false
+    },
+    {
+      "id": 820679450,
+      "reverse": false
+    },
+    {
+      "id": 26543901,
+      "reverse": false
+    },
+    {
+      "id": 41395673,
+      "reverse": false
+    },
+    {
+      "id": 1009142894,
+      "reverse": false
+    },
+    {
+      "id": 1009142895,
+      "reverse": false
+    },
+    {
+      "id": 799394496,
+      "reverse": false
+    },
+    {
+      "id": 799394497,
+      "reverse": false
+    },
+    {
+      "id": 41395681,
+      "reverse": false
+    },
+    {
+      "id": 41395684,
+      "reverse": false
+    },
+    {
+      "id": 799394498,
+      "reverse": false
+    },
+    {
+      "id": 799394499,
+      "reverse": false
+    },
+    {
+      "id": 799394500,
+      "reverse": false
+    },
+    {
+      "id": 799394501,
+      "reverse": false
+    },
+    {
+      "id": 799394502,
+      "reverse": false
+    },
+    {
+      "id": 799394503,
+      "reverse": false
+    },
+    {
+      "id": 799394504,
+      "reverse": false
+    },
+    {
+      "id": 799394505,
+      "reverse": false
+    },
+    {
+      "id": 799394506,
+      "reverse": false
+    },
+    {
+      "id": 799394507,
+      "reverse": false
+    },
+    {
+      "id": 683061813,
+      "reverse": false
+    },
+    {
+      "id": 683061814,
+      "reverse": false
+    },
+    {
+      "id": 41395647,
+      "reverse": false
+    },
+    {
+      "id": 683006908,
+      "reverse": false
+    },
+    {
+      "id": 245166664,
+      "reverse": false
+    },
+    {
+      "id": 799394508,
+      "reverse": false
+    },
+    {
+      "id": 799394509,
+      "reverse": false
+    },
+    {
+      "id": 683061804,
+      "reverse": false
+    },
+    {
+      "id": 799394510,
+      "reverse": false
+    },
+    {
+      "id": 799394511,
+      "reverse": false
+    },
+    {
+      "id": 799394512,
+      "reverse": false
+    },
+    {
+      "id": 799394513,
+      "reverse": false
+    },
+    {
+      "id": 414785755,
+      "reverse": false
+    },
+    {
+      "id": 414785756,
+      "reverse": false
+    },
+    {
+      "id": 799394515,
+      "reverse": false
+    },
+    {
+      "id": 799394514,
+      "reverse": false
+    },
+    {
+      "id": 799394516,
+      "reverse": false
+    },
+    {
+      "id": 799394517,
+      "reverse": false
+    },
+    {
+      "id": 799394518,
+      "reverse": false
+    },
+    {
+      "id": 799394519,
+      "reverse": false
+    },
+    {
+      "id": 799394520,
+      "reverse": false
+    },
+    {
+      "id": 799394521,
+      "reverse": false
+    },
+    {
+      "id": 799394522,
+      "reverse": false
+    },
+    {
+      "id": 799394523,
+      "reverse": false
+    },
+    {
+      "id": 799394524,
+      "reverse": false
+    },
+    {
+      "id": 41395652,
+      "reverse": false
+    },
+    {
+      "id": 683303211,
+      "reverse": false
+    },
+    {
+      "id": 683303210,
+      "reverse": false
+    },
+    {
+      "id": 683303209,
+      "reverse": false
+    },
+    {
+      "id": 683303208,
+      "reverse": false
+    },
+    {
+      "id": 41792406,
+      "reverse": false
+    },
+    {
+      "id": 1571450724,
+      "reverse": false
+    },
+    {
+      "id": 799394494,
+      "reverse": false
+    },
+    {
+      "id": 799394495,
+      "reverse": false
+    },
+    {
+      "id": 41395668,
+      "reverse": false
+    },
+    {
+      "id": 27852583,
+      "reverse": false
+    }
+  ],
+  "start": {
+    "way": 1149161210,
+    "fraction": 0.4
+  },
+  "turns": [
+    {
+      "name": "Flugplatz",
+      "way": 799394498
+    },
+    {
+      "name": "Adenauer Forst",
+      "way": 799394502
+    },
+    {
+      "name": "Karussell",
+      "way": 414785755
+    },
+    {
+      "name": "Döttinger Höhe",
+      "way": 683303211
+    }
+  ],
+  "tolerance": 0.08
+}

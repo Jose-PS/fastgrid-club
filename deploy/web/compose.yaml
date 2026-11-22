@@ -1,0 +1,255 @@
+name: fastgrid-prod
+
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "3"
+
+x-hardening: &hardening
+  read_only: true
+  cap_drop:
+    - ALL
+  security_opt:
+    - no-new-privileges:true
+  logging: *logging
+  restart: unless-stopped
+
+x-fastgrid: &fastgrid
+  <<: *hardening
+  image: ghcr.io/jose-ps/fastgrid-club:${IMAGE_TAG:?define IMAGE_TAG}
+  env_file:
+    - .env
+  user: "33:33"
+  cpu_shares: 512
+  tmpfs:
+    - /tmp
+    - /var/www/html/bootstrap/cache:uid=33,gid=33,mode=0755
+  volumes:
+    - fastgrid-storage:/var/www/html/storage
+
+services:
+  migrate:
+    <<: *fastgrid
+    command: ["php", "artisan", "migrate", "--force"]
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - backend
+    cpus: 0.5
+    mem_limit: 256m
+    memswap_limit: 256m
+    restart: "no"
+    healthcheck:
+      disable: true
+
+  app:
+    <<: *fastgrid
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    networks:
+      backend: {}
+      edge:
+        aliases:
+          - fastgrid-app
+    cpus: 0.5
+    mem_limit: 384m
+    memswap_limit: 384m
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8000/healthz"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
+
+  queue:
+    <<: *fastgrid
+    command: ["php", "artisan", "queue:work", "redis", "--sleep=3", "--max-time=3600", "--memory=128"]
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    networks:
+      - backend
+      - edge
+    cpus: 0.25
+    mem_limit: 384m
+    memswap_limit: 384m
+    stop_grace_period: 60s
+    healthcheck:
+      test: ["CMD", "php", "artisan", "heartbeats:alive", "queue", "--max-age=180"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 150s
+
+  scheduler:
+    <<: *fastgrid
+    command: ["php", "artisan", "schedule:work"]
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    networks:
+      - backend
+      - edge
+    cpus: 0.1
+    mem_limit: 384m
+    memswap_limit: 384m
+    healthcheck:
+      test: ["CMD", "php", "artisan", "heartbeats:alive", "scheduler", "--max-age=180"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 150s
+
+  ssr:
+    <<: *fastgrid
+    command: ["php", "artisan", "inertia:start-ssr"]
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - backend
+    cpus: 0.25
+    mem_limit: 192m
+    memswap_limit: 192m
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:13714/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 40s
+
+  backup:
+    <<: *hardening
+    build:
+      context: ../../docker/backup
+    image: fastgrid-backup:pg18.6-1
+    pull_policy: build
+    user: "70:70"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      TZ: Europe/Madrid
+      HOME: /tmp
+      BACKUP_TIME: ${BACKUP_TIME:-04:30}
+      BACKUP_AGE_RECIPIENT: ${BACKUP_AGE_RECIPIENT:-}
+      BACKUP_RCLONE_REMOTE: ${BACKUP_RCLONE_REMOTE:-}
+      BACKUP_REDIS_DB: ${REDIS_CACHE_DB:-1}
+      BACKUP_REDIS_PREFIX: ${REDIS_PREFIX:-fastgrid-database-}${CACHE_PREFIX:-fastgrid-cache-}
+      PGHOST: db
+      PGPORT: "5432"
+      PGDATABASE: ${DB_DATABASE:?}
+      PGUSER: ${DB_USERNAME:?}
+      PGPASSWORD: ${DB_PASSWORD:?}
+      REDIS_HOST: redis
+      REDISCLI_AUTH: ${REDIS_PASSWORD:?}
+    env_file:
+      - path: .env.backup
+        required: false
+    tmpfs:
+      - /tmp:uid=70,gid=70,mode=0700
+    volumes:
+      - fastgrid-backups:/backups
+    networks:
+      - backend
+      - backup-egress
+    cpus: 0.25
+    cpu_shares: 256
+    mem_limit: 128m
+    memswap_limit: 128m
+    stop_grace_period: 120s
+    healthcheck:
+      test: ["CMD", "fastgrid-backup", "health"]
+      interval: 5m
+      timeout: 10s
+      retries: 2
+      start_period: 30s
+
+  db:
+    <<: *hardening
+    image: postgres:18.6-alpine@sha256:123b17998ccaf47e53b502e8c6a1e79afd8f579c6f3eec83c563da026f957395
+    user: "70:70"
+    command:
+      - postgres
+      - -c
+      - shared_buffers=64MB
+      - -c
+      - max_connections=50
+      - -c
+      - work_mem=4MB
+    environment:
+      POSTGRES_DB: ${DB_DATABASE:?}
+      POSTGRES_USER: ${DB_USERNAME:?}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?}
+    tmpfs:
+      - /tmp
+      - /run/postgresql:uid=70,gid=70
+    volumes:
+      - fastgrid-pgdata:/var/lib/postgresql
+    networks:
+      - backend
+    cpus: 0.25
+    mem_limit: 256m
+    memswap_limit: 256m
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -q -U \"$$POSTGRES_USER\" -d \"$$POSTGRES_DB\""]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
+  redis:
+    <<: *hardening
+    image: redis:8.10.3-alpine@sha256:71885d8cc6e42f2bc0aa2eb853bfc4be200b5108a46ac50e117ae1df0531fb80
+    user: "999:1000"
+    command:
+      - sh
+      - -c
+      - exec redis-server --requirepass "$$REDIS_PASSWORD" --save "" --appendonly no --maxmemory 48mb --maxmemory-policy volatile-lru
+    environment:
+      REDIS_PASSWORD: ${REDIS_PASSWORD:?}
+      REDISCLI_AUTH: ${REDIS_PASSWORD:?}
+    tmpfs:
+      - /data:uid=999,gid=1000
+    networks:
+      - backend
+    cpus: 0.1
+    mem_limit: 64m
+    memswap_limit: 64m
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli ping | grep -q PONG"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+networks:
+  backend:
+    internal: true
+  edge:
+    external: true
+    name: edge
+  backup-egress: {}
+
+volumes:
+  fastgrid-storage:
+  fastgrid-pgdata:
+  fastgrid-backups:

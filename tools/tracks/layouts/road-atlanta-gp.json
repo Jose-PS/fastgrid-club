@@ -1,0 +1,29 @@
+{
+  "slug": "road-atlanta-gp",
+  "name": "Road Atlanta GP",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    34.125,
+    -83.83,
+    34.16,
+    -83.79
+  ],
+  "direction": "clockwise",
+  "official_length_m": 4088,
+  "notes": "Circuito completo: las tres vías Road Atlanta Racetrack / The Esses de OSM (oneway=-1, sentido contrario al dibujo); sin Short Course ni Club Course ni pit lane.",
+  "ways": [
+    9292566,
+    1360423185,
+    1360423184
+  ],
+  "start": {
+    "way": 9292566,
+    "fraction": 0.55
+  },
+  "turns": [
+    {
+      "name": "The Esses",
+      "way": 1360423185
+    }
+  ]
+}

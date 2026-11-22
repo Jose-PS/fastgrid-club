@@ -1,0 +1,416 @@
+[2026-10-20 17:30:51.882] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-10-20 17:30:51.883] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-10-20 17:30:51.883] [server] [info] New connection received 708
+[2026-10-20 17:30:51.883] [server] [info] Alive connections: 1
+[2026-10-20 17:30:51.885] [network] [info] Unranked server
+[2026-10-20 17:30:51.887] [network] [info] [ConnectionRequest] Connection with user 76561198000000001 was successful
+[2026-10-20 17:30:51.888] [server] [info] Server updated: 0 players
+[2026-10-20 17:30:51.888] [server] [info] Server updated: 0 players
+[2026-10-20 17:30:51.889] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:30:51.889] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:30:52.400] [network] [info] Server Late, dt 0.5188842
+[2026-10-20 17:30:53.525] [server] [info] [C:22|G:0] [RemoteGameServer][4e00f01244ffc0ac-f34c0bac05cf749a] RequestPlayerCar preset_e46csl_mech_1
+[2026-10-20 17:30:53.525] [server] [info] [C:22|G:0] [ServerVehicleSystem][4e00f01244ffc0ac-f34c0bac05cf749a] Creating Car (Driver 1	76561198000000001)
+[2026-10-20 17:30:53.526] [gameplay] [info] ------------------ pitboxes used ------------------
+[2026-10-20 17:30:53.526] [server] [info] assigning pit slot 0 competitor_id 765611980000000014e00f01244ffc0ac-f34c0bac05cf749a car_number 0
+[2026-10-20 17:30:53.526] [gameplay] [info] ---------------------------------------------------
+[2026-10-20 17:30:53.526] [gameplay] [info] searchForSpawn 4e00f01244ffc0ac-f34c0bac05cf749a p:-392.45 85.12 87.84
+[2026-10-20 17:30:53.526] [server] [info] Car [4e00f01244ffc0ac-f34c0bac05cf749a] #0 for driver Driver 1 [76561198000000001]
+[2026-10-20 17:30:53.526] [server] [info] Init connection TCP socket name: 'sok_1'
+[2026-10-20 17:30:53.526] [server] [info] Server updated: 1 players
+[2026-10-20 17:30:53.526] [server] [info] Server updated: 1 players
+[2026-10-20 17:30:53.527] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:30:53.527] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:30:54.502] [network] [info] Received Ping from 192.0.2.1 [57050]
+[2026-10-20 17:30:54.512] [network] [info] High client ping 623
+[2026-10-20 17:30:55.087] [network] [info] Received Ping from 192.0.2.2 [60857]
+[2026-10-20 17:30:57.057] [gameplay] [info] Remote onConnectionTcpMessage
+[2026-10-20 17:30:57.059] [gameplay] [info] 76561198000000001 connected (true) on car ks_bmw_m3_e46_csl, with new carId 4e00f01244ffc0ac-f34c0bac05cf749a
+[2026-10-20 17:30:57.059] [server] [info] connecting gamecar 4e00f01244ffc0ac-f34c0bac05cf749a (Driver 1 | 76561198000000001)
+[2026-10-20 17:30:57.060] [server] [info] Car def found comp 765611980000000014e00f01244ffc0ac-f34c0bac05cf749a pit 0
+[2026-10-20 17:30:57.060] [gameplay] [info] ACEVO-2768: Car 4e00f01244ffc0ac-f34c0bac05cf749a assigned to slot 0
+[2026-10-20 17:30:57.060] [gameplay] [info] create pitzone from spawn
+[2026-10-20 17:30:57.062] [server] [info] Car def found comp 765611980000000014e00f01244ffc0ac-f34c0bac05cf749a pit 0
+[2026-10-20 17:30:57.062] [gameplay] [info] ACEVO-2768: Car 4e00f01244ffc0ac-f34c0bac05cf749a assigned to slot 0
+[2026-10-20 17:30:57.062] [server] [info] Teleporting 4e00f01244ffc0ac-f34c0bac05cf749a pos 0
+[2026-10-20 17:30:57.137] [gameplay] [info] [SERVER][4e00f01244ffc0ac-f34c0bac05cf749a] Received pit_state: pit_step: Steady
+[2026-10-20 17:31:01.328] [gameplay] [info] Outplap split
+[2026-10-20 17:31:05.247] [gameplay] [info] [SERVER][4e00f01244ffc0ac-f34c0bac05cf749a] Received pit_state: pit_step: OutOfTolerance total_pit_time_ms: 30000
+[2026-10-20 17:31:05.633] [server] [info] lastHeartbeat 4680106 9700 9700
+[2026-10-20 17:31:05.634] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-10-20 17:31:10.615] [gameplay] [info] [SERVER][4e00f01244ffc0ac-f34c0bac05cf749a] Received pit_state: total_pit_time_ms: 30000
+[2026-10-20 17:31:40.691] [gameplay] [info] Unexpected On Split
+[2026-10-20 17:31:58.551] [network] [info] Received Ping from 192.0.2.3 [7063]
+[2026-10-20 17:32:24.991] [gameplay] [info] Unexpected On Split
+[2026-10-20 17:32:39.731] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:32:39.731] [gameplay] [info] On Split start true end true id 2 splittime 14739
+[2026-10-20 17:32:39.731] [gameplay] [error] Couldn't create lap from opensplits (carId 4e00f01244ffc0ac-f34c0bac05cf749a): Splitcollection 1/3, split times: 2, 
+[2026-10-20 17:33:00.358] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:33:00.359] [gameplay] [info] On Split start false end false id 0 splittime 20625
+[2026-10-20 17:33:02.140] [network] [info] Received Ping from 192.0.2.4 [59224]
+[2026-10-20 17:33:05.636] [server] [info] lastHeartbeat 4800107 9700 9700
+[2026-10-20 17:33:05.637] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-10-20 17:33:43.934] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:33:43.934] [gameplay] [info] On Split start false end false id 1 splittime 43578
+[2026-10-20 17:33:58.226] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:33:58.226] [gameplay] [info] On Split start true end true id 2 splittime 14292
+[2026-10-20 17:33:58.226] [gameplay] [info] On Split end with all splits, id 2, 388047100083933184
+[2026-10-20 17:33:58.226] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:18.495
+[2026-10-20 17:34:19.177] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:34:19.177] [gameplay] [info] On Split start false end false id 0 splittime 20952
+[2026-10-20 17:34:21.298] [network] [info] Received Ping from 192.0.2.5 [57544]
+[2026-10-20 17:35:04.064] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:35:04.064] [gameplay] [info] On Split start false end false id 1 splittime 44883
+[2026-10-20 17:35:05.638] [server] [info] lastHeartbeat 4920107 9700 9700
+[2026-10-20 17:35:05.639] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-10-20 17:35:18.423] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:35:18.423] [gameplay] [info] On Split start true end true id 2 splittime 14361
+[2026-10-20 17:35:18.423] [gameplay] [info] On Split end with all splits, id 2, 388047436454531072
+[2026-10-20 17:35:18.423] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:20.196
+[2026-10-20 17:35:33.239] [network] [info] Received Ping from 192.0.2.6 [48044]
+[2026-10-20 17:35:39.372] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:35:39.372] [gameplay] [info] On Split start false end false id 0 splittime 20949
+[2026-10-20 17:36:31.781] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:36:31.781] [gameplay] [info] On Split start false end false id 1 splittime 52404
+[2026-10-20 17:36:47.515] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:36:47.515] [gameplay] [info] On Split start true end true id 2 splittime 15735
+[2026-10-20 17:36:47.515] [gameplay] [info] On Split end with all splits, id 2, 388047810133463040
+[2026-10-20 17:36:47.515] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:29.088
+[2026-10-20 17:36:55.598] [network] [info] Received Ping from 192.0.2.7 [57969]
+[2026-10-20 17:37:05.643] [server] [info] lastHeartbeat 5040110 9700 9700
+[2026-10-20 17:37:05.644] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-10-20 17:37:08.608] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:37:08.608] [gameplay] [info] On Split start false end false id 0 splittime 21093
+[2026-10-20 17:37:52.300] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:37:52.300] [gameplay] [info] On Split start false end false id 1 splittime 43692
+[2026-10-20 17:37:58.584] [network] [info] Received Ping from 192.0.2.8 [8405]
+[2026-10-20 17:38:04.440] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-10-20 17:38:04.441] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-10-20 17:38:04.441] [server] [info] New connection received 716
+[2026-10-20 17:38:04.441] [server] [info] Alive connections: 2
+[2026-10-20 17:38:04.441] [server] [info] Server updated: 1 players
+[2026-10-20 17:38:04.442] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:38:05.440] [server] [info] connection closed 23 due to not established conn
+[2026-10-20 17:38:05.440] [server] [info] Removing dead connection 23
+[2026-10-20 17:38:05.441] [server] [info] Alive connections: 1
+[2026-10-20 17:38:05.441] [server] [info] Server updated: 1 players
+[2026-10-20 17:38:05.443] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:38:06.665] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:38:06.665] [gameplay] [info] On Split start true end true id 2 splittime 14364
+[2026-10-20 17:38:06.665] [gameplay] [info] On Split end with all splits, id 2, 388048142112624640
+[2026-10-20 17:38:06.665] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:19.149
+[2026-10-20 17:38:18.686] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-10-20 17:38:18.686] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-10-20 17:38:18.686] [server] [info] New connection received 720
+[2026-10-20 17:38:18.687] [server] [info] Alive connections: 2
+[2026-10-20 17:38:18.687] [server] [info] Server updated: 1 players
+[2026-10-20 17:38:18.688] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:38:19.685] [server] [info] connection closed 24 due to not established conn
+[2026-10-20 17:38:19.685] [server] [info] Removing dead connection 24
+[2026-10-20 17:38:19.686] [server] [info] Alive connections: 1
+[2026-10-20 17:38:19.686] [server] [info] Server updated: 1 players
+[2026-10-20 17:38:19.687] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:38:27.325] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:38:27.325] [gameplay] [info] On Split start false end false id 0 splittime 20661
+[2026-10-20 17:39:05.646] [server] [info] lastHeartbeat 5160112 9700 9700
+[2026-10-20 17:39:05.647] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-10-20 17:39:10.844] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:39:10.844] [gameplay] [info] On Split start false end false id 1 splittime 43515
+[2026-10-20 17:39:25.181] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:39:25.181] [gameplay] [info] On Split start true end true id 2 splittime 14337
+[2026-10-20 17:39:25.181] [gameplay] [info] On Split end with all splits, id 2, 388048471432597504
+[2026-10-20 17:39:25.181] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:18.513
+[2026-10-20 17:39:34.495] [network] [info] Received Ping from 192.0.2.9 [48285]
+[2026-10-20 17:39:45.866] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:39:45.866] [gameplay] [info] On Split start false end false id 0 splittime 20685
+[2026-10-20 17:40:04.372] [network] [warning] No response for this path
+[2026-10-20 17:40:07.104] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-10-20 17:40:07.104] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-10-20 17:40:07.104] [server] [info] New connection received 716
+[2026-10-20 17:40:07.104] [server] [info] Alive connections: 2
+[2026-10-20 17:40:07.107] [network] [info] Unranked server
+[2026-10-20 17:40:07.109] [network] [info] [ConnectionRequest] Connection with user 76561198000000002 was successful
+[2026-10-20 17:40:07.109] [server] [info] Server updated: 1 players
+[2026-10-20 17:40:07.110] [server] [info] Server updated: 1 players
+[2026-10-20 17:40:07.110] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:40:07.111] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:40:07.641] [server] [info] [C:25|G:0] [RemoteGameServer][4a95cb8a0f0bacbd-92b61bb9ed23b6bb] RequestPlayerCar preset_e46csl_mech_1
+[2026-10-20 17:40:07.642] [server] [info] [C:25|G:0] [ServerVehicleSystem][4a95cb8a0f0bacbd-92b61bb9ed23b6bb] Creating Car (Driver 2	76561198000000002)
+[2026-10-20 17:40:07.642] [gameplay] [info] ------------------ pitboxes used ------------------
+[2026-10-20 17:40:07.642] [server] [info] assigning pit slot 1 competitor_id 765611980000000024a95cb8a0f0bacbd-92b61bb9ed23b6bb car_number 1
+[2026-10-20 17:40:07.642] [gameplay] [info] ---------------------------------------------------
+[2026-10-20 17:40:07.642] [gameplay] [info] searchForSpawn 4a95cb8a0f0bacbd-92b61bb9ed23b6bb p:-383.12 85.29 89.31
+[2026-10-20 17:40:07.642] [server] [info] Car [4a95cb8a0f0bacbd-92b61bb9ed23b6bb] #1 for driver Driver 2 [76561198000000002]
+[2026-10-20 17:40:07.642] [server] [info] Init connection TCP socket name: 'sok_2'
+[2026-10-20 17:40:07.643] [server] [info] Server updated: 2 players
+[2026-10-20 17:40:07.644] [server] [info] Server updated: 2 players
+[2026-10-20 17:40:07.644] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:40:07.644] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:40:11.602] [gameplay] [info] Remote onConnectionTcpMessage
+[2026-10-20 17:40:11.603] [gameplay] [info] 76561198000000002 connected (true) on car ks_bmw_m3_e46_csl, with new carId 4a95cb8a0f0bacbd-92b61bb9ed23b6bb
+[2026-10-20 17:40:11.603] [server] [info] connecting gamecar 4a95cb8a0f0bacbd-92b61bb9ed23b6bb (Driver 2 | 76561198000000002)
+[2026-10-20 17:40:11.604] [server] [info] Car def found comp 765611980000000024a95cb8a0f0bacbd-92b61bb9ed23b6bb pit 1
+[2026-10-20 17:40:11.605] [gameplay] [info] ACEVO-2768: Car 4a95cb8a0f0bacbd-92b61bb9ed23b6bb assigned to slot 1
+[2026-10-20 17:40:11.605] [gameplay] [info] create pitzone from spawn
+[2026-10-20 17:40:11.605] [server] [info] Car def found comp 765611980000000024a95cb8a0f0bacbd-92b61bb9ed23b6bb pit 1
+[2026-10-20 17:40:11.605] [gameplay] [info] ACEVO-2768: Car 4a95cb8a0f0bacbd-92b61bb9ed23b6bb assigned to slot 1
+[2026-10-20 17:40:11.605] [server] [info] Teleporting 4a95cb8a0f0bacbd-92b61bb9ed23b6bb pos 1
+[2026-10-20 17:40:11.698] [gameplay] [info] [SERVER][4a95cb8a0f0bacbd-92b61bb9ed23b6bb] Received pit_state: pit_slot: 1
+[2026-10-20 17:40:11.732] [gameplay] [info] [SERVER][4a95cb8a0f0bacbd-92b61bb9ed23b6bb] Received pit_state: pit_slot: 1 pit_step: Steady
+[2026-10-20 17:40:12.565] [gameplay] [info] Remote onConnectionTcpMessage
+[2026-10-20 17:40:18.341] [gameplay] [info] Remote onConnectionTcpMessage
+[2026-10-20 17:40:25.023] [gameplay] [info] [SERVER][4a95cb8a0f0bacbd-92b61bb9ed23b6bb] Received pit_state: pit_slot: 1 pit_step: OutOfTolerance total_pit_time_ms: 30000
+[2026-10-20 17:40:29.458] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:40:29.458] [gameplay] [info] On Split start false end false id 1 splittime 43593
+[2026-10-20 17:40:30.990] [gameplay] [info] [SERVER][4a95cb8a0f0bacbd-92b61bb9ed23b6bb] Received pit_state: pit_slot: 1 total_pit_time_ms: 30000
+[2026-10-20 17:40:43.524] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:40:43.524] [gameplay] [info] On Split start true end true id 2 splittime 14064
+[2026-10-20 17:40:43.524] [gameplay] [info] On Split end with all splits, id 2, 388048800026955776
+[2026-10-20 17:40:43.524] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:18.342
+[2026-10-20 17:40:51.757] [gameplay] [info] Unexpected On Split
+[2026-10-20 17:40:57.310] [network] [info] Received Ping from 192.0.2.10 [50145]
+[2026-10-20 17:41:03.260] [server] [info] Car def found comp 765611980000000024a95cb8a0f0bacbd-92b61bb9ed23b6bb pit 1
+[2026-10-20 17:41:03.260] [gameplay] [info] ACEVO-2768: Car 4a95cb8a0f0bacbd-92b61bb9ed23b6bb assigned to slot 1
+[2026-10-20 17:41:03.261] [server] [info] Teleporting 4a95cb8a0f0bacbd-92b61bb9ed23b6bb pos 1
+[2026-10-20 17:41:03.301] [gameplay] [info] [SERVER][4a95cb8a0f0bacbd-92b61bb9ed23b6bb] Received pit_state: pit_slot: 1 pit_step: Steady total_pit_time_ms: 30000
+[2026-10-20 17:41:04.231] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:41:04.231] [gameplay] [info] On Split start false end false id 0 splittime 20706
+[2026-10-20 17:41:05.649] [server] [info] lastHeartbeat 5280113 9700 9700
+[2026-10-20 17:41:05.650] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-10-20 17:41:06.490] [gameplay] [info] [SERVER][4a95cb8a0f0bacbd-92b61bb9ed23b6bb] Received pit_state: pit_slot: 1 pit_step: OutOfTolerance total_pit_time_ms: 30000
+[2026-10-20 17:41:12.458] [gameplay] [info] [SERVER][4a95cb8a0f0bacbd-92b61bb9ed23b6bb] Received pit_state: pit_slot: 1 total_pit_time_ms: 30000
+[2026-10-20 17:41:33.305] [gameplay] [info] Unexpected On Split
+[2026-10-20 17:41:48.938] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:41:48.939] [gameplay] [info] On Split start false end false id 1 splittime 44706
+[2026-10-20 17:42:03.389] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:42:03.389] [gameplay] [info] On Split start true end true id 2 splittime 14454
+[2026-10-20 17:42:03.389] [gameplay] [info] On Split end with all splits, id 2, 388049135005044736
+[2026-10-20 17:42:03.389] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:19.866
+[2026-10-20 17:42:18.993] [gameplay] [info] Unexpected On Split
+[2026-10-20 17:42:24.232] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:42:24.233] [gameplay] [info] On Split start false end false id 0 splittime 20841
+[2026-10-20 17:42:28.352] [network] [info] Received Ping from 192.0.2.11 [56059]
+[2026-10-20 17:42:34.282] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:42:34.282] [gameplay] [info] On Split start true end true id 2 splittime 15288
+[2026-10-20 17:42:34.282] [gameplay] [error] Couldn't create lap from opensplits (carId 4a95cb8a0f0bacbd-92b61bb9ed23b6bb): Splitcollection 1/3, split times: 2, 
+[2026-10-20 17:42:55.598] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:42:55.598] [gameplay] [info] On Split start false end false id 0 splittime 21315
+[2026-10-20 17:43:05.652] [server] [info] lastHeartbeat 5400113 9700 9700
+[2026-10-20 17:43:05.653] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-10-20 17:43:07.848] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:43:07.848] [gameplay] [info] On Split start false end false id 1 splittime 43614
+[2026-10-20 17:43:22.553] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:43:22.553] [gameplay] [info] On Split start true end true id 2 splittime 14703
+[2026-10-20 17:43:22.553] [gameplay] [info] On Split end with all splits, id 2, 388049467042926592
+[2026-10-20 17:43:22.554] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:19.158
+[2026-10-20 17:43:33.376] [network] [info] Received Ping from 192.0.2.12 [62500]
+[2026-10-20 17:43:43.409] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:43:43.409] [gameplay] [info] On Split start false end false id 0 splittime 20856
+[2026-10-20 17:43:48.695] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:43:48.695] [gameplay] [info] On Split start false end false id 1 splittime 53100
+[2026-10-20 17:44:04.196] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:44:04.196] [gameplay] [info] On Split start true end true id 2 splittime 15501
+[2026-10-20 17:44:04.196] [gameplay] [info] On Split end with all splits, id 2, 388049641706328064
+[2026-10-20 17:44:04.196] [gameplay] [info] New lap carId 4a95cb8a0f0bacbd-92b61bb9ed23b6bb: 01:29.916
+[2026-10-20 17:44:21.081] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-10-20 17:44:21.081] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-10-20 17:44:21.081] [server] [info] New connection received 720
+[2026-10-20 17:44:21.081] [server] [info] Alive connections: 3
+[2026-10-20 17:44:21.082] [server] [info] Server updated: 2 players
+[2026-10-20 17:44:21.083] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:44:22.080] [server] [info] connection closed 26 due to not established conn
+[2026-10-20 17:44:22.080] [server] [info] Removing dead connection 26
+[2026-10-20 17:44:22.081] [server] [info] Alive connections: 2
+[2026-10-20 17:44:22.081] [server] [info] Server updated: 2 players
+[2026-10-20 17:44:22.081] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:44:25.119] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:44:25.119] [gameplay] [info] On Split start false end false id 0 splittime 20916
+[2026-10-20 17:44:26.829] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:44:26.829] [gameplay] [info] On Split start false end false id 1 splittime 43419
+[2026-10-20 17:44:40.622] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:44:40.622] [gameplay] [info] On Split start true end true id 2 splittime 13794
+[2026-10-20 17:44:40.622] [gameplay] [info] On Split end with all splits, id 2, 388049794488045568
+[2026-10-20 17:44:40.622] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:18.069
+[2026-10-20 17:45:00.842] [network] [info] Received Ping from 192.0.2.13 [61444]
+[2026-10-20 17:45:01.019] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:45:01.019] [gameplay] [info] On Split start false end false id 0 splittime 20397
+[2026-10-20 17:45:05.655] [server] [info] lastHeartbeat 5520115 9700 9700
+[2026-10-20 17:45:05.656] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-10-20 17:45:14.334] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:45:14.334] [gameplay] [info] On Split start false end false id 1 splittime 49218
+[2026-10-20 17:45:29.468] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:45:29.468] [gameplay] [info] On Split start true end true id 2 splittime 15135
+[2026-10-20 17:45:29.468] [gameplay] [info] On Split end with all splits, id 2, 388049999363018752
+[2026-10-20 17:45:29.468] [gameplay] [info] New lap carId 4a95cb8a0f0bacbd-92b61bb9ed23b6bb: 01:25.269
+[2026-10-20 17:45:38.794] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-10-20 17:45:38.794] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-10-20 17:45:38.794] [server] [info] New connection received 720
+[2026-10-20 17:45:38.794] [server] [info] Alive connections: 3
+[2026-10-20 17:45:38.796] [server] [info] Server updated: 2 players
+[2026-10-20 17:45:38.796] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:45:39.793] [server] [info] connection closed 27 due to not established conn
+[2026-10-20 17:45:39.793] [server] [info] Removing dead connection 27
+[2026-10-20 17:45:39.794] [server] [info] Alive connections: 2
+[2026-10-20 17:45:39.794] [server] [info] Server updated: 2 players
+[2026-10-20 17:45:39.794] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:45:44.293] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:45:44.293] [gameplay] [info] On Split start false end false id 1 splittime 43275
+[2026-10-20 17:45:50.816] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:45:50.817] [gameplay] [info] On Split start false end false id 0 splittime 21348
+[2026-10-20 17:46:05.945] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:46:05.946] [gameplay] [info] On Split start true end true id 2 splittime 21651
+[2026-10-20 17:46:05.946] [gameplay] [info] On Split end with all splits, id 2, 388050152362840064
+[2026-10-20 17:46:05.946] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:25.323
+[2026-10-20 17:46:26.873] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:46:26.873] [gameplay] [info] On Split start false end false id 0 splittime 20928
+[2026-10-20 17:46:33.217] [network] [info] Received Ping from 192.0.2.14 [49666]
+[2026-10-20 17:46:35.301] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:46:35.301] [gameplay] [info] On Split start false end false id 1 splittime 44487
+[2026-10-20 17:46:50.205] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:46:50.205] [gameplay] [info] On Split start true end true id 2 splittime 14901
+[2026-10-20 17:46:50.205] [gameplay] [info] On Split end with all splits, id 2, 388050337998540800
+[2026-10-20 17:46:50.205] [gameplay] [info] New lap carId 4a95cb8a0f0bacbd-92b61bb9ed23b6bb: 01:20.736
+[2026-10-20 17:47:05.660] [server] [info] lastHeartbeat 5640118 9700 9700
+[2026-10-20 17:47:05.661] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-10-20 17:47:10.293] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:47:10.294] [gameplay] [info] On Split start false end false id 1 splittime 43416
+[2026-10-20 17:47:11.352] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:47:11.353] [gameplay] [info] On Split start false end false id 0 splittime 21150
+[2026-10-20 17:47:24.478] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:47:24.478] [gameplay] [info] On Split start true end true id 2 splittime 14187
+[2026-10-20 17:47:24.478] [gameplay] [info] On Split end with all splits, id 2, 388050481749921792
+[2026-10-20 17:47:24.478] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:18.531
+[2026-10-20 17:47:44.583] [network] [warning] No response for this path
+[2026-10-20 17:47:45.309] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:47:45.309] [gameplay] [info] On Split start false end false id 0 splittime 20829
+[2026-10-20 17:47:49.527] [network] [info] Received Ping from 192.0.2.15 [24776]
+[2026-10-20 17:47:55.788] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:47:55.788] [gameplay] [info] On Split start false end false id 1 splittime 44433
+[2026-10-20 17:48:11.487] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:48:11.488] [gameplay] [info] On Split start true end true id 2 splittime 15702
+[2026-10-20 17:48:11.488] [gameplay] [info] On Split end with all splits, id 2, 388050678924152832
+[2026-10-20 17:48:11.488] [gameplay] [info] New lap carId 4a95cb8a0f0bacbd-92b61bb9ed23b6bb: 01:21.285
+[2026-10-20 17:48:28.400] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:48:28.400] [gameplay] [info] On Split start false end false id 1 splittime 43089
+[2026-10-20 17:48:32.323] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:48:32.323] [gameplay] [info] On Split start false end false id 0 splittime 20832
+[2026-10-20 17:48:42.493] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:48:42.493] [gameplay] [info] On Split start true end true id 2 splittime 14091
+[2026-10-20 17:48:42.493] [gameplay] [info] On Split end with all splits, id 2, 388050808968548352
+[2026-10-20 17:48:42.493] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:18.009
+[2026-10-20 17:49:03.259] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:49:03.260] [gameplay] [info] On Split start false end false id 0 splittime 20769
+[2026-10-20 17:49:05.665] [server] [info] lastHeartbeat 5760121 9700 9700
+[2026-10-20 17:49:05.666] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-10-20 17:49:16.407] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:49:16.407] [gameplay] [info] On Split start false end false id 1 splittime 44085
+[2026-10-20 17:49:30.690] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:49:30.690] [gameplay] [info] On Split start true end true id 2 splittime 14283
+[2026-10-20 17:49:30.690] [gameplay] [info] On Split end with all splits, id 2, 388051011121418240
+[2026-10-20 17:49:30.690] [gameplay] [info] New lap carId 4a95cb8a0f0bacbd-92b61bb9ed23b6bb: 01:19.200
+[2026-10-20 17:49:46.451] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:49:46.451] [gameplay] [info] On Split start false end false id 1 splittime 43191
+[2026-10-20 17:49:51.775] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:49:51.775] [gameplay] [info] On Split start false end false id 0 splittime 21084
+[2026-10-20 17:49:53.642] [network] [info] Received Ping from 192.0.2.16 [56267]
+[2026-10-20 17:50:00.431] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:50:00.431] [gameplay] [info] On Split start true end true id 2 splittime 13977
+[2026-10-20 17:50:00.431] [gameplay] [info] On Split end with all splits, id 2, 388051135864213504
+[2026-10-20 17:50:00.431] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:17.937
+[2026-10-20 17:50:20.848] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:50:20.848] [gameplay] [info] On Split start false end false id 0 splittime 20418
+[2026-10-20 17:50:47.125] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-10-20 17:50:47.126] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-10-20 17:50:47.126] [server] [info] New connection received 720
+[2026-10-20 17:50:47.126] [server] [info] Alive connections: 3
+[2026-10-20 17:50:47.127] [server] [info] Server updated: 2 players
+[2026-10-20 17:50:47.128] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:50:48.124] [server] [info] connection closed 28 due to not established conn
+[2026-10-20 17:50:48.124] [server] [info] Removing dead connection 28
+[2026-10-20 17:50:48.125] [server] [info] Alive connections: 2
+[2026-10-20 17:50:48.125] [server] [info] Server updated: 2 players
+[2026-10-20 17:50:48.126] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:50:48.433] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-10-20 17:50:48.433] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-10-20 17:50:48.433] [server] [info] New connection received 720
+[2026-10-20 17:50:48.433] [server] [info] Alive connections: 3
+[2026-10-20 17:50:48.435] [server] [info] Server updated: 2 players
+[2026-10-20 17:50:48.436] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:50:49.431] [server] [info] connection closed 29 due to not established conn
+[2026-10-20 17:50:49.432] [server] [info] Removing dead connection 29
+[2026-10-20 17:50:49.433] [server] [info] Alive connections: 2
+[2026-10-20 17:50:49.433] [server] [info] Server updated: 2 players
+[2026-10-20 17:50:49.434] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:50:59.337] [network] [info] Received Ping from 192.0.2.17 [59450]
+[2026-10-20 17:51:03.345] [server] [info] Removing dead connection 25
+[2026-10-20 17:51:03.346] [server] [info] [C:25|G:0] [ServerVehicleSystem][4a95cb8a0f0bacbd-92b61bb9ed23b6bb] Destroying Car(1) By ConnectionID (Driver 2	76561198000000002)
+[2026-10-20 17:51:03.346] [server] [info] Pit Spawn [0] pit_spawn 1 has been unassigned.
+[2026-10-20 17:51:03.346] [server] [info] [C:25|G:0] [RemoteGameMode][4a95cb8a0f0bacbd-92b61bb9ed23b6bb] disconnectCar
+[2026-10-20 17:51:03.346] [server] [info] Removing registered competitor 765611980000000024a95cb8a0f0bacbd-92b61bb9ed23b6bb car_number 1
+[2026-10-20 17:51:03.346] [gameplay] [info] Disconnected carId 4a95cb8a0f0bacbd-92b61bb9ed23b6bb
+[2026-10-20 17:51:03.347] [server] [info] Alive connections: 1
+[2026-10-20 17:51:03.347] [server] [info] Server updated: 2 players
+[2026-10-20 17:51:03.348] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:51:04.255] [network] [error] HTTP request has too little data
+[2026-10-20 17:51:04.804] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:51:04.804] [gameplay] [info] On Split start false end false id 1 splittime 43956
+[2026-10-20 17:51:05.666] [server] [info] lastHeartbeat 5880121 9700 9700
+[2026-10-20 17:51:05.667] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-10-20 17:51:09.503] [network] [info] TCP socket SEND buffer set from 16384 to 1048576
+[2026-10-20 17:51:09.504] [network] [info] TCP socket RECV buffer set from 131072 to 1048576
+[2026-10-20 17:51:09.504] [server] [info] New connection received 716
+[2026-10-20 17:51:09.504] [server] [info] Alive connections: 2
+[2026-10-20 17:51:09.505] [server] [info] Server updated: 2 players
+[2026-10-20 17:51:09.506] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:51:10.500] [server] [info] connection closed 30 due to not established conn
+[2026-10-20 17:51:10.500] [server] [info] Removing dead connection 30
+[2026-10-20 17:51:10.500] [server] [info] Alive connections: 1
+[2026-10-20 17:51:10.500] [server] [info] Server updated: 2 players
+[2026-10-20 17:51:10.501] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:51:14.802] [server] [info] purge players: 1 vs 2
+[2026-10-20 17:51:14.802] [server] [info] Server updated: 1 players
+[2026-10-20 17:51:14.802] [server] [info] Server updated: 1 players
+[2026-10-20 17:51:14.803] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:51:14.803] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:51:18.935] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:51:18.935] [gameplay] [info] On Split start true end true id 2 splittime 14130
+[2026-10-20 17:51:18.935] [gameplay] [info] On Split end with all splits, id 2, 388051465133854720
+[2026-10-20 17:51:18.935] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:18.504
+[2026-10-20 17:51:39.429] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:51:39.430] [gameplay] [info] On Split start false end false id 0 splittime 20493
+[2026-10-20 17:52:23.192] [gameplay] [info] split now 1 expected split 2 is_end false
+[2026-10-20 17:52:23.192] [gameplay] [info] On Split start false end false id 1 splittime 43761
+[2026-10-20 17:52:34.374] [network] [info] Received Ping from 192.0.2.18 [59292]
+[2026-10-20 17:52:37.348] [gameplay] [info] split now 2 expected split 0 is_end true
+[2026-10-20 17:52:37.348] [gameplay] [info] On Split start true end true id 2 splittime 14157
+[2026-10-20 17:52:37.348] [gameplay] [info] On Split end with all splits, id 2, 388051794021814272
+[2026-10-20 17:52:37.348] [gameplay] [info] New lap carId 4e00f01244ffc0ac-f34c0bac05cf749a: 01:18.411
+[2026-10-20 17:52:57.899] [gameplay] [info] split now 0 expected split 1 is_end false
+[2026-10-20 17:52:57.900] [gameplay] [info] On Split start false end false id 0 splittime 20553
+[2026-10-20 17:53:05.670] [server] [info] lastHeartbeat 6000122 9700 9700
+[2026-10-20 17:53:05.670] [network] [info] Outbound msg to backend: type.googleapis.com/BackendHeartbeat (Success: true)
+[2026-10-20 17:53:16.125] [server] [info] Car def found comp 765611980000000014e00f01244ffc0ac-f34c0bac05cf749a pit 0
+[2026-10-20 17:53:16.126] [gameplay] [info] ACEVO-2768: Car 4e00f01244ffc0ac-f34c0bac05cf749a assigned to slot 0
+[2026-10-20 17:53:16.126] [server] [info] Teleporting 4e00f01244ffc0ac-f34c0bac05cf749a pos 0
+[2026-10-20 17:53:16.134] [gameplay] [info] [SERVER][4e00f01244ffc0ac-f34c0bac05cf749a] Received pit_state: pit_step: Steady total_pit_time_ms: 30000
+[2026-10-20 17:53:30.193] [server] [info] Server updated: 0 players
+[2026-10-20 17:53:30.193] [server] [info] Removing dead connection 22
+[2026-10-20 17:53:30.193] [server] [info] [C:22|G:0] [ServerVehicleSystem][4e00f01244ffc0ac-f34c0bac05cf749a] Destroying Car(0) By ConnectionID (Driver 1	76561198000000001)
+[2026-10-20 17:53:30.193] [server] [info] Pit Spawn [0] pit_spawn has been unassigned.
+[2026-10-20 17:53:30.193] [server] [info] [C:22|G:0] [RemoteGameMode][4e00f01244ffc0ac-f34c0bac05cf749a] disconnectCar
+[2026-10-20 17:53:30.193] [server] [info] Removing registered competitor 765611980000000014e00f01244ffc0ac-f34c0bac05cf749a car_number 0
+[2026-10-20 17:53:30.193] [gameplay] [info] Disconnected carId 4e00f01244ffc0ac-f34c0bac05cf749a
+[2026-10-20 17:53:30.194] [server] [info] Alive connections: 0
+[2026-10-20 17:53:30.195] [server] [info] Server updated: 0 players
+[2026-10-20 17:53:30.195] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:53:30.195] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-20 17:53:40.964] [server] [info] Restart Season
+[2026-10-20 17:53:40.965] [server] [info] OnExitGamemode
+[2026-10-20 17:53:40.965] [server] [info] STEP: 1
+[2026-10-20 17:53:40.965] [gameplay] [info] Changing GameMode. Alive Connections: 0
+[2026-10-20 17:53:41.091] [gameplay] [info] 0 spawn points of StartingPositionType_DevelopmentDefault[0]
+[2026-10-20 17:53:41.091] [gameplay] [info] 0 spawn points of StartingPositionType_Grid[0]
+[2026-10-20 17:53:41.092] [gameplay] [info] 19 spawn points of StartingPositionType_Pit[0]
+[2026-10-20 17:53:41.092] [gameplay] [info] 19 spawn points of StartingPositionType_Box[0]
+[2026-10-20 17:53:41.092] [gameplay] [info] 0 spawn points of StartingPositionType_Poi[0]
+[2026-10-20 17:53:41.092] [gameplay] [info] Loaded 38 spawn points

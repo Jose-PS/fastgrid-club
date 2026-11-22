@@ -1,0 +1,60 @@
+{
+  "slug": "red-bull-ring-gp",
+  "name": "Red Bull Ring GP",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    47.205,
+    14.745,
+    47.24,
+    14.785
+  ],
+  "direction": "clockwise",
+  "official_length_m": 4318,
+  "notes": "Circuito completo; sin pit lane ni variantes de MotoGP.",
+  "ways": [
+    822592402,
+    822592401,
+    822592400,
+    822592399,
+    822592398,
+    347958266,
+    822592404,
+    822592403,
+    822592410,
+    822592409,
+    822592408,
+    822592407,
+    822592406,
+    822592405
+  ],
+  "start": {
+    "way": 822592410,
+    "fraction": 0.5
+  },
+  "turns": [
+    {
+      "name": "Remus",
+      "way": 347958266
+    },
+    {
+      "name": "Schlossgold",
+      "way": 822592399
+    },
+    {
+      "name": "Rauch",
+      "way": 822592401
+    },
+    {
+      "name": "Niki Lauda",
+      "way": 822592403
+    },
+    {
+      "name": "Rindt",
+      "way": 822592407
+    },
+    {
+      "name": "Würth",
+      "way": 822592405
+    }
+  ]
+}

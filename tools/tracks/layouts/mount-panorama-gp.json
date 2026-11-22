@@ -1,0 +1,68 @@
+{
+  "slug": "mount-panorama-gp",
+  "name": "Mount Panorama GP",
+  "source": "OpenStreetMap vía Overpass (highway=*, ODbL)",
+  "query": "[out:json][timeout:60];way(id:306192512,1115461019,414156370,30111085,30111102,306192500,306192503,414156376,306192504,414156366,306192501,306192502,30111107,306192513,306192514,306192511,414156373);out tags geom;",
+  "bbox": [
+    -33.462,
+    149.535,
+    -33.43,
+    149.58
+  ],
+  "direction": "counterclockwise",
+  "official_length_m": 6213,
+  "notes": "Vías públicas, no raceway: la consulta es por identificadores. Orden de curvas: Hell Corner, Mountain Straight, Griffins Bend, The Cutting, Reid Park, Sulman Park, McPhillamy Park, Brock's Skyline, The Esses, Forrest's Elbow, Conrod Straight, The Chase, Murray's Corner.",
+  "ways": [
+    306192512,
+    1115461019,
+    414156370,
+    30111085,
+    30111102,
+    306192500,
+    306192503,
+    414156376,
+    306192504,
+    414156366,
+    306192501,
+    306192502,
+    30111107,
+    306192513,
+    306192514,
+    306192511,
+    414156373
+  ],
+  "start": {
+    "way": 306192512,
+    "fraction": 0.5
+  },
+  "turns": [
+    {
+      "name": "Hell Corner",
+      "way": 414156370
+    },
+    {
+      "name": "Griffins Bend",
+      "way": 30111102
+    },
+    {
+      "name": "The Cutting",
+      "way": 306192500
+    },
+    {
+      "name": "McPhillamy",
+      "way": 306192504
+    },
+    {
+      "name": "Esses",
+      "way": 306192501
+    },
+    {
+      "name": "Forrest's Elbow",
+      "way": 306192502
+    },
+    {
+      "name": "The Chase",
+      "way": 306192513
+    }
+  ]
+}

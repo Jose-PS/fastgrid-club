@@ -1,0 +1,67 @@
+{
+  "slug": "brands-hatch-gp",
+  "name": "Brands Hatch GP",
+  "source": "OpenStreetMap vía Overpass (highway=raceway, ODbL)",
+  "bbox": [
+    51.345,
+    0.245,
+    51.37,
+    0.285
+  ],
+  "direction": "clockwise",
+  "official_length_m": 3916,
+  "notes": "Circuito GP completo (Hawthorns, Westfield, Dingle Dell, Stirlings, Clearways).",
+  "ways": [
+    4906929,
+    25804993,
+    25804999,
+    25805047,
+    171570163,
+    25805049,
+    171570165,
+    25805072,
+    171570251,
+    171570252,
+    820329315,
+    25804641,
+    171570166,
+    25805012,
+    25804653,
+    171570161,
+    25804669,
+    171570167,
+    25804846,
+    25804824,
+    25804875,
+    820329314,
+    171570164,
+    25804935,
+    171570162
+  ],
+  "start": {
+    "way": 25805012,
+    "fraction": 0.45
+  },
+  "turns": [
+    {
+      "name": "Paddock Hill",
+      "way": 25804653
+    },
+    {
+      "name": "Druids",
+      "way": 25804669
+    },
+    {
+      "name": "Surtees",
+      "way": 25804875
+    },
+    {
+      "name": "Hawthorns",
+      "way": 4906929
+    },
+    {
+      "name": "Clearways",
+      "way": 820329315
+    }
+  ]
+}

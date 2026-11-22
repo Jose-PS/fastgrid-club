@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<style>
+.outer{stroke:#0f1318}
+.inner{stroke:#0b6b4f}
+@media (prefers-color-scheme:dark){.outer{stroke:#eceef2}.inner{stroke:#c6f432}}
+</style>
+<path class="outer" d="M4 21V13C4 7.5 7.5 4 13 4H21"/>
+<path class="inner" d="M11 21V17C11 14 13 12 16 12H21"/>
+</svg>

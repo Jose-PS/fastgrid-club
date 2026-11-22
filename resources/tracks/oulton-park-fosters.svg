@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" data-attribution="Trazado: © colaboradores de OpenStreetMap (ODbL)">
+<title>Oulton Park Fosters</title>
+<path class="track-edge" d="M242.3 233.0L231.6 233.2L194.4 235.4L161.7 240.5L154.0 240.6L147.2 239.2L142.4 237.1L138.0 233.7L134.5 226.9L131.0 217.1L118.0 186.7L102.0 143.8L100.4 133.5L99.6 109.0L82.1 79.8L67.0 66.7L59.4 59.2L61.0 54.8L65.1 45.7L67.8 41.2L69.6 40.2L72.0 40.1L74.3 41.0L81.4 45.0L84.5 45.9L87.9 45.4L90.5 43.7L107.8 24.5L110.4 22.0L113.7 20.1L117.3 20.0L122.7 21.2L127.7 23.2L142.7 31.0L163.2 41.5L170.4 46.7L179.6 52.8L187.2 57.4L194.0 60.1L203.4 62.7L236.6 70.5L251.1 73.5L258.0 74.5L264.5 74.2L276.8 72.0L287.8 70.8L304.2 70.3L309.2 71.5L313.1 73.5L326.3 85.2L329.3 90.2L330.7 95.6L331.4 103.2L331.4 126.0L332.0 136.7L338.0 191.0L340.6 236.6L340.0 242.7L336.7 247.4L332.3 249.5L327.0 250.0L319.2 248.9L301.2 244.1L295.1 242.2L280.7 236.1L272.6 233.9L263.2 232.9Z"/>
+<path class="track-asphalt" d="M242.3 233.0L231.6 233.2L194.4 235.4L161.7 240.5L154.0 240.6L147.2 239.2L142.4 237.1L138.0 233.7L134.5 226.9L131.0 217.1L118.0 186.7L102.0 143.8L100.4 133.5L99.6 109.0L82.1 79.8L67.0 66.7L59.4 59.2L61.0 54.8L65.1 45.7L67.8 41.2L69.6 40.2L72.0 40.1L74.3 41.0L81.4 45.0L84.5 45.9L87.9 45.4L90.5 43.7L107.8 24.5L110.4 22.0L113.7 20.1L117.3 20.0L122.7 21.2L127.7 23.2L142.7 31.0L163.2 41.5L170.4 46.7L179.6 52.8L187.2 57.4L194.0 60.1L203.4 62.7L236.6 70.5L251.1 73.5L258.0 74.5L264.5 74.2L276.8 72.0L287.8 70.8L304.2 70.3L309.2 71.5L313.1 73.5L326.3 85.2L329.3 90.2L330.7 95.6L331.4 103.2L331.4 126.0L332.0 136.7L338.0 191.0L340.6 236.6L340.0 242.7L336.7 247.4L332.3 249.5L327.0 250.0L319.2 248.9L301.2 244.1L295.1 242.2L280.7 236.1L272.6 233.9L263.2 232.9Z"/>
+<line class="track-line" x1="242.4" y1="245.0" x2="242.2" y2="221.0"/>
+<text class="track-label" x="236.2" y="218.3" text-anchor="end" font-size="9" fill="currentColor">Meta</text>
+<text class="track-turn" x="124.3" y="240.7" text-anchor="end" font-size="7" fill="currentColor" opacity="0.75">Old Hall</text>
+<text class="track-turn" x="47.2" y="63.0" text-anchor="end" font-size="7" fill="currentColor" opacity="0.75">Foster's</text>
+<text class="track-turn" x="140.1" y="12.4" text-anchor="start" font-size="7" fill="currentColor" opacity="0.75">Knickerbrook</text>
+<text class="track-turn" x="334.8" y="75.4" text-anchor="start" font-size="7" fill="currentColor" opacity="0.75">Druids</text>
+<text class="track-turn" x="343.8" y="263.9" text-anchor="start" font-size="7" fill="currentColor" opacity="0.75">Lodge</text>
+</svg>
