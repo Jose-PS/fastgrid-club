@@ -1,0 +1,26 @@
+{
+    "schema_version": 1,
+    "entries": [
+        {
+            "fingerprint": "95f74595280c2f17624d836a7dd35b971408fde40197af2bc64b5f32e30924b4",
+            "analyzer": "BaerSoftware\\LaraBeacon\\Analyzers\\Performance\\HorizonSuggestionAnalyzer",
+            "location": null,
+            "reason": "Aceptado al introducir LaraBeacon en CI",
+            "expires_at": null
+        },
+        {
+            "fingerprint": "86f94460e5c30b5c00359d6081a478a7284b26a86c70903e1d09dee740921562",
+            "analyzer": "BaerSoftware\\LaraBeacon\\Analyzers\\Performance\\UnusedGlobalMiddlewareAnalyzer",
+            "location": null,
+            "reason": "Aceptado al introducir LaraBeacon en CI",
+            "expires_at": null
+        },
+        {
+            "fingerprint": "e41b87c9ce62cebad4478f10bec7c35b6c78a6210e2cc751586200792be5fc40",
+            "analyzer": "BaerSoftware\\LaraBeacon\\Analyzers\\Security\\StableDependencyAnalyzer",
+            "location": null,
+            "reason": "Aceptado al introducir LaraBeacon en CI",
+            "expires_at": null
+        }
+    ]
+}

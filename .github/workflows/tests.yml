@@ -87,6 +87,9 @@ jobs:
       - name: PHPStan
         run: composer types:check
 
+      - name: LaraBeacon
+        run: php artisan larabeacon --profile=ci --baseline=larabeacon-baseline.json --only-new
+
       - name: Format and lint
         run: npm run check
 
