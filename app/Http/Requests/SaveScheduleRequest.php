@@ -80,7 +80,7 @@ class SaveScheduleRequest extends FormRequest
     {
         return [
             function (Validator $validator): void {
-                $segments = $this->input('segments');
+                $segments = $this->validationData()['segments'] ?? null;
 
                 if (! is_array($segments)) {
                     return;
