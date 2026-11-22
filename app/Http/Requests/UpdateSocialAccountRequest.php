@@ -43,6 +43,7 @@ class UpdateSocialAccountRequest extends FormRequest
                 'app_password' => ['nullable', 'string', 'max:100'],
             ],
             SocialChannelName::Instagram => [
+                'ig_user_id' => ['nullable', 'string', 'max:30', 'regex:/^\d+$/'],
                 'access_token' => ['nullable', 'string', 'max:1000'],
             ],
         };

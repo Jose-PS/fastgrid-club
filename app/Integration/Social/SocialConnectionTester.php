@@ -91,12 +91,18 @@ class SocialConnectionTester
     {
         $base = rtrim(config()->string('services.instagram.base_url'), '/').'/'.config()->string('services.instagram.api_version');
 
-        $response = SocialHttp::pending()->get("{$base}/me", [
+        $igUserId = (string) $account->credential('ig_user_id');
+
+        $response = SocialHttp::pending()->get("{$base}/{$igUserId}", [
             'fields' => 'username',
             'access_token' => (string) $account->credential('access_token'),
         ]);
 
-        return $response->failed() ? $this->status($response) : null;
+        if ($response->failed()) {
+            return $this->status($response);
+        }
+
+        return is_string($response->json('username')) ? null : 'unexpected response';
     }
 
     private function status(Response $response): string

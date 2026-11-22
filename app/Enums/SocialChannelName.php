@@ -30,7 +30,7 @@ enum SocialChannelName: string
         return match ($this) {
             self::Discord => ['announcements_role_id'],
             self::Bluesky => ['identifier'],
-            self::Instagram => [],
+            self::Instagram => ['ig_user_id'],
         };
     }
 
@@ -50,7 +50,7 @@ enum SocialChannelName: string
         return match ($this) {
             self::Discord => [],
             self::Bluesky => ['identifier', 'app_password'],
-            self::Instagram => ['access_token'],
+            self::Instagram => ['ig_user_id', 'access_token'],
         };
     }
 }

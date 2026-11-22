@@ -14,7 +14,6 @@ Artisan::command('inspire', function () {
 Schedule::command('model:prune')->daily();
 Schedule::command('weeks:ensure')->everyMinute()->withoutOverlapping(5);
 Schedule::command('social:prepare')->everyFiveMinutes()->timezone(config('mvp.timezone'))->withoutOverlapping(10);
-Schedule::command('social:refresh-instagram-token')->weekly()->timezone(config('mvp.timezone'))->withoutOverlapping(10);
 Schedule::command('servers:poll')->everyTenSeconds()->withoutOverlapping(2);
 Schedule::command('servers:reconcile')->everyMinute()->withoutOverlapping(5);
 Schedule::command('servers:ingest-logs')->everyThirtySeconds()->withoutOverlapping(2);

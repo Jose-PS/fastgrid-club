@@ -226,12 +226,12 @@ function realPng(): string
 function fakeInstagram(array $statuses = ['FINISHED']): array
 {
     return [
-        'graph.instagram.com/*/me/media' => Http::response(['id' => 'container-1']),
-        'graph.instagram.com/*/container-1*' => Http::sequence()
+        'graph.facebook.com/*/17841400000000000/media' => Http::response(['id' => 'container-1']),
+        'graph.facebook.com/*/container-1*' => Http::sequence()
             ->push(['status_code' => $statuses[0]])
             ->push(['status_code' => $statuses[1] ?? $statuses[0]]),
-        'graph.instagram.com/*/me/media_publish' => Http::response(['id' => 'media-1']),
-        'graph.instagram.com/*/media-1*' => Http::response(['permalink' => 'https://www.instagram.com/p/abc/']),
+        'graph.facebook.com/*/17841400000000000/media_publish' => Http::response(['id' => 'media-1']),
+        'graph.facebook.com/*/media-1*' => Http::response(['permalink' => 'https://www.instagram.com/p/abc/']),
     ];
 }
 
@@ -247,9 +247,12 @@ test('it publishes on instagram using a jpeg copy of the image and stores id and
 
     expect($post->status)->toBe(SocialPostStatus::Published)
         ->and($post->deliveries['instagram'])->toMatchArray(['status' => 'ok', 'id' => 'media-1', 'permalink' => 'https://www.instagram.com/p/abc/']);
+    Http::assertNotSent(fn ($request): bool => str_contains($request->url(), '/me/'));
     Storage::disk('public')->assertExists('social/1.jpg');
     expect(substr((string) Storage::disk('public')->get('social/1.jpg'), 0, 3))->toBe("\xFF\xD8\xFF");
-    Http::assertSent(fn ($request): bool => str_ends_with($request->url(), '/me/media')
+    Http::assertSent(fn ($request): bool => str_starts_with($request->url(), 'https://graph.facebook.com/v27.0/17841400000000000/media')
+        && str_ends_with($request->url(), '/17841400000000000/media')
+        && $request['access_token'] === 'ig-secret'
         && str_ends_with($request['image_url'], 'social/1.jpg')
         && $request['caption'] === $post->text);
 });
@@ -267,13 +270,13 @@ test('a failing instagram container marks the post failed without leaking the to
     expect($post->status)->toBe(SocialPostStatus::Failed)
         ->and($post->deliveries['instagram']['status'])->toBe('failed')
         ->and(json_encode($post->deliveries))->not->toContain('ig-secret');
-    Http::assertNotSent(fn ($request): bool => str_ends_with($request->url(), '/me/media_publish'));
+    Http::assertNotSent(fn ($request): bool => str_ends_with($request->url(), '/media_publish'));
 });
 
 test('an instagram api error does not leak the token', function () {
     SocialAccount::factory()->instagram()->create();
     Storage::disk('public')->put('social/1.png', realPng());
-    Http::fake(['graph.instagram.com/*/me/media' => Http::response(['error' => ['message' => 'Invalid image']], 400)]);
+    Http::fake(['graph.facebook.com/*/17841400000000000/media' => Http::response(['error' => ['message' => 'Invalid image']], 400)]);
     $post = approvedPost();
 
     dispatch_sync(new PublishSocialPost($post->id));
@@ -312,7 +315,7 @@ test('a paused channel is skipped even with credentials while the others publish
 
 test('a channel without its required credentials is skipped', function () {
     SocialAccount::factory()->bluesky()->create(['credentials' => ['identifier' => 'fastgrid.bsky.social']]);
-    SocialAccount::factory()->instagram()->create(['credentials' => []]);
+    SocialAccount::factory()->instagram()->create(['credentials' => ['access_token' => 'ig-secret']]);
     SocialAccount::factory()->discord()->create(['credentials' => ['webhook_results' => 'https://discord.com/api/webhooks/2/results-token']]);
     Http::fake();
     $post = approvedPost();

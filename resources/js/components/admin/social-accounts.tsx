@@ -1,4 +1,4 @@
-import { router, useForm, usePage } from '@inertiajs/react';
+import { router, useForm } from '@inertiajs/react';
 import { useState } from 'react';
 import type { FormEvent } from 'react';
 import {
@@ -11,7 +11,6 @@ import {
 } from '@/components/account-styles';
 import { Badge } from '@/components/ui/badge';
 import { useT } from '@/hooks/use-t';
-import { formatDate } from '@/lib/datetime';
 import { showToast } from '@/lib/toast';
 import { test as testConnection, update } from '@/routes/admin/social/accounts';
 
@@ -20,8 +19,6 @@ export type SocialAccount = {
     enabled: boolean;
     values: Record<string, string>;
     secrets: Record<string, boolean>;
-    expires_at: string | null;
-    refreshed_at: string | null;
 };
 
 type AccountForm = {
@@ -35,7 +32,6 @@ const SECRET_MASK = '••••••••••••';
 
 function AccountCard({ account }: { account: SocialAccount }) {
     const t = useT();
-    const { locale } = usePage<{ locale: string }>().props;
     const [testing, setTesting] = useState(false);
     const form = useForm<AccountForm>({
         enabled: account.enabled,
@@ -47,11 +43,6 @@ function AccountCard({ account }: { account: SocialAccount }) {
     });
     const testHintId = `${account.channel}-test-hint`;
     const errors = form.errors as Record<string, string | undefined>;
-    const dateOptions: Intl.DateTimeFormatOptions = {
-        day: 'numeric',
-        month: 'short',
-        year: 'numeric',
-    };
 
     const save = (event: FormEvent<HTMLFormElement>): void => {
         event.preventDefault();
@@ -251,28 +242,6 @@ function AccountCard({ account }: { account: SocialAccount }) {
                         </div>
                     );
                 })}
-                {account.channel === 'instagram' ? (
-                    <p className="text-[13px] text-muted">
-                        {account.expires_at === null
-                            ? t('admin.social.accounts.expiryPending')
-                            : t('admin.social.accounts.expiresAt', {
-                                  date: formatDate(
-                                      new Date(account.expires_at),
-                                      locale,
-                                      dateOptions,
-                                  ),
-                              })}
-                        {account.refreshed_at === null
-                            ? null
-                            : ` · ${t('admin.social.accounts.refreshedAt', {
-                                  date: formatDate(
-                                      new Date(account.refreshed_at),
-                                      locale,
-                                      dateOptions,
-                                  ),
-                              })}`}
-                    </p>
-                ) : null}
                 <div className="flex flex-wrap gap-3">
                     <button
                         type="submit"

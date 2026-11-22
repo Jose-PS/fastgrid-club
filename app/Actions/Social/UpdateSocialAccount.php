@@ -53,11 +53,6 @@ class UpdateSocialAccount
             $account->enabled = $enabled;
             $account->credentials = $credentials;
 
-            if ($channel === SocialChannelName::Instagram && in_array('access_token', $changed, true)) {
-                $account->expires_at = null;
-                $account->refreshed_at = null;
-            }
-
             $account->save();
 
             $this->recordAudit->handle($admin, 'social_account.updated', $account, $before, [

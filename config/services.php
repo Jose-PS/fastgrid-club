@@ -52,7 +52,7 @@ return [
     ],
 
     'instagram' => [
-        'base_url' => 'https://graph.instagram.com',
+        'base_url' => 'https://graph.facebook.com',
         'api_version' => 'v27.0',
         'poll_attempts' => 10,
         'poll_sleep_ms' => 3000,

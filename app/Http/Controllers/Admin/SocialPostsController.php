@@ -82,8 +82,6 @@ class SocialPostsController extends Controller
                 'secrets' => collect($channel->secretFields())
                     ->mapWithKeys(fn (string $field): array => [$field => $account?->credential($field) !== null])
                     ->all(),
-                'expires_at' => $account?->expires_at?->toIso8601String(),
-                'refreshed_at' => $account?->refreshed_at?->toIso8601String(),
             ];
         }, SocialChannelName::cases());
     }

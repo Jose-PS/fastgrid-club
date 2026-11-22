@@ -51,9 +51,7 @@ class SocialAccountFactory extends Factory
     {
         return $this->state(fn (): array => [
             'channel' => SocialChannelName::Instagram->value,
-            'credentials' => ['access_token' => 'ig-secret'],
-            'expires_at' => now()->addDays(60),
-            'refreshed_at' => now(),
+            'credentials' => ['access_token' => 'ig-secret', 'ig_user_id' => '17841400000000000'],
         ]);
     }
 

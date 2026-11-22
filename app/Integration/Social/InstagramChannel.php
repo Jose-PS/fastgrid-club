@@ -22,23 +22,25 @@ class InstagramChannel implements SocialChannel
 
     public function isConfigured(SocialPost $post): bool
     {
-        return $this->token() !== null;
+        return $this->credentials() !== null;
     }
 
     public function publish(SocialPost $post, string $image): array
     {
-        $token = $this->token();
+        $credentials = $this->credentials();
 
-        if ($token === null) {
+        if ($credentials === null) {
             throw new SocialChannelException('instagram: not configured');
         }
+
+        [$token, $igUserId] = $credentials;
 
         $base = rtrim(config()->string('services.instagram.base_url'), '/').'/'.config()->string('services.instagram.api_version');
 
         $imageUrl = $this->imageUrl($post, $image);
 
         $container = SocialHttp::send(
-            fn () => SocialHttp::pending()->asForm()->post("{$base}/me/media", [
+            fn () => SocialHttp::pending()->asForm()->post("{$base}/{$igUserId}/media", [
                 'image_url' => $imageUrl,
                 'caption' => mb_substr($post->text, 0, self::CAPTION_LIMIT),
                 'access_token' => $token,
@@ -55,7 +57,7 @@ class InstagramChannel implements SocialChannel
         $this->waitUntilReady($base, $containerId, $token);
 
         $published = SocialHttp::send(
-            fn () => SocialHttp::pending()->asForm()->post("{$base}/me/media_publish", [
+            fn () => SocialHttp::pending()->asForm()->post("{$base}/{$igUserId}/media_publish", [
                 'creation_id' => $containerId,
                 'access_token' => $token,
             ]),
@@ -78,9 +80,16 @@ class InstagramChannel implements SocialChannel
         return ['id' => $mediaId, 'permalink' => is_string($permalink) ? $permalink : ''];
     }
 
-    private function token(): ?string
+    /**
+     * @return array{0: string, 1: string}|null
+     */
+    private function credentials(): ?array
     {
-        return SocialAccount::enabledFor(SocialChannelName::Instagram)?->credential('access_token');
+        $account = SocialAccount::enabledFor(SocialChannelName::Instagram);
+        $token = $account?->credential('access_token');
+        $igUserId = $account?->credential('ig_user_id');
+
+        return $token !== null && $igUserId !== null ? [$token, $igUserId] : null;
     }
 
     private function waitUntilReady(string $base, string $containerId, string $token): void

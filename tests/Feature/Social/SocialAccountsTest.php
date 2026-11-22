@@ -46,6 +46,7 @@ test('the accounts tab props never contain secrets', function () {
             ->where('accounts.0.secrets', ['webhook_announcements' => true, 'webhook_results' => true])
             ->where('accounts.1.values', ['identifier' => 'fastgrid.bsky.social'])
             ->where('accounts.1.secrets', ['app_password' => true])
+            ->where('accounts.2.values', ['ig_user_id' => '17841400000000000'])
             ->where('accounts.2.secrets', ['access_token' => true]));
 
     $payload = json_encode($response->viewData('page'));
@@ -105,23 +106,17 @@ test('the account is created on first save and can be paused', function () {
     expect(DB::table('social_accounts')->value('credentials'))->not->toContain('abc-DEF_1');
 });
 
-test('replacing the instagram token resets the expiry so the next renewal sets it', function () {
-    SocialAccount::factory()->instagram()->create();
-
+test('the instagram account id must be numeric and is stored in plain', function () {
     $this->actingAs($this->admin)
-        ->put(route('admin.social.accounts.update', 'instagram'), ['enabled' => true, 'access_token' => 'nuevo'])
+        ->put(route('admin.social.accounts.update', 'instagram'), ['enabled' => true, 'access_token' => 'tok', 'ig_user_id' => 'abc'])
+        ->assertSessionHasErrors('ig_user_id');
+
+    expect(SocialAccount::query()->count())->toBe(0);
+
+    $this->put(route('admin.social.accounts.update', 'instagram'), ['enabled' => true, 'access_token' => 'tok', 'ig_user_id' => '17841400000000000'])
         ->assertSessionHasNoErrors();
 
-    $account = SocialAccount::query()->firstOrFail();
-
-    expect($account->credential('access_token'))->toBe('nuevo')
-        ->and($account->expires_at)->toBeNull();
-
-    $account->forceFill(['expires_at' => now()->addDays(40)])->save();
-
-    $this->put(route('admin.social.accounts.update', 'instagram'), ['enabled' => false])->assertSessionHasNoErrors();
-
-    expect($account->fresh()->expires_at)->not->toBeNull();
+    expect(SocialAccount::query()->sole()->credential('ig_user_id'))->toBe('17841400000000000');
 });
 
 test('validation rejects webhooks that are not discord urls and bad role ids', function (array $input, string $field) {
@@ -193,7 +188,7 @@ test('testing bluesky and instagram uses the stored credentials', function () {
     SocialAccount::factory()->instagram()->create();
     Http::fake([
         'bsky.social/xrpc/com.atproto.server.createSession' => Http::response(['error' => 'AuthenticationRequired'], 401),
-        'graph.instagram.com/*/me*' => Http::response(['username' => 'fastgrid']),
+        'graph.facebook.com/*/17841400000000000*' => Http::response(['username' => 'fastgrid']),
     ]);
 
     $this->actingAs($this->admin);
@@ -205,7 +200,7 @@ test('testing bluesky and instagram uses the stored credentials', function () {
     expect($results)->toBe([false, true]);
     Http::assertSent(fn ($request): bool => str_contains($request->url(), 'createSession')
         && $request['identifier'] === 'fastgrid.bsky.social' && $request['password'] === 'app-secret');
-    Http::assertSent(fn ($request): bool => str_contains($request->url(), '/me')
+    Http::assertSent(fn ($request): bool => str_contains($request->url(), 'graph.facebook.com/v27.0/17841400000000000')
         && $request['fields'] === 'username' && $request['access_token'] === 'ig-secret');
 });
 
@@ -216,4 +211,16 @@ test('testing a channel without credentials sends nothing', function () {
 
     Http::assertNothingSent();
     expect(AuditLog::query()->where('action', 'social_account.tested')->sole()->after['ok'])->toBeFalse();
+});
+
+test('testing instagram reports a failure without leaking the token', function () {
+    SocialAccount::factory()->instagram()->create();
+    Http::fake(['graph.facebook.com/*' => Http::response(['error' => ['message' => 'Invalid OAuth access token ig-secret']], 400)]);
+
+    $this->actingAs($this->admin)->post(route('admin.social.accounts.test', 'instagram'))->assertRedirect();
+
+    $log = AuditLog::query()->where('action', 'social_account.tested')->sole();
+
+    expect($log->after['ok'])->toBeFalse()
+        ->and(json_encode($log->after))->not->toContain('ig-secret');
 });
