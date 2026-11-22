@@ -21,7 +21,7 @@
         "socialiteproviders/steam": "^4.6"
     },
     "require-dev": {
-        "andreapollastri/checkpoint": "^1.2",
+        "baer-software/larabeacon": "^3.6",
         "fakerphp/faker": "^1.24",
         "larastan/larastan": "^3.9",
         "laravel/boost": "^2.10",

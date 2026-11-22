@@ -49,7 +49,7 @@ Mientras se desarrolla y antes de proponer un commit se pasan solo los tests afe
     - `vendor/bin/sail npm run test` (Vitest).
     - `vendor/bin/sail npm run build`
     - `vendor/bin/sail npm run budget` (falla si la portada pasa de 150 KB de JS gzip, 30 KB de CSS gzip o 100 KB de fuentes).
-4. Análisis con https://checkpoint.web.ap.it. Se corrige lo que salga y se repite.
+4. Análisis con [LaraBeacon](https://larabeacon.com): `vendor/bin/sail artisan larabeacon --profile=ci`. Se corrige lo que salga y se repite.
 
 Para arreglar el formato solo se usa `vendor/bin/sail npm run check:fix -- resources/js`, siempre con ruta.
 
