@@ -71,7 +71,7 @@ class StructuredData
             'name' => $this->pageMeta->appName(),
             'url' => $this->pageMeta->absoluteUrl('home', $locale),
             'logo' => rtrim(config()->string('app.url'), '/').'/apple-touch-icon.png',
-            'sameAs' => array_values(Arr::except(config()->array('mvp.brand.social'), ['discord'])),
+            'sameAs' => array_values(Arr::except(config()->array('mvp.brand.social'), ['discord', 'github'])),
         ];
     }
 

@@ -3,13 +3,14 @@ import type { ComponentType } from 'react';
 import {
     BlueskySymbol,
     DiscordSymbol,
+    GitHubSymbol,
     InstagramSymbol,
     XSymbol,
 } from '@/components/social-symbols';
 import { useT } from '@/hooks/use-t';
 import { cn } from '@/lib/utils';
 
-export type SocialKey = 'discord' | 'instagram' | 'x' | 'bluesky';
+export type SocialKey = 'discord' | 'instagram' | 'x' | 'bluesky' | 'github';
 
 export type SocialUrls = Record<SocialKey, string>;
 
@@ -19,8 +20,9 @@ const NETWORKS: Record<
 > = {
     discord: { label: 'Discord', Icon: DiscordSymbol },
     instagram: { label: 'Instagram', Icon: InstagramSymbol },
-    x: { label: 'X', Icon: XSymbol },
+    x: { label: 'x.com', Icon: XSymbol },
     bluesky: { label: 'Bluesky', Icon: BlueskySymbol },
+    github: { label: 'GitHub', Icon: GitHubSymbol },
 };
 
 export function SocialLinks({
@@ -43,7 +45,8 @@ export function SocialLinks({
             )}
         >
             {networks.map((network) => {
-                const { label, Icon } = NETWORKS[network];
+                const entry = NETWORKS[network];
+                const { label, Icon } = entry;
 
                 return (
                     <li key={network}>

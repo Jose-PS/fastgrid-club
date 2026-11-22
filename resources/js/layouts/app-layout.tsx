@@ -26,7 +26,13 @@ type NavItem = {
 
 const pathOf = (url: string): string => url.split(/[?#]/)[0];
 
-const SOCIAL_NETWORKS: SocialKey[] = ['discord', 'instagram', 'x', 'bluesky'];
+const SOCIAL_NETWORKS: SocialKey[] = [
+    'discord',
+    'instagram',
+    'x',
+    'bluesky',
+    'github',
+];
 
 function useNavItems(): NavItem[] {
     const t = useT();

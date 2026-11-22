@@ -5,7 +5,10 @@ declare module '@inertiajs/core' {
         sharedPageProps: {
             auth: Auth;
             locale: string;
-            social: Record<'discord' | 'instagram' | 'x' | 'bluesky', string>;
+            social: Record<
+                'discord' | 'instagram' | 'x' | 'bluesky' | 'github',
+                string
+            >;
             translations: Record<string, string>;
             [key: string]: unknown;
         };

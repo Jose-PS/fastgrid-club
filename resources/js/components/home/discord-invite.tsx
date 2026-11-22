@@ -41,7 +41,7 @@ export function DiscordInvite() {
                     {t('hero.follow')}
                 </h3>
                 <SocialLinks
-                    networks={['instagram', 'x', 'bluesky']}
+                    networks={['instagram', 'x', 'bluesky', 'github']}
                     showLabels
                 />
             </div>

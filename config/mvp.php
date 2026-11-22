@@ -18,6 +18,7 @@ return [
             'instagram' => 'https://www.instagram.com/fastgrid.club/',
             'x' => 'https://x.com/fastgrid_club',
             'bluesky' => 'https://bsky.app/profile/fastgrid.club',
+            'github' => 'https://github.com/Jose-PS/fastgrid-club',
         ],
     ],
 
