@@ -14,6 +14,7 @@ final class LogProcessorState
      * @param  array<string, array{steam_id: string, name: ?string, runtime_name: ?string}>  $cars
      * @param  array<string, int>  $lapNumbers
      * @param  array{type: string, started_at: string, hash: string}|null  $session
+     * @param  array<string, string>  $teleports
      */
     public function __construct(
         public array $cars = [],
@@ -22,6 +23,7 @@ final class LogProcessorState
         public ?string $phase = null,
         public ?CarbonImmutable $lastAt = null,
         public bool $restartPending = false,
+        public array $teleports = [],
     ) {}
 
     /**
@@ -46,6 +48,7 @@ final class LogProcessorState
             phase: isset($data['phase']) ? (string) $data['phase'] : null,
             lastAt: $lastAt ?: null,
             restartPending: (bool) ($data['restart_pending'] ?? false),
+            teleports: array_filter((array) ($data['teleports'] ?? []), 'is_string'),
         );
     }
 
@@ -61,6 +64,7 @@ final class LogProcessorState
             'phase' => $this->phase,
             'last_at' => $this->lastAt?->setTimezone('UTC')->format(self::FORMAT),
             'restart_pending' => $this->restartPending,
+            'teleports' => $this->teleports,
         ];
     }
 }

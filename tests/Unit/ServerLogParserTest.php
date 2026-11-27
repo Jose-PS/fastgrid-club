@@ -13,6 +13,7 @@ use App\Integration\Server\Log\Events\ServerRestarted;
 use App\Integration\Server\Log\Events\SessionCreated;
 use App\Integration\Server\Log\Events\SessionPhase;
 use App\Integration\Server\Log\Events\SplitCompleted;
+use App\Integration\Server\Log\Events\Teleported;
 use App\Integration\Server\Log\LogLineParser;
 use App\Integration\Server\Log\SessionType;
 
@@ -86,6 +87,14 @@ it('parses split and rejected lap lines', function () {
 
     expect($split)->toBeInstanceOf(SplitCompleted::class)->lapNumber->toBe(7)->splitIndex->toBe(2)
         ->and($rejected)->toBeInstanceOf(LapRejected::class)->carId->toBe(CAR_A);
+});
+
+it('parses teleport lines with and without the starting position suffix', function () {
+    $bare = parseLine('[2026-11-26 22:39:45.419] [server] [info] Teleporting '.CAR_A.' pos 0');
+    $withSuffix = parseLine('[2026-11-26 22:39:45.419] [server] [info] Teleporting '.CAR_A.' pos 1 (StartingPositionType_Grid) [-137.35887 141.89728 -368.22183]');
+
+    expect($bare)->toBeInstanceOf(Teleported::class)->carId->toBe(CAR_A)
+        ->and($withSuffix)->toBeInstanceOf(Teleported::class)->carId->toBe(CAR_A);
 });
 
 it('parses session, phase and player lines', function () {

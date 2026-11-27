@@ -16,6 +16,7 @@ use App\Integration\Server\Log\Events\ServerRestarted;
 use App\Integration\Server\Log\Events\SessionCreated;
 use App\Integration\Server\Log\Events\SessionPhase;
 use App\Integration\Server\Log\Events\SplitCompleted;
+use App\Integration\Server\Log\Events\Teleported;
 use Carbon\CarbonImmutable;
 
 final class LogLineParser
@@ -62,6 +63,10 @@ final class LogLineParser
 
         if (preg_match("/^Couldn't create lap from opensplits \(carId ({$carId})\)/", $message, $m)) {
             return new LapRejected($m[1], $at);
+        }
+
+        if (preg_match("/^Teleporting ({$carId}) pos \d+/", $message, $m)) {
+            return new Teleported($m[1], $at);
         }
 
         if (preg_match("/^(?:\[C:\d+\|G:\d+\] )?\[ServerVehicleSystem\]\[({$carId})\] Creating Car \((.*)\t({$steamId})\)$/s", $message, $m)) {

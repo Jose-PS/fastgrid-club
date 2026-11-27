@@ -212,6 +212,41 @@ it('produces a stable source hash per lap line', function () {
         ->and($first->laps[0]->sourceHash)->toBe(hash('sha256', '[2026-11-02 16:59:42.293] [gameplay] [info] New lap carId 44a6bb478b2433ea-8c4c4fdd204c7692: 01:49.530'));
 });
 
+it('invalidates a lap that started before the car was teleported to the pits', function () {
+    $result = (new LogProcessor)->process([
+        "[2026-11-26 22:39:00.000] [server] [info] [C:1|G:0] [ServerVehicleSystem][aaaa000000000001-bbbb000000000001] Creating Car (Ana\t76561198000000009)",
+        '[2026-11-26 22:39:45.419] [server] [info] Teleporting aaaa000000000001-bbbb000000000001 pos 0',
+        '[2026-11-26 22:39:51.285] [gameplay] [info] New lap carId aaaa000000000001-bbbb000000000001: 01:17.727',
+    ]);
+
+    expect($result->laps)->toHaveCount(1)->and($result->laps[0]->isValid)->toBeFalse();
+});
+
+it('keeps a lap valid when it started after the teleport', function () {
+    $result = (new LogProcessor)->process([
+        "[2026-11-26 23:11:00.000] [server] [info] [C:1|G:0] [ServerVehicleSystem][aaaa000000000001-bbbb000000000001] Creating Car (Ana\t76561198000000009)",
+        '[2026-11-26 23:11:30.899] [server] [info] Teleporting aaaa000000000001-bbbb000000000001 pos 1 (StartingPositionType_Pit) [-137.35887 141.89728 -368.22183]',
+        '[2026-11-26 23:13:22.372] [gameplay] [info] New lap carId aaaa000000000001-bbbb000000000001: 01:41.799',
+    ]);
+
+    expect($result->laps)->toHaveCount(1)->and($result->laps[0]->isValid)->toBeTrue();
+});
+
+it('keeps the teleport mark when the processor state is split in two', function () {
+    $processor = new LogProcessor;
+    $processor->process([
+        "[2026-11-26 22:39:00.000] [server] [info] [C:1|G:0] [ServerVehicleSystem][aaaa000000000001-bbbb000000000001] Creating Car (Ana\t76561198000000009)",
+        '[2026-11-26 22:39:45.419] [server] [info] Teleporting aaaa000000000001-bbbb000000000001 pos 0',
+    ]);
+
+    $resumed = new LogProcessor;
+    $resumed->importState(json_decode(json_encode($processor->exportState(), JSON_THROW_ON_ERROR), true, 512, JSON_THROW_ON_ERROR));
+    $result = $resumed->process(['[2026-11-26 22:39:51.285] [gameplay] [info] New lap carId aaaa000000000001-bbbb000000000001: 01:17.727']);
+
+    expect($result->laps[0]->isValid)->toBeFalse()
+        ->and($resumed->exportState()['teleports'])->toBe([]);
+});
+
 it('reads the lap number from the last split of the car', function () {
     $lines = [
         '[2026-11-03 10:00:01.000] [server] [info] [C:1|G:0] [ServerVehicleSystem][aaaa000000000001-bbbb000000000001] Creating Car (Ana'."\t".'76561198000000009)',

@@ -20,6 +20,7 @@ use App\Integration\Server\Log\Events\ServerRestarted;
 use App\Integration\Server\Log\Events\SessionCreated;
 use App\Integration\Server\Log\Events\SessionPhase;
 use App\Integration\Server\Log\Events\SplitCompleted;
+use App\Integration\Server\Log\Events\Teleported;
 use Carbon\CarbonImmutable;
 
 final class LogProcessor
@@ -116,6 +117,7 @@ final class LogProcessor
             $event instanceof SplitCompleted => $this->onSplit($event),
             $event instanceof LapCompleted => $this->onLap($event),
             $event instanceof LapRejected => $this->onRejected($event),
+            $event instanceof Teleported => $this->onTeleported($event),
             $event instanceof SessionCreated => $this->onSessionCreated($event),
             $event instanceof SessionPhase => $this->onPhase($event),
             $event instanceof PlayersUpdated => $this->onPlayers($event),
@@ -165,7 +167,7 @@ final class LogProcessor
         $entry = $this->state->cars[$event->carId] ?? null;
 
         if ($entry !== null && $entry['steam_id'] === $event->steamId) {
-            unset($this->state->cars[$event->carId], $this->state->lapNumbers[$event->carId]);
+            unset($this->state->cars[$event->carId], $this->state->lapNumbers[$event->carId], $this->state->teleports[$event->carId]);
         }
 
         $this->see($event->steamId, null, $event->at);
@@ -192,7 +194,8 @@ final class LogProcessor
     {
         $entry = $this->state->cars[$event->carId] ?? null;
         $lapNumber = $this->state->lapNumbers[$event->carId] ?? null;
-        unset($this->state->lapNumbers[$event->carId]);
+        $teleportedAt = $this->state->teleports[$event->carId] ?? null;
+        unset($this->state->lapNumbers[$event->carId], $this->state->teleports[$event->carId]);
 
         if ($entry === null) {
             $this->lapsDiscarded++;
@@ -206,13 +209,30 @@ final class LogProcessor
             $entry['runtime_name'],
             $event->lapMs,
             $lapNumber,
-            true,
+            ! $this->startedBeforeTeleport($event, $teleportedAt),
             $event->at,
             $this->state->session['hash'] ?? null,
             hash('sha256', $event->rawLine),
         );
 
         $this->see($entry['steam_id'], null, $event->at);
+    }
+
+    private function startedBeforeTeleport(LapCompleted $event, ?string $teleportedAt): bool
+    {
+        if ($teleportedAt === null) {
+            return false;
+        }
+
+        $teleport = CarbonImmutable::createFromFormat('Y-m-d H:i:s.v', $teleportedAt, 'UTC');
+        $elapsedMs = $event->at->getTimestampMs() - $teleport->getTimestampMs();
+
+        return $event->lapMs > $elapsedMs;
+    }
+
+    private function onTeleported(Teleported $event): void
+    {
+        $this->state->teleports[$event->carId] = $event->at->format('Y-m-d H:i:s.v');
     }
 
     private function onRejected(LapRejected $event): void
@@ -233,6 +253,7 @@ final class LogProcessor
         ];
         $this->state->phase = null;
         $this->state->lapNumbers = [];
+        $this->state->teleports = [];
         $this->sessions[$hash] = new LoggedSession($event->type, $event->at, null, $hash);
     }
 
@@ -259,6 +280,7 @@ final class LogProcessor
         $this->closeSession($event->at ?? $this->state->lastAt);
         $this->state->cars = [];
         $this->state->lapNumbers = [];
+        $this->state->teleports = [];
         $this->state->phase = null;
         $this->state->restartPending = true;
     }
